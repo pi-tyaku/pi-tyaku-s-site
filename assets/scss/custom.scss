@@ -4,3 +4,14 @@
   --base-font-family: "Lato", var(--sys-font-family), var(--ja-font-family), sans-serif;
   --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--ja-font-family), monospace;
 }
+.share-buttons a {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-twitter { background-color: #1DA1F2; }
+.btn-facebook { background-color: #1877F2; }
+.btn-line { background-color: #00C300; }

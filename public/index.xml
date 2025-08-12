@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title></title>
-        <link>https://pi-tyaku.net/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Tue, 12 Aug 2025 02:30:25 +0900</lastBuildDate><atom:link href="https://pi-tyaku.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Aug 2025 02:30:25 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hello world!</title>
-        <link>https://pi-tyaku.net/p/hello-world/</link>
+        <link>http://localhost:1313/p/hello-world/</link>
         <pubDate>Tue, 12 Aug 2025 02:30:25 +0900</pubDate>
         
-        <guid>https://pi-tyaku.net/p/hello-world/</guid>
+        <guid>http://localhost:1313/p/hello-world/</guid>
         <description>&lt;h1 id=&#34;初めに&#34;&gt;初めに
 &lt;/h1&gt;&lt;p&gt;このページは、初めてhugoを用いた静的サイトの構築及びページ追加をしたページです。
 慣例的に、この言葉を用いて初めてのページを表します。&lt;/p&gt;
@@ -20,10 +20,10 @@
         </item>
         <item>
         <title>About Me</title>
-        <link>https://pi-tyaku.net/about/</link>
+        <link>http://localhost:1313/about/</link>
         <pubDate>Mon, 11 Aug 2025 22:11:27 +0900</pubDate>
         
-        <guid>https://pi-tyaku.net/about/</guid>
+        <guid>http://localhost:1313/about/</guid>
         <description>&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介
 &lt;/h2&gt;&lt;p&gt;仮想の世界や現実の世界で写真を撮影したり、IoTやハードウェアの開発をしている情報系大学生です。
 最近はVRChatやフィルムカメラ、IoT開発にお熱です。&lt;/p&gt;
@@ -66,26 +66,26 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>https://pi-tyaku.net/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://pi-tyaku.net/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://pi-tyaku.net/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://pi-tyaku.net/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://pi-tyaku.net/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://pi-tyaku.net/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         
