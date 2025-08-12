@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <link>https://pi-tyaku.net/</link>
+        <description>Recent content on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <lastBuildDate>Tue, 12 Aug 2025 02:30:25 +0900</lastBuildDate><atom:link href="https://pi-tyaku.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hello world!</title>
+        <link>https://pi-tyaku.net/p/hello-world/</link>
+        <pubDate>Tue, 12 Aug 2025 02:30:25 +0900</pubDate>
+        
+        <guid>https://pi-tyaku.net/p/hello-world/</guid>
+        <description>&lt;h1 id=&#34;初めに&#34;&gt;初めに
+&lt;/h1&gt;&lt;p&gt;このページは、初めてhugoを用いた静的サイトの構築及びページ追加をしたページです。
+慣例的に、この言葉を用いて初めてのページを表します。&lt;/p&gt;
+&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>About Me</title>
+        <link>https://pi-tyaku.net/about/</link>
+        <pubDate>Mon, 11 Aug 2025 22:11:27 +0900</pubDate>
+        
+        <guid>https://pi-tyaku.net/about/</guid>
+        <description>&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介
+&lt;/h2&gt;&lt;p&gt;仮想の世界や現実の世界で写真を撮影したり、IoTやハードウェアの開発をしている情報系大学生です。
+最近はVRChatやフィルムカメラ、IoT開発にお熱です。&lt;/p&gt;
+&lt;h2 id=&#34;技術スタック&#34;&gt;技術スタック
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;言語&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Python&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;気軽に書けるので、メインの言語として使っています。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;C&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3年程利用しています。ポインタを一応使えます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Java&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;半年ほど勉強しました。まだまだ怪しい部分が多いです。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;C#(Unity)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;簡単なゲームを作れる程度に使えます。個人的に面白い言語です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Bash(Linux)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一応シェルスクリプトは書けますが、個人的にサーバ管理の方が楽しいです。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Assembly&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CASLⅡ若しくは自作アセンブリ言語なら一応使えます。ほぼネタ枠です。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://pi-tyaku.net/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://pi-tyaku.net/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://pi-tyaku.net/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://pi-tyaku.net/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://pi-tyaku.net/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://pi-tyaku.net/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
