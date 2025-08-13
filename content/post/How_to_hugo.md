@@ -4,6 +4,7 @@ draft = false
 title = "Hugoの使い方"
 tags = ["Tech"]
 categories = ["Tech"]
+comments = true
 +++
 
 ## 初めに

@@ -45,7 +45,22 @@
       <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
     </div>
     <!-- ここまで -->
-
+    <script src="https://giscus.app/client.js"
+        data-repo="pi-tyaku/pi-tyaku-s-site"
+        data-repo-id="R_kgDOPcg_5A"
+        data-category="[カテゴリ名を記述]"
+        data-category-id="[カテゴリIDを記述]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ja"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
     {{ partialCached "footer/footer" . }}
 
     {{ partialCached "article/components/photoswipe" . }}

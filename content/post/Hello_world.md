@@ -4,6 +4,7 @@ draft = false
 title = 'Hello world!'
 tags = ["Hello_World!"]
 categories= ["Hello_World!"]
+comments = true
 +++
 # 初めに
 このページは、初めてhugoを用いた静的サイトの構築及びページ追加をしたページです。
