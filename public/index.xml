@@ -6,7 +6,56 @@
         <description>Recent content on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Tue, 12 Aug 2025 02:30:25 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Aug 2025 12:04:46 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>今後の動向について</title>
+        <link>http://localhost:1313/p/%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%8B%95%E5%90%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <pubDate>Wed, 13 Aug 2025 12:04:46 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%8B%95%E5%90%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
+&lt;/h2&gt;&lt;p&gt;どうも皆さんこんにちは、pi-tyakuです。&lt;br&gt;
+やっと個人的に自由に扱えるWebサイトの構築が完了しました&amp;hellip;本当にここまでが長かった&amp;hellip;
+「Hugoが上手くいかない」と思ったら「別のソフトも上手くいかない&amp;hellip;」のようなことを繰り返した結果、最終的にHugoに戻ってきたから本当に長かった&amp;hellip;&lt;br&gt;
+いったん愚痴は止めといて、このページでは今後このサイトをどういう風に運営していくか書くことにします。&lt;/p&gt;
+&lt;h2 id=&#34;本サイトの動向について&#34;&gt;本サイトの動向について
+&lt;/h2&gt;&lt;p&gt;本Webサイトは、基本的に私自身が製作した製作物、現実の写真、VRの写真、思想、雑談などを流す予定にします。&lt;br&gt;
+初めの方は真面目な話が多いとは思いますが、ご了承ください。たまに自分のやったことの振り返りとかも載せる予定なので、気が向いたら見に来てください。&lt;br&gt;
+というわけで、タグやカテゴリーを利用して文章ごとにソートする予定です。
+タグの分類は基本的に下の表のように付ける予定です。(もしかしたら追加するかもしれないけど)&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;タグ（カテゴリー）&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;雑記&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;基本的に雑談、たまに真面目な話。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;製作物紹介&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;製作物の紹介をする。中身の解説もするかも。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;RealPic&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;フィルム写真やスマホで撮った写真を上げるかも。写真の詳細も付ける予定です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRPic&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRCで撮った写真とかを上げるかも。基本的にXの下位互換になるかもしれない。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;思想&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;現実世界で思ったことやお気持ちを 書くかもしれない。基本的に使う予定はない。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;こんな感じのタグやカテゴリー分けをするのでよろしくお願いします。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Hello world!</title>
         <link>http://localhost:1313/p/hello-world/</link>
         <pubDate>Tue, 12 Aug 2025 02:30:25 +0900</pubDate>
@@ -26,7 +75,8 @@
         <guid>http://localhost:1313/about/</guid>
         <description>&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介
 &lt;/h2&gt;&lt;p&gt;仮想の世界や現実の世界で写真を撮影したり、IoTやハードウェアの開発をしている情報系大学生です。
-最近はVRChatやフィルムカメラ、IoT開発にお熱です。&lt;/p&gt;
+最近はVRChatやフィルムカメラ、IoT開発にお熱です。IoT開発では専らRaspberry piを使っています。
+最近は技術系のイベントや、写真を撮るVRイベントにも参加しています。&lt;/p&gt;
 &lt;h2 id=&#34;技術スタック&#34;&gt;技術スタック
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -59,6 +109,117 @@
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Assembly&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;CASLⅡ若しくは自作アセンブリ言語なら一応使えます。ほぼネタ枠です。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;使用アバター&#34;&gt;使用アバター
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;アバター名&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;プラチナ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;現状のメインアバターです。幽霊の姿がデフォです。(幽霊だからといって首が取れることは無いのでご安心を。但し、足が有ると&amp;hellip;)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;もにもに・コニカ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一昔前のメインアバターです。Twitterのアイコンとバナーで使ってます。口が取れます。小さい子です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;デュラハンナースの範奈さん&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2人目の首が取れるアバターです。何故かアバター作者とショップ管理者?に知られてます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ルェルツ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3人目の首が取れるアバターです。私の手持ちの中では珍しい男性アバターです。何気に始めて首が取れるギミックを搭載している子です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ネクタリア&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;4人目の首が取れるアバターです。ギフトで貰いました。この子は改変で首を取れるようにしてます。何故か使用者で首を取る改変をしている割合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;シルエット; エッセンシャル&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;人外です。気に入られるor怖がられる振れ幅が一番大きい子です。何気に撮影難易度が高い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;リーデ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;メカクレキャラだと思ったら目が無い子です。人外なのかはかなり怪しい。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;萌&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;そういえば持っている覇権アバターです。プラチナちゃんの使い勝手の良さに押されてあまり表に出ません。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ミーシェ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一昔前のサブアバターです。コニカちゃんOnlyだと身長が厳しいので使ってました。相変わらずプラチナちゃんに押されて出番が無いです。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;D-pop&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Fallback専用アバターです。Fallbackの中ではかなり見た目が好みなので設定してます。PCVRでこの姿が出たら表示設定を変えてください。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;カルキア&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;猫です。他の猫の方が可愛いので、自分で使う意味を見失ってます。でも可愛い猫です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ネコカモ・タブンソーネ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;!(猫です)。コニカちゃんに並ぶ子でしたが、最近は小さい子を使わないので出番は期待出来ません。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;使用カメラ&#34;&gt;使用カメラ
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;カメラ名&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;種別&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Nothing Phone(1)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;スマホカメラ&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;スマホカメラです。何気に一番取り回しが良いです。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Nikon Nikomat FT&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;フィルム&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;手動式のフィルムカメラです。滅茶苦茶取り回しが悪いものの、撮影が楽しいです。でも重い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Mac-tele 60&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;フィルム&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;オート式のフィルムカメラです。ズームやオートフォーカスなど機能が良く、取り回しに優れてます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRC Default Camera&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VR&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRChatのデフォルトカメラです。いつもの写真はこれで撮ってます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Photoboio Instant Camera&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VR&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRChat版のポラロイドカメラです。最近は4:3式の奴を使ってます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Virtual Lens 2&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VR&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;デフォルトカメラを強化するカメラです。扱いが難しいので最近は使ってません。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRC FilmSnap&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VR&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VRChat版のフィルムカメラです。面白いですが、Instant Cameraに押されて出番が少ないです。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;pixOcam PC-1&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VR&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;写真をピクセル化して撮影出来るカメラです。とても面白い。&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
