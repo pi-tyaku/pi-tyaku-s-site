@@ -6,10 +6,60 @@
         <description>Recent content on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Wed, 13 Aug 2025 12:04:46 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Aug 2025 12:30:48 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugoの使い方</title>
+        <link>http://localhost:1313/p/hugo%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</link>
+        <pubDate>Tue, 12 Aug 2025 12:30:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/hugo%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/</guid>
+        <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
+&lt;/h2&gt;&lt;p&gt;とりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。&lt;/p&gt;
+&lt;h2 id=&#34;webページの作り方&#34;&gt;Webページの作り方
+&lt;/h2&gt;&lt;p&gt;このコマンドで作れる。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo new page &lt;span class=&#34;s2&#34;&gt;&amp;#34;Pagename&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;テンプレートを用いたコンテンツの追加&#34;&gt;テンプレートを用いたコンテンツの追加
+&lt;/h2&gt;&lt;p&gt;ページは/hugo/contents/postsに保存するものとする。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo new /hugo/contents/posts/&lt;span class=&#34;s2&#34;&gt;&amp;#34;your contents name&amp;#34;&lt;/span&gt;.md&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;ファイルを作る場合は&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;$ hugo new /hugo/contents/posts/&lt;span class=&#34;s2&#34;&gt;&amp;#34;your contents name&amp;#34;&lt;/span&gt;/&lt;span class=&#34;s2&#34;&gt;&amp;#34;your contents name&amp;#34;&lt;/span&gt;.md&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;でOK&lt;/p&gt;
+&lt;h2 id=&#34;簡易的にローカルサーバでデバッグする時&#34;&gt;簡易的にローカルサーバでデバッグする時
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&amp;ldquo;http://localhost:1313&amp;quot;にサーバが立つ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>今後の動向について</title>
         <link>http://localhost:1313/p/%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%8B%95%E5%90%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
-        <pubDate>Wed, 13 Aug 2025 12:04:46 +0900</pubDate>
+        <pubDate>Tue, 12 Aug 2025 12:04:46 +0900</pubDate>
         
         <guid>http://localhost:1313/p/%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%8B%95%E5%90%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
         <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
@@ -35,6 +85,10 @@
           &lt;td style=&#34;text-align: center&#34;&gt;基本的に雑談、たまに真面目な話。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Tech&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;技術的な話をする際に使う。基本的に自分用のメモに近い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;製作物紹介&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;製作物の紹介をする。中身の解説もするかも。&lt;/td&gt;
       &lt;/tr&gt;
@@ -54,18 +108,6 @@
 &lt;/table&gt;
 &lt;p&gt;こんな感じのタグやカテゴリー分けをするのでよろしくお願いします。&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Hello world!</title>
-        <link>http://localhost:1313/p/hello-world/</link>
-        <pubDate>Tue, 12 Aug 2025 02:30:25 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/hello-world/</guid>
-        <description>&lt;h1 id=&#34;初めに&#34;&gt;初めに
-&lt;/h1&gt;&lt;p&gt;このページは、初めてhugoを用いた静的サイトの構築及びページ追加をしたページです。
-慣例的に、この言葉を用いて初めてのページを表します。&lt;/p&gt;
-&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!
-&lt;/h1&gt;</description>
         </item>
         <item>
         <title>About Me</title>
@@ -224,6 +266,18 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
+        </item>
+        <item>
+        <title>Hello world!</title>
+        <link>http://localhost:1313/p/hello-world/</link>
+        <pubDate>Mon, 11 Aug 2025 02:30:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/hello-world/</guid>
+        <description>&lt;h1 id=&#34;初めに&#34;&gt;初めに
+&lt;/h1&gt;&lt;p&gt;このページは、初めてhugoを用いた静的サイトの構築及びページ追加をしたページです。
+慣例的に、この言葉を用いて初めてのページを表します。&lt;/p&gt;
+&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!
+&lt;/h1&gt;</description>
         </item>
         <item>
         <title>Archives</title>
