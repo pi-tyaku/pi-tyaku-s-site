@@ -4,23 +4,12 @@ hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 languageCode: ja
 theme: stack
+disqusShortname: "pi-tyakusite"
 comments:
         enabled: true
-        provider: giscus
-        giscus:
-            repo: katsuobushiFPGA/blog-hugo-comment
-            repoID: "R_kgDOPcg_5A"
-            category: "general"
-            categoryID: "DIC_kwDOPcg_5M4CuJPY"
-            mapping: "pathname"
-            lightTheme: light
-            darkTheme: dark
-            reactionsEnabled: 1
-            emitMetadata: 0
-services:
-    # Change it to your Disqus shortname before using
-    disqus:
-        shortname: "hugo-theme-stack"
+        provider: disqus
+        
+    
     # GA Tracking ID
     googleAnalytics:
         id:
