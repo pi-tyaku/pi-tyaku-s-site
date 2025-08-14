@@ -1,5 +1,5 @@
 +++
-date = '2025-08-13T21:23:56+09:00'
+date = '2025-08-14T21:23:56+09:00'
 draft = true
 title = '外部からVRChatをやってみた'
 slug = 'Outside_VR'
