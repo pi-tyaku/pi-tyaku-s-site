@@ -2,6 +2,7 @@
 date = "2025-08-12T12:30:48+09:00"
 draft = false
 title = "Hugoの使い方"
+slug = 'How_To_Use_Hugo'
 tags = ["Tech"]
 categories = ["Tech"]
 comments = true
