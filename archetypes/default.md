@@ -1,7 +1,8 @@
 +++
 date = '{{ .Date }}'
 draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+title = ''
+slug = '{{ replace .File.ContentBaseName "-" " " | title }}'
 tags = []
 categories = []
 comments = true
