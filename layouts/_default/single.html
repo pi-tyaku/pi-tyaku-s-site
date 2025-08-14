@@ -35,21 +35,11 @@
     {{ if not (eq .Params.comments false) }}
         {{ partial "comments/include" . }}
     {{ end }}
-
-    <!-- ここからシェアボタン追加 -->
-    <div class="share-buttons" style="margin: 2rem 0;">
-      <a href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
-
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
-
-      <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
-    </div>
-    <!-- ここまで -->
     <script src="https://giscus.app/client.js"
         data-repo="pi-tyaku/pi-tyaku-s-site"
         data-repo-id="R_kgDOPcg_5A"
-        data-category="[カテゴリ名を記述]"
-        data-category-id="[カテゴリIDを記述]"
+        data-category="General"
+        data-category-id="DIC_kwDOPcg_5M4CuJPY"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
@@ -61,6 +51,16 @@
         crossorigin="anonymous"
         async>
     </script>
+    <!-- ここからシェアボタン追加 -->
+    <div class="share-buttons" style="margin: 2rem 0;">
+      <a href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
+
+      <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
+    </div>
+    <!-- ここまで -->
+
     {{ partialCached "footer/footer" . }}
 
     {{ partialCached "article/components/photoswipe" . }}
