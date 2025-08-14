@@ -1,6 +1,6 @@
 +++
 date = '2025-08-14T21:23:56+09:00'
-draft = true
+draft = false
 title = '外部からVRChatをやってみた'
 slug = 'Outside_VR'
 tags = ["Tech"]
