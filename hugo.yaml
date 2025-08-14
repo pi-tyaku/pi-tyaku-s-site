@@ -10,8 +10,8 @@ comments:
         giscus:
             repo: katsuobushiFPGA/blog-hugo-comment
             repoID: "R_kgDOPcg_5A"
-            category: "data-categoryの値"
-            categoryID: "data-category-idの値"
+            category: "general"
+            categoryID: "DIC_kwDOPcg_5M4CuJPY"
             mapping: "pathname"
             lightTheme: light
             darkTheme: dark
