@@ -6,7 +6,205 @@
         <description>Recent content in Tech on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Tue, 12 Aug 2025 12:30:48 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 21:23:56 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>外部からVRChatをやってみた</title>
+        <link>http://localhost:1313/p/outside_vr/</link>
+        <pubDate>Thu, 14 Aug 2025 21:23:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/outside_vr/</guid>
+        <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
+&lt;/h2&gt;&lt;p&gt;外部NW(例:出張先のホテル、実家のWifi)からVRChatをやる方法を編み出した。
+その方法が気になるVRChatterが何人か居るため、ここに纏めることにする。&lt;/p&gt;
+&lt;h2 id=&#34;導入方法&#34;&gt;導入方法
+&lt;/h2&gt;&lt;p&gt;↓ここを参考にして導入した。
+&lt;a class=&#34;link&#34; href=&#34;https://qiita.com/hajime_y/items/97c5513a7533210792ea&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://qiita.com/hajime_y/items/97c5513a7533210792ea&lt;/a&gt;
+記事との相違点として&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ALVRではなく、Virtual Desktopに変更した。&lt;/li&gt;
+&lt;li&gt;apkインストール時にsidequestを使用(Pico4も同様)
+それ以外(VPNのセットアップなど)に関しては、上の記事と同様のため、ここでは説明を省く。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;個人的にやったこととして、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PCの保守性を上げるためにGoogle Remote Desktopを導入&lt;/li&gt;
+&lt;li&gt;Wake On Wanを可能にする用のIoTサーバを製作と導入をした。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境
+&lt;/h2&gt;&lt;h3 id=&#34;サーバ側&#34;&gt;サーバ側
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;サーバPCのNW環境:2重ルータになっているためポート解放が不可
+&lt;ul&gt;
+&lt;li&gt;多分、大本のルータから各部屋にLanを配っている。その関係上、部屋にルータを置くと2重ルータになる。よってポート解放による外部から内部へのアクセスが不可&lt;/li&gt;
+&lt;li&gt;よってVD公式の方法が出来ない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;サーバPCのIPバージョン:IPv4&lt;/li&gt;
+&lt;li&gt;(IPv6がサーバ・クライアント間で使える場合は&amp;quot;OPEN IPv6 ダイナミック DNS for フレッツ・光ネクスト&amp;quot;が使用できて通信速度が早くなるらしい。これを使える人間は多分導入の説明は要らないと思うけど&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;クライアント側1&#34;&gt;クライアント側(1)
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;クライアントWifiの周波数&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;5Ghz&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;速度(LAN)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;200~500Mbps&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;速度(WAN)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;20Mbpsくらい？&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;使用時間帯&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;21:00~26:00&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;クライアント側2&#34;&gt;クライアント側(2)
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;製品名&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;WCR-1166DS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;周波数&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;5Ghz&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;速度(LAN)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;800Mbps&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;速度(WAN)&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;20Mbps&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;使用機器&#34;&gt;使用機器
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;使用機器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pico 4(Quest2も実行確認済み)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;サーバPCの電源用システム&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SmartHomeシステムのWake On Wan機能を使用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;使用VPN&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ZeroTier One&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;vd側の設定&#34;&gt;VD側の設定
+&lt;/h2&gt;&lt;h3 id=&#34;hmd側&#34;&gt;HMD側
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;画質&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Potato&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;VR Bitrate&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;30Mbps(余裕がある場合は40Mbpsでも良いかも)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Desktop Bitrate&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;24Mbps(ここはローカル環境でも同様)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;遅延と使用した感想&#34;&gt;遅延と使用した感想
+&lt;/h1&gt;&lt;h2 id=&#34;pc画面の遅延&#34;&gt;PC画面の遅延
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;350Mbps時に41ms程度、400Mbps以上なら30msを切る&lt;/li&gt;
+&lt;li&gt;流石にそこまで帯域を食わないので遅延が少ない&lt;/li&gt;
+&lt;li&gt;しかしながら、帯域が狭い時間帯(昼間など)は100ms程の遅延が起きる&lt;/li&gt;
+&lt;li&gt;(Chrome Remote Desktopよりも早い&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vrの遅延&#34;&gt;VRの遅延
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;(夜&amp;amp;350Mbps):43ms&lt;del&gt;400ms Over 多分70ms&lt;/del&gt;90msくらいが平均&lt;/li&gt;
+&lt;li&gt;fpsが35~70程度&lt;/li&gt;
+&lt;li&gt;ちょくちょく100~400ms以上になることがある&lt;/li&gt;
+&lt;li&gt;40~100ms以下の遅延は基本的に気がつかない&lt;br&gt;
+-&amp;gt;普通に話したりちょっとしたゲームワールド(Victory of roundsやPutt Putt Pondのようなもの)なら違和感無くプレイ可能&lt;/li&gt;
+&lt;li&gt;100~400msは遅延していることがはっきりわかる&lt;br&gt;
+　　-&amp;gt;会話が聞き取れなかったり、こちらの音声が聞こえているか不安になるレベル&lt;/li&gt;
+&lt;li&gt;400ms以上の遅延はプレイ不可若しくは違和感が凄い&lt;/li&gt;
+&lt;li&gt;　殆どフリーズしているようなもの&lt;/li&gt;
+&lt;li&gt;　バッファ(データをやり取りするときに一時的にデータを溜めておく記憶場所)が無くなると一気に止まる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;意外とイケる&lt;br&gt;
+-&amp;gt;遅延が体感平均70ms程と、遅延を認識できる200ms以上ではない。&lt;br&gt;よって意外と快適性を保ったままプレイ可能だった。&lt;/li&gt;
+&lt;li&gt;Chrome Remote DesktopとVDの2本体制ならトラブルシューティングもやりやすい&lt;br&gt;
+-&amp;gt;逆に言うとリモートデスクトップが無いと泣きそうになる場面が割とある。&lt;br&gt;ほぼ必須といっていいソフトなので導入した方が良い。&lt;/li&gt;
+&lt;li&gt;VPNが便利&lt;br&gt;
+-&amp;gt;一家に1つ程度自分だけのVPNネットワークがあってもいいと思う。実際にNASとかつなぐと保守も活用も出来る。
+&lt;ul&gt;
+&lt;li&gt;何でもいいからPCの電源を付ける方法があると良い&lt;br&gt;
+-&amp;gt;電気代やキャッシュ対策としてシャットダウンすることが結構ある。&lt;br&gt;更に、メインPCが停電とかで止まると地獄を見る(どっかの人がそんなことになってた)ためいつでも電源をつけられると良い。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;トラブルシューティング&#34;&gt;トラブルシューティング
+&lt;/h2&gt;&lt;h3 id=&#34;hmd&#34;&gt;HMD
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;VDが繋がらない(PCの名前は出てきていてUnable Connectionと出る)&lt;br&gt;
+-&amp;gt;VD再起動&lt;/li&gt;
+&lt;li&gt;Not on same networkと出る&lt;br&gt;
+-&amp;gt;VPNが繋がっているかの確認。ほぼ確実にオフになっている。&lt;/li&gt;
+&lt;li&gt;PCが出てこない&lt;br&gt;
+-&amp;gt;HMD側のwifiを切り替えてみる。元のWifi-&amp;gt;別wifi-&amp;gt;元のWifiのように接続する。&lt;br&gt;色々なアンインストールなどを試したが、何故かこれだけ上手くいった。&lt;/li&gt;
+&lt;li&gt;急に接続が切れた&lt;br&gt;
+-&amp;gt;VPNが切れた or PCがブルスクを吐いた可能性がある。とりあえずVPNソフトを確認&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pc&#34;&gt;PC
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ブルースクリーンが出た&lt;br&gt;
+-&amp;gt;放置すれば再起動する&lt;/li&gt;
+&lt;li&gt;PIN入力画面に飛ばされる
+&lt;ul&gt;
+&lt;li&gt;フリーズした&lt;/li&gt;
+&lt;li&gt;シャットダウンが上手くいってない&lt;br&gt;
+-&amp;gt;VDでは手も足も出せないためGoogle Remote Desktopから操作する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Hugoの使い方</title>
         <link>http://localhost:1313/p/how_to_use_hugo/</link>
         <pubDate>Tue, 12 Aug 2025 12:30:48 +0900</pubDate>

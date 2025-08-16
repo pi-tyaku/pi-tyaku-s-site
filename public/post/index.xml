@@ -6,7 +6,42 @@
         <description>Recent content in Posts on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Thu, 14 Aug 2025 21:23:56 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 16 Aug 2025 20:27:46 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>名刺を新調したい話</title>
+        <link>http://localhost:1313/p/want_to_remake_name_card/</link>
+        <pubDate>Sat, 16 Aug 2025 20:27:46 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/want_to_remake_name_card/</guid>
+        <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
+&lt;/h2&gt;&lt;p&gt;こんばんは、pi-tyakuです。遂にHugoを利用して自作のWebページをデプロイすることができました。&lt;br&gt;
+Webページを完成させたは良いものの、「新しいタスクが生まれたから、何とかしないといけないな。」という話をします。&lt;br&gt;
+その新しいタスクとは、&lt;strong&gt;VR若しくは現実用の名刺の新調&lt;/strong&gt;です。&lt;/p&gt;
+&lt;h2 id=&#34;どうしてこうなっているのか&#34;&gt;どうしてこうなっているのか
+&lt;/h2&gt;&lt;p&gt;実は、去年の11月頃にオフ会等用の名刺を作ってあります。しかし、その名刺に乗っているリンクや、QRコードは、LitLinkに飛ぶURLとなっています。&lt;br&gt;
+LitLink自体は使用者も多く、悪いサービスではないのですが、せっかく自前のサイトを立ち上げたのでこちらを使いたい気持ちは大きいです。
+LitLinkを書き換えてこちらにポスティングするようにすれば新しい名刺を作らなくても済みますが、ある理由により、デザインやその他諸々を新規に作ろうと考えています。&lt;/p&gt;
+&lt;h2 id=&#34;nfcカードへの対応&#34;&gt;NFCカードへの対応
+&lt;/h2&gt;&lt;p&gt;その理由としては、オフ会用の名刺の種類を増やすからです。名刺自体は紙一本でも困ることは無いのですが、紙の名刺のデメリット(持ち歩ける数に限りが有る等々)やオートロックの導入によってNFCカードを導入することになりました。&lt;br&gt;がしかし、私が知っている範囲のNFCカードを利用した名詞を普段使いしている人のカードは&lt;strong&gt;ブランクカード&lt;/strong&gt;です。デザインもクソも無い。&lt;br&gt;「NFCカードでこんな事出来るんだぜ～」みたいに見せびらかしてWebページを見せるだけなら十分ですが、一応Xに写真を上げるような人間としては、とても&lt;strong&gt;面白くない&lt;/strong&gt;です。更に、NFC非対応の人のことを考えていないため、UXとしても良くないと思います。&lt;br&gt;
+よって、NFCカードにも紙の名刺と同様のデザインを印刷しようと考えています。&lt;/p&gt;
+&lt;h2 id=&#34;草案&#34;&gt;草案
+&lt;/h2&gt;&lt;p&gt;正直なところ、前使っているデータを使い、ＵＲＬ部のみ交換するのもアリです。しかし、旧バージョンと見分けが付きづらいのと、今のスキルがいかせているような写真を使いたいという気持ちが大きいため、新しいデザインを考えたいと思います。&lt;br&gt;
+個人的に、貰った&lt;a href=&#34;https://x.com/yura19350121/status/1897405010146943160&#34;&gt;FA&lt;/a&gt;や&lt;a href=&#34;https://skeb.jp/@TRIM082/works/23&#34;&gt;Skeb&lt;/a&gt;、&lt;a href=&#34;https://www.pixiv.net/artworks/119524634&#34;&gt;リクエスト等&lt;/a&gt;を使いたい気持ちもあります。&lt;br&gt;
+&lt;img src=&#34;https://x.com/yura19350121/status/1897405010146943160&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;FA&#34;
+	
+	
+&gt;&lt;br&gt;
+実際に、FAは&lt;a href=&#34;https://t.co/W1VaxGvMDg&#34;&gt;某ラジオ&lt;/a&gt;でもほぼ名刺と言われていたので使いたいところではあります。がskebやリクエスト、FAに関しては、絵の作者に連絡して使用許可を貰いに行かないといけないため、わりと腰が重いです。skebやリクエストに関しては、依頼文に入ってる範囲の使用でも無いですし。&lt;br&gt;
+なので現状は自分で撮った写真をメインで使う方向性で作ろうと思います。&lt;br&gt;
+完成したらこのサイトやXに投稿しようと思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>外部からVRChatをやってみた</title>
         <link>http://localhost:1313/p/outside_vr/</link>
         <pubDate>Thu, 14 Aug 2025 21:23:56 +0900</pubDate>
@@ -155,44 +190,52 @@
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;(夜&amp;amp;350Mbps):43ms&lt;del&gt;400ms Over 多分70ms&lt;/del&gt;90msくらいが平均&lt;/li&gt;
 &lt;li&gt;fpsが35~70程度&lt;/li&gt;
-&lt;li&gt;ちょくちょく100&lt;del&gt;400ms以上になることがある
-　40&lt;/del&gt;100ms以下の遅延は基本的に気がつかない
-　 普通に話したりちょっとしたゲームワールド(Victory of roundsやPutt Putt Pondのようなもの)なら違和感無くプレイ可能
-　100~400msは遅延していることがはっきりわかる
-　　会話が聞き取れなかったり、こちらの音声が聞こえているか不安になるレベル&lt;/li&gt;
+&lt;li&gt;ちょくちょく100~400ms以上になることがある&lt;/li&gt;
+&lt;li&gt;40~100ms以下の遅延は基本的に気がつかない&lt;br&gt;
+-&amp;gt;普通に話したりちょっとしたゲームワールド(Victory of roundsやPutt Putt Pondのようなもの)なら違和感無くプレイ可能&lt;/li&gt;
+&lt;li&gt;100~400msは遅延していることがはっきりわかる&lt;br&gt;
+　　-&amp;gt;会話が聞き取れなかったり、こちらの音声が聞こえているか不安になるレベル&lt;/li&gt;
 &lt;li&gt;400ms以上の遅延はプレイ不可若しくは違和感が凄い&lt;/li&gt;
 &lt;li&gt;　殆どフリーズしているようなもの&lt;/li&gt;
 &lt;li&gt;　バッファ(データをやり取りするときに一時的にデータを溜めておく記憶場所)が無くなると一気に止まる&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;感想&#34;&gt;感想
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;意外とイケる
--&amp;gt;遅延が体感平均70ms程と、遅延を認識できる200ms以上ではない。よって意外と快適性を保ったままプレイ可能だった。&lt;/li&gt;
-&lt;li&gt;Chrome Remote DesktopとVDの2本体制ならトラブルシューティングもやりやすい
--&amp;gt;逆に言うとリモートデスクトップが無いと泣きそうになる場面が割とある。ほぼ必須といっていいソフトなので導入した方が良い。
-　VPNが便利
--&amp;gt;一家に1つ程度自分だけのVPNNWがあってもいいと思う。実際にNASとかつなぐと保守も活用も出来る。&lt;/li&gt;
-&lt;li&gt;何でもいいからPCの電源を付ける方法があると良い
--&amp;gt;電気代やキャッシュ対策としてシャットダウンすることが結構ある。更に、メインPCが停電とかで止まると地獄を見る(どっかの人がそんなことになってた)ためいつでも電源をつけられると良い。&lt;/li&gt;
+&lt;li&gt;意外とイケる&lt;br&gt;
+-&amp;gt;遅延が体感平均70ms程と、遅延を認識できる200ms以上ではない。&lt;br&gt;よって意外と快適性を保ったままプレイ可能だった。&lt;/li&gt;
+&lt;li&gt;Chrome Remote DesktopとVDの2本体制ならトラブルシューティングもやりやすい&lt;br&gt;
+-&amp;gt;逆に言うとリモートデスクトップが無いと泣きそうになる場面が割とある。&lt;br&gt;ほぼ必須といっていいソフトなので導入した方が良い。&lt;/li&gt;
+&lt;li&gt;VPNが便利&lt;br&gt;
+-&amp;gt;一家に1つ程度自分だけのVPNネットワークがあってもいいと思う。実際にNASとかつなぐと保守も活用も出来る。
+&lt;ul&gt;
+&lt;li&gt;何でもいいからPCの電源を付ける方法があると良い&lt;br&gt;
+-&amp;gt;電気代やキャッシュ対策としてシャットダウンすることが結構ある。&lt;br&gt;更に、メインPCが停電とかで止まると地獄を見る(どっかの人がそんなことになってた)ためいつでも電源をつけられると良い。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;トラブルシューティング&#34;&gt;トラブルシューティング
 &lt;/h2&gt;&lt;h3 id=&#34;hmd&#34;&gt;HMD
-&lt;/h3&gt;&lt;p&gt;　VDが繋がらない(PCの名前は出てきていてUnable Connectionと出る)
--&amp;gt;VD再起動
-　Not on same networkと出る
--&amp;gt;VPNが繋がっているかの確認。ほぼ確実にオフになっている。
-　PCが出てこない
--&amp;gt;HMD側のwifiを切り替えてみる。元のWifi-&amp;gt;別wifi-&amp;gt;元のWifiのように接続する。色々なアンインストールなどを試したが、何故かこれだけ上手くいった。
-　急に接続が切れた
--&amp;gt;VPNが切れた or PCがブルスクを吐いた可能性がある。とりあえずVPNソフトを確認&lt;/p&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;VDが繋がらない(PCの名前は出てきていてUnable Connectionと出る)&lt;br&gt;
+-&amp;gt;VD再起動&lt;/li&gt;
+&lt;li&gt;Not on same networkと出る&lt;br&gt;
+-&amp;gt;VPNが繋がっているかの確認。ほぼ確実にオフになっている。&lt;/li&gt;
+&lt;li&gt;PCが出てこない&lt;br&gt;
+-&amp;gt;HMD側のwifiを切り替えてみる。元のWifi-&amp;gt;別wifi-&amp;gt;元のWifiのように接続する。&lt;br&gt;色々なアンインストールなどを試したが、何故かこれだけ上手くいった。&lt;/li&gt;
+&lt;li&gt;急に接続が切れた&lt;br&gt;
+-&amp;gt;VPNが切れた or PCがブルスクを吐いた可能性がある。とりあえずVPNソフトを確認&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;pc&#34;&gt;PC
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;ブルースクリーンが出た
+&lt;li&gt;ブルースクリーンが出た&lt;br&gt;
 -&amp;gt;放置すれば再起動する&lt;/li&gt;
-&lt;li&gt;PIN入力画面に飛ばされる&lt;/li&gt;
+&lt;li&gt;PIN入力画面に飛ばされる
+&lt;ul&gt;
 &lt;li&gt;フリーズした&lt;/li&gt;
-&lt;li&gt;シャットダウンが上手くいってない
+&lt;li&gt;シャットダウンが上手くいってない&lt;br&gt;
 -&amp;gt;VDでは手も足も出せないためGoogle Remote Desktopから操作する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
