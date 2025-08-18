@@ -150,4 +150,4 @@ git commit -m "Messeage"
 git push origin main
 ```
 今のコマンドは、ローカルのmainブランチのコミットをリモートのmainブランチに適用するコマンドである。<br>
-
+これで問題が無ければ、ページが追加される。
