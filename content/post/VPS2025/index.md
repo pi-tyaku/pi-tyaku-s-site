@@ -9,7 +9,7 @@ comments = true
 +++
 ## 初めに
 こんにちは、pi-tyakuです。この前、VPS2025のLAV作戦に応募していた写真が届いていました。<br>
-![The pic flame with VRpic](IMG_20250819_125433121~2.jpg)
+![The pic flame with VRpic](IMG_20250819_125433121~2.webp)
 やはり、VRで撮った写真が現実世界の物品として届くと嬉しい気持ちでいっぱいになりますね。<br>
 というわけで今回はLAV作戦に応募した経緯と作品の感想を簡単に書きたいと思います。
 ## LAV作戦とは？
@@ -28,7 +28,7 @@ Amanekoさん主催のVirtualPhotography Showcase 通称VPSにて行っていた
 <br>やはり美術館に展示されていたため、写真の質感が素晴らしいです。
 |VR|Real|
 |:--:|:--:|
-|![VRver](https://pbs.twimg.com/media/Gx97WoUboAA1jaE?format=jpg&name=medium)|<img height=200, width=1200, src="./IMG_20250819_125433121~2.jpg">|
+|![VRver](https://pbs.twimg.com/media/Gx97WoUboAA1jaE?format=jpg&name=medium)|<img height=200, width=1200, src="./IMG_20250819_125433121~2.webp">|
 
 やはり印刷されても見栄えは良いですね。
 ## 感想

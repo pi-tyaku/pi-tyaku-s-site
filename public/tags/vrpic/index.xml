@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>VRpic on </title>
+        <link>http://localhost:1313/tags/vrpic/</link>
+        <description>Recent content in VRpic on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <lastBuildDate>Mon, 18 Aug 2025 19:56:41 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/vrpic/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LAV作戦に出展した話</title>
+        <link>http://localhost:1313/p/operation-lav/</link>
+        <pubDate>Mon, 18 Aug 2025 19:56:41 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/operation-lav/</guid>
+        <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
+&lt;/h2&gt;&lt;p&gt;こんにちは、pi-tyakuです。この前、VPS2025のLAV作戦に応募していた写真が届いていました。&lt;br&gt;
+&lt;img src=&#34;http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2.jpg&#34;
+	width=&#34;3216&#34;
+	height=&#34;2386&#34;
+	srcset=&#34;http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2_hu_456c53c1a2eb175d.jpg 480w, http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2_hu_db536f7a677aba77.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The pic flame with VRpic&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;134&#34;
+		data-flex-basis=&#34;323px&#34;
+	
+&gt;
+やはり、VRで撮った写真が現実世界の物品として届くと嬉しい気持ちでいっぱいになりますね。&lt;br&gt;
+というわけで今回はLAV作戦に応募した経緯と作品の感想を簡単に書きたいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;lav作戦とは&#34;&gt;LAV作戦とは？
+&lt;/h2&gt;&lt;p&gt;Amanekoさん主催のVirtualPhotography Showcase 通称VPSにて行っていた参加型の企画です。以下は公式サイトからの引用です。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本作戦は全てのVRChatユーザーを対象にバーチャルフォトを集めて金沢21世紀美術館に展示し、来場者のみなさまにバーチャルフォトの存在と、その向こう側にある文化を見せることを目的に立ち上げました。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;​この様に比較的誰でも参加できる企画となっています。&lt;/p&gt;
+&lt;h2 id=&#34;応募した経緯&#34;&gt;応募した経緯
+&lt;/h2&gt;&lt;p&gt;応募した経緯としては、久しぶりにリアル会場での展示をしたかったのと、&lt;strong&gt;展示後の写真が返送される&lt;/strong&gt;という大きめのメリットがあった為参加しました。&lt;br&gt;
+やはり、「現実の物品が届く」というのは面白く映りますし、久しぶりにリアル会場での展示が出来るとなると参加するしかないと思いました。&lt;/p&gt;
+&lt;h2 id=&#34;返送品の状態など&#34;&gt;返送品の状態など
+&lt;/h2&gt;&lt;p&gt;今回のVPSは現地には行けなかったものの、無事に飾られていた写真が返送されました。
+&lt;br&gt;やはり美術館に展示されていたため、写真の質感が素晴らしいです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;VR&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Real&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://pbs.twimg.com/media/Gx97WoUboAA1jaE?format=jpg&amp;amp;name=medium&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;VRver&#34;
+	
+	
+&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img height=200, width=1200, src=&#34;./IMG_20250819_125433121~2.jpg&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;やはり印刷されても見栄えは良いですね。&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想
+&lt;/h2&gt;&lt;p&gt;1年ぶりにリアル会場での展示に応募したので、中々専用の写真の選定等の作業がかなり重かった。本当に&amp;hellip;&lt;br&gt;
+でも、実際に印刷された写真や来た人からの&lt;a class=&#34;link&#34; href=&#34;https://x.com/k_hakura/status/1948614261225521289&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;反応&lt;/a&gt;等が有ると、嬉しい気持ちになります。
+また来年も出したいですし、現地に向かって色々な作品をみたいと感じました！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
