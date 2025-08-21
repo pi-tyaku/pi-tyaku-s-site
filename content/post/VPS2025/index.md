@@ -1,6 +1,6 @@
 +++
 date = '2025-08-18T19:56:41+09:00'
-draft = true
+draft = false
 title = 'LAV作戦に出展した話'
 slug = 'Operation Lav'
 tags = ["VRpic","雑記"]
