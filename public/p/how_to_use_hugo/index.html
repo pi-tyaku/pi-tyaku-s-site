@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="初めに\rとりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。\nWebページの作り方\rこのコマンドで作れる。\n1 $ hugo new page &#34;Pagename&#34; テンプレートを用いたコンテンツの追加\rページは/hugo/contents/postsに保存するものとする。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="初めに\rとりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。\nこのページの記述方法\r基本的にこのページでは、windowsを利用して開発しているユーザを対象とする。\n">
 <title>Hugoの使い方</title>
 <link rel="icon" href="/img/favicon.png?v=2" type="image/png">
 <link rel='canonical' href='http://localhost:1313/p/how_to_use_hugo/'>
 
 <link rel="stylesheet" href="/scss/style.min.cab3b7401746e49085207ca301af33015fc29a1715d5825ca05d3e9f9e99a8cd.css"><meta property='og:title' content="Hugoの使い方">
-<meta property='og:description' content="初めに\rとりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。\nWebページの作り方\rこのコマンドで作れる。\n1 $ hugo new page &#34;Pagename&#34; テンプレートを用いたコンテンツの追加\rページは/hugo/contents/postsに保存するものとする。\n">
+<meta property='og:description' content="初めに\rとりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。\nこのページの記述方法\r基本的にこのページでは、windowsを利用して開発しているユーザを対象とする。\n">
 <meta property='og:url' content='http://localhost:1313/p/how_to_use_hugo/'>
 <meta property='og:site_name' content=''>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Tech' /><meta property='article:published_time' content='2025-08-12T12:30:48&#43;09:00'/><meta property='article:modified_time' content='2025-08-12T12:30:48&#43;09:00'/>
-<meta name="twitter:title" content="Hugoの使い方">
-<meta name="twitter:description" content="初めに\rとりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。\nWebページの作り方\rこのコマンドで作れる。\n1 $ hugo new page &#34;Pagename&#34; テンプレートを用いたコンテンツの追加\rページは/hugo/contents/postsに保存するものとする。\n">
+<meta name="twitter:site" content="@@4KpB5_u_44dyr2b">
+    <meta name="twitter:creator" content="@@4KpB5_u_44dyr2b"><meta name="twitter:title" content="Hugoの使い方">
+<meta name="twitter:description" content="初めに\rとりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。\nこのページの記述方法\r基本的にこのページでは、windowsを利用して開発しているユーザを対象とする。\n">
     </head>
     <body class="
     article-page
@@ -215,7 +216,7 @@
         
         
         <li >
-            <a href='/about/' >
+            <a href='/about-me/' >
                 
                 
                 
@@ -284,9 +285,16 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#初めに">初めに</a></li>
+    <li><a href="#このページの記述方法">このページの記述方法</a></li>
     <li><a href="#webページの作り方">Webページの作り方</a></li>
+    <li><a href="#gitの導入">gitの導入</a></li>
+    <li><a href="#テーマの導入方法">テーマの導入方法</a></li>
+    <li><a href="#テーマの注意点">テーマの注意点</a></li>
     <li><a href="#テンプレートを用いたコンテンツの追加">テンプレートを用いたコンテンツの追加</a></li>
-    <li><a href="#簡易的にローカルサーバでデバッグする時">簡易的にローカルサーバでデバッグする時</a></li>
+    <li><a href="#page-bandleとは">Page Bandleとは？</a></li>
+    <li><a href="#page-bandleにするメリット">Page Bandleにするメリット</a></li>
+    <li><a href="#ローカルサーバでのデバッグ">ローカルサーバでのデバッグ</a></li>
+    <li><a href="#githubへのアップロードpush">GitHubへのアップロード(Push)</a></li>
   </ol>
 </nav>
         </div>
@@ -351,7 +359,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    5 minute read
                 </time>
             </div>
         
@@ -368,38 +376,207 @@
     
     <h2 id="初めに">初めに
 </h2><p>とりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。</p>
-<h2 id="webページの作り方">Webページの作り方
+<h2 id="このページの記述方法">このページの記述方法
+</h2><p>基本的にこのページでは、windowsを利用して開発しているユーザを対象とする。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ <span class="s2">&#34;Command name&#34;</span> 
+</span></span><span class="line"><span class="cl">基本的にこの書き方が出てきたらPowerShell等でコマンドを実行するものとする。
+</span></span><span class="line"><span class="cl">最初の$はコマンドラインの先頭を表すため、コマンドに含まない
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">基本的に<span class="s2">&#34;&#34;</span>で囲んだ文章は、<span class="s2">&#34;&#34;</span>内の文章に対応した値として扱う。
+</span></span><span class="line"><span class="cl">コマンド実行時には、各自の値に書き換えて実行して欲しい。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Folder/
+</span></span><span class="line"><span class="cl">├── Folder1
+</span></span><span class="line"><span class="cl">│   ├── index.md
+</span></span><span class="line"><span class="cl">│   └── welcome.jpg
+</span></span><span class="line"><span class="cl">├── Folder2
+</span></span><span class="line"><span class="cl">│   └── index.md
+</span></span><span class="line"><span class="cl">└── Test.md
+</span></span><span class="line"><span class="cl">このような記述が出てきたらファイル構造を表す。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">最初に何も書かれていない場合はmarkdownファイルとして扱う。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="webページの作り方">Webページの作り方
 </h2><p>このコマンドで作れる。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ hugo new page <span class="s2">&#34;Pagename&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"> hugo new page <span class="s2">&#34;Pagename&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="テンプレートを用いたコンテンツの追加">テンプレートを用いたコンテンツの追加
+</div><h2 id="gitの導入">gitの導入
+</h2><p>テーマの追加や、アップロード時に<strong>git</strong>を使う事が多いので簡単な導入方法を記す。<br>
+gitは各自exeファイルをダウンロードして実行するか、以下のwingetコマンドを利用してインストールするかどちらかを実行する。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ winget install Git.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>git導入が完了したら、Hugoのサイトのルートディレクトリでこのコマンドを実行してgitを導入する</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="テーマの導入方法">テーマの導入方法
+</h2><p>テーマの導入には、gitのsubmoduleツールを利用する。<br>
+gitのsubmoduleは、感覚的には、他言語のimport文が近い。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git submodule add <span class="s2">&#34;theme URL&#34;</span> themes/<span class="s2">&#34;Theme Name&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>こうすることによって./themes内にテーマが追加される。
+このままだと、テーマを追加しただけになるので、設定ファイルを書き換える。<br>
+ページのルートにある<strong>Hugo.toml</strong>が設定ファイルなので、コレに以下を追加する。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;Your Theme name&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>こうするとテーマが変更される。</p>
+<h2 id="テーマの注意点">テーマの注意点
+</h2><p>git submoduleで追加されたファイルは、GitHubにアップロードされた際に元のリポジトリのファイルに書き換えられる。<br>
+そのため基本的に./themes以下のディレクトリにファイルを追加したり、設定ファイルを書き換えるようなことをしてはいけない。<br>
+どうしても設定の書き換えやファイルの追加をする場合は、ルート内のテーマ内のディレクトリ名と同じディレクトリにファイルを追加する。
+簡単に言うと、</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">./themes/<span class="s2">&#34;your theme&#34;</span>/assets/img
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>にファイルを追加する場合は、</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">./assets/img
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>にファイルを追加する。</p>
+<h2 id="テンプレートを用いたコンテンツの追加">テンプレートを用いたコンテンツの追加
 </h2><p>ページは/hugo/contents/postsに保存するものとする。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ hugo new /hugo/contents/posts/<span class="s2">&#34;your contents name&#34;</span>.md<span class="sb">`</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="sb">`</span>$ hugo new /hugo/contents/posts/<span class="s2">&#34;your contents name&#34;</span>/index.md<span class="sb">`</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>ファイルを作る場合は</p>
+</div><p>でOK
+こうする理由としては、Hugoには<strong>Page Bangle</strong>という物が存在するため、それに合わせたファイル構造をした方が都合がよいからである。</p>
+<h2 id="page-bandleとは">Page Bandleとは？
+</h2><blockquote>
+<p>Page Bandleは、コンテンツと関連リソースの両方をカプセル化するディレクトリです。
+Hugoの公式リファレンスより</p></blockquote>
+<p>Page Bandleはコンテンツを保存するディレクトリ配下以下に</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="sb">`</span>$ hugo new /hugo/contents/posts/<span class="s2">&#34;your contents name&#34;</span>/<span class="s2">&#34;your contents name&#34;</span>.md<span class="sb">`</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">./<span class="s2">&#34;Contents name&#34;</span>/index.md
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>でOK</p>
-<h2 id="簡易的にローカルサーバでデバッグする時">簡易的にローカルサーバでデバッグする時
-</h2><div class="highlight"><div class="chroma">
+</div><p>のように保存されているページのことである。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">post/
+</span></span><span class="line"><span class="cl">├── Hoge
+</span></span><span class="line"><span class="cl">│   ├── index.md
+</span></span><span class="line"><span class="cl">│   └── welcome.jpg
+</span></span><span class="line"><span class="cl">├── fuga
+</span></span><span class="line"><span class="cl">│   └── index.md
+</span></span><span class="line"><span class="cl">└── piyo.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>このファイル構造になっている場合、HogeディレクトリとfugaディレクトリがPage Bandleとして扱われる。piyo.mdはPage Bandleとして見なされない。<br>
+また、Page Bandle内に画像ファイル等を保存しても問題無いが、Page Bandle内のディレクトリに保存しないと、Page Bandleとして見なされない。</p>
+<h2 id="page-bandleにするメリット">Page Bandleにするメリット
+</h2><p>色々なページをPage Bandleの形式で保存すると以下のようなメリットが有る。</p>
+<ul>
+<li>ファイルの整理になる。
+<ul>
+<li>画像とMarkdownファイルを同時に保存するため、画像がばらけて面倒なことにならない。</li>
+</ul>
+</li>
+<li>Hugo公式のツールが使用可能になる
+<ul>
+<li>Page Bandle内のPNG画像を一律でWebP画像に変換する等のツールが使える</li>
+</ul>
+</li>
+<li>記事の移植性が上がる
+<ul>
+<li>記事のディレクトリを移動するだけで別の場所に移植できる。</li>
+</ul>
+</li>
+</ul>
+<p>のようにかなり大きなメリットがあるため、ページは基本的にPage Bandle形式で保存すると後々が楽になる。</p>
+<h2 id="ローカルサーバでのデバッグ">ローカルサーバでのデバッグ
+</h2><p>サイトを追加し、実際に実行できるかどうか試したい債は以下のコマンドを実行する。</p>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -408,6 +585,40 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>&ldquo;http://localhost:1313&quot;にサーバが立つ。</p>
+<h2 id="githubへのアップロードpush">GitHubへのアップロード(Push)
+</h2><p>CloudflarePagesやGitHubPagesにアップロードする際には必ずGitHubのリポジトリにプッシュする必要がある。<br>
+この章ではgitの用語がたくさん出てくるので、適宜調べて貰うか、<a class="link" href="URL:%22https://qiita.com/toshi_um/items/72c9d929a600323b2e77%22" >ココ</a>等を見て貰いたい。<br>
+また、gitとGitHubが連携されているものとする。<br>
+初めに、git addをして今までの変更を追加する。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>次に、今までの変更を保存する。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Messeage&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>-mオプションを追加することによって、コミットメッセージを後半に追加することが出来る。
+最後に、リモートリポジトリにプッシュをする。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>今のコマンドは、ローカルのmainブランチのコミットをリモートのmainブランチに適用するコマンドである。<br>
+これで問題が無ければ、ページが追加される。</p>
 
 </section>
 
