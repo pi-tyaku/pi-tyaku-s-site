@@ -180,6 +180,11 @@ menu:
       weight: 10
       params:
         icon: "user"
+    - name: "Projects"
+      pageRef: "/projects"
+      weight: 11
+      params:
+        icon: "prompt"
 
     social:
         - identifier: github

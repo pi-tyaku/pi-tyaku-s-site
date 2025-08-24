@@ -14,10 +14,10 @@
         <guid>http://localhost:1313/p/operation-lav/</guid>
         <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
 &lt;/h2&gt;&lt;p&gt;こんにちは、pi-tyakuです。この前、VPS2025のLAV作戦に応募していた写真が届いていました。&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2.webp&#34;
 	width=&#34;3216&#34;
 	height=&#34;2386&#34;
-	srcset=&#34;http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2_hu_456c53c1a2eb175d.jpg 480w, http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2_hu_db536f7a677aba77.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2_hu_39aa13b46a2e94b5.webp 480w, http://localhost:1313/p/operation-lav/IMG_20250819_125433121~2_hu_7c28cd63b5318fb8.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;The pic flame with VRpic&#34;
@@ -60,7 +60,7 @@
 	
 	
 &gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img height=200, width=1200, src=&#34;./IMG_20250819_125433121~2.jpg&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;img height=200, width=1200, src=&#34;./IMG_20250819_125433121~2.webp&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

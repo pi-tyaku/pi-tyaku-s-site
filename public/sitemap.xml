@@ -3,6 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-08-22T16:53:09+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/nas/</loc>
+    <lastmod>2025-08-22T16:53:09+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/home_iot/</loc>
+    <lastmod>2025-08-22T16:52:51+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/made_info_card/</loc>
     <lastmod>2025-08-21T19:18:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/page/</loc>
@@ -66,6 +75,8 @@
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
