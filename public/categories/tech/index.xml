@@ -6,7 +6,105 @@
         <description>Recent content in Tech on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Thu, 14 Aug 2025 21:23:56 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Aug 2025 15:53:21 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>名刺とかを作った話</title>
+        <link>http://localhost:1313/p/made_new_namecard/</link>
+        <pubDate>Mon, 25 Aug 2025 15:53:21 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/made_new_namecard/</guid>
+        <description>&lt;h2 id=&#34;初めに&#34;&gt;初めに
+&lt;/h2&gt;&lt;p&gt;こんにちは、pi-tyakuです。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/content/post/Want_to_remake_name_card&#34; &gt;この前&lt;/a&gt;言っていた名刺が完成したので報告兼レポートをつらつらと書いていこうと思います。&lt;/p&gt;
+&lt;h2 id=&#34;写真の選定とデザイン&#34;&gt;写真の選定とデザイン
+&lt;/h2&gt;&lt;p&gt;今回もGIMPを利用して製作しました。PhotoShopなんかのAdobe製品はかなりコストがかかるので相変わらずフリーウェアです。&lt;br&gt;
+今回は、デザインより背景に採用する写真の選定に結構手間取りました。理由としては、直近で&lt;strong&gt;横構図&lt;/strong&gt;＋&lt;strong&gt;幽霊尻尾&lt;/strong&gt;が入る写真が殆ど無かったからです。最近は幽霊っぽい写真の殆どは&lt;strong&gt;縦&lt;/strong&gt;の構図になっています。横構図だと、体全体を写そうとすると被写体が小さくなります。なので投稿する写真としては少なくなるんですよね。だからといって名刺を縦にするのも良くないですし。&lt;br&gt;
+だけども、たまたま&lt;strong&gt;横構図&lt;/strong&gt;＋&lt;strong&gt;全身が写っている&lt;/strong&gt;＋&lt;strong&gt;雰囲気◎&lt;/strong&gt;＋&lt;strong&gt;空白大きめ&lt;/strong&gt;のいい写真があったので、それを採用しました。&lt;br&gt;
+&lt;img src=&#34;https://pbs.twimg.com/media/Gx95H4oaAAA-15k?format=jpg&amp;amp;name=4096x4096&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;photo&#34;
+	
+	
+&gt;
+前回の名刺と同じように右側に文字を乗せて、QRコードを乗せて完成しました。とりあえず、遠目から見たときに違和感を感じないように作りました。正直に言うと、デザインのことは&lt;strong&gt;全く分からない&lt;/strong&gt;ので、わりと適当に作りました。
+&lt;img src=&#34;http://localhost:1313/meisi.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;最終的な完成形&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;制作を依頼した会社&#34;&gt;制作を依頼した会社
+&lt;/h2&gt;&lt;p&gt;今回も&lt;a class=&#34;link&#34; href=&#34;https://ex.accea.co.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Accea Express様&lt;/a&gt;を利用して作りました。&lt;br&gt;
+390円で両面カラー名刺が作れて、凄い速さで作ってくれるヤバいお店です。そこの設定として、55x91(mm)のpdfファイルで入稿する事が出来るので、作ったファイルを入稿しました。&lt;br&gt;
+そしたら、3mmの塗足しが必要だったため、**61x97(mm)**で再設定して作り直す羽目になりました。よくよく書いてあったのに何故見落としていたのか&amp;hellip;次に、作るときは気を付けようと思います。&lt;/p&gt;
+&lt;h2 id=&#34;仕上がり&#34;&gt;仕上がり
+&lt;/h2&gt;&lt;p&gt;というわけで、データを再入稿した2日後、実物が届きました。
+&lt;img src=&#34;http://localhost:1313/p/made_new_namecard/meisi_real.webp&#34;
+	width=&#34;3313&#34;
+	height=&#34;1863&#34;
+	srcset=&#34;http://localhost:1313/p/made_new_namecard/meisi_real_hu_b2d950e6ae8c0866.webp 480w, http://localhost:1313/p/made_new_namecard/meisi_real_hu_7fd2f5508a3f9651.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;リアル名刺&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;
+相変わらず早く、出来上がりも素晴らしい。これだから人に薦めたいサービスなんですよね。&lt;/p&gt;
+&lt;h2 id=&#34;icカード版の製作&#34;&gt;ICカード版の製作
+&lt;/h2&gt;&lt;p&gt;紙の名刺は制作出来たので、次に、ブランクICカード版の名刺を作っていこうと思います。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://cardmarket.jp/article/glossary/09/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;カードマーケット様&lt;/a&gt;より&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;85.598mm(長辺)×53.975mm(短辺)、3.18mm(角R)、0.762mm(厚み)がJIS規格で定められた正確なプラスチックカードのサイズになります。
+一般的には85.6mm×54mm、角3R、厚み0.76mmで表記されます。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;となっています。なので85.5x54(mm)で角の丸さを3mmに設定してGIMPでファイルを作りました。
+&lt;img src=&#34;http://localhost:1313/p/made_new_namecard/IDcard.webp&#34;
+	width=&#34;1011&#34;
+	height=&#34;638&#34;
+	srcset=&#34;http://localhost:1313/p/made_new_namecard/IDcard_hu_a0bb9a4ee44a9aca.webp 480w, http://localhost:1313/p/made_new_namecard/IDcard_hu_73bb9d51012b0f3e.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;完成版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;
+出来上がったファイルをローソンで印刷できるＬ版サイズ内に設置します。そうすることによって質の良いシール印刷が可能になります。&lt;/p&gt;
+&lt;h2 id=&#34;結果&#34;&gt;結果
+&lt;/h2&gt;&lt;p&gt;印刷して切り抜き、カードに貼った結果がこちらです。
+&lt;img src=&#34;http://localhost:1313/p/made_new_namecard/IDcard.webp&#34;
+	width=&#34;1011&#34;
+	height=&#34;638&#34;
+	srcset=&#34;http://localhost:1313/p/made_new_namecard/IDcard_hu_a0bb9a4ee44a9aca.webp 480w, http://localhost:1313/p/made_new_namecard/IDcard_hu_73bb9d51012b0f3e.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;物&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;
+切り抜き難易度が異常に高い配置にした自分が恨めしかったです。もっと切るとき用のバッファを確保してやるべきだったと思います。少なくとも5mmぐらいは取っておくとカッターでもハサミでも切りやすくなると思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>外部からVRChatをやってみた</title>
         <link>http://localhost:1313/p/outside_vr/</link>
         <pubDate>Thu, 14 Aug 2025 21:23:56 +0900</pubDate>
