@@ -29,15 +29,20 @@
 	
 	
 &gt;
-前回の名刺と同じように右側に文字を乗せて、QRコードを乗せて完成しました。とりあえず、遠目から見たときに違和感を感じないように作りました。正直に言うと、デザインのことは&lt;strong&gt;全く分からない&lt;/strong&gt;ので、わりと適当に作りました。
-&lt;img src=&#34;http://localhost:1313/meisi.webp&#34;
-	
-	
-	
+前回の名刺と同じように右側に文字を乗せて、QRコードを乗せて完成しました。とりあえず、遠目から見たときに違和感を感じないように作りました。&lt;br&gt;
+正直に言うと、デザインのことは&lt;strong&gt;全く分からない&lt;/strong&gt;ので、わりと適当に作りました。
+&lt;img src=&#34;http://localhost:1313/p/made_new_namecard/meisi.webp&#34;
+	width=&#34;1075&#34;
+	height=&#34;650&#34;
+	srcset=&#34;http://localhost:1313/p/made_new_namecard/meisi_hu_ea94e0db5c3581b6.webp 480w, http://localhost:1313/p/made_new_namecard/meisi_hu_421f22a038750a8f.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;最終的な完成形&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;制作を依頼した会社&#34;&gt;制作を依頼した会社
@@ -87,18 +92,18 @@
 出来上がったファイルをローソンで印刷できるＬ版サイズ内に設置します。そうすることによって質の良いシール印刷が可能になります。&lt;/p&gt;
 &lt;h2 id=&#34;結果&#34;&gt;結果
 &lt;/h2&gt;&lt;p&gt;印刷して切り抜き、カードに貼った結果がこちらです。
-&lt;img src=&#34;http://localhost:1313/p/made_new_namecard/IDcard.webp&#34;
-	width=&#34;1011&#34;
-	height=&#34;638&#34;
-	srcset=&#34;http://localhost:1313/p/made_new_namecard/IDcard_hu_a0bb9a4ee44a9aca.webp 480w, http://localhost:1313/p/made_new_namecard/IDcard_hu_73bb9d51012b0f3e.webp 1024w&#34;
+&lt;img src=&#34;http://localhost:1313/p/made_new_namecard/IDcard_real.webp&#34;
+	width=&#34;4096&#34;
+	height=&#34;2304&#34;
+	srcset=&#34;http://localhost:1313/p/made_new_namecard/IDcard_real_hu_a1ab84311762a446.webp 480w, http://localhost:1313/p/made_new_namecard/IDcard_real_hu_14de54e89b9b4794.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;物&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;158&#34;
-		data-flex-basis=&#34;380px&#34;
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
 	
 &gt;
 切り抜き難易度が異常に高い配置にした自分が恨めしかったです。もっと切るとき用のバッファを確保してやるべきだったと思います。少なくとも5mmぐらいは取っておくとカッターでもハサミでも切りやすくなると思います。&lt;/p&gt;
