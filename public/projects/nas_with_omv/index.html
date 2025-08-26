@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="個人や学内で作成したプロジェクトの一覧">
-<title>Projects</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="概要\rミニPCとOpen Media Vaultを利用したNASです。\n制作動機\r個人的にG●●gle Driveや●neDriveなどのサービスが使いづらいと思っている。わざわざWebページを開いてファイルをアップロードするのが面倒だ。更に、容量を増やすためには、サブスクリプション形式で課金する必要が有り、学生としては重い課金になる。\n話が変わるが、名古屋に旅行した際、とあるジャンク屋でBIOS起動可のジャンクミニPCが3000円で売られており、それを購入していた。だが、出番が無く置物になっていた。\nそして、丁度良いタイミングで自分のローカルネットワークにVPN網を敷いたので、それを生かせる物を作りたいと考えた。\nというわけで余っていたミニPCと、VPN網を活かすことが出来るNASを作ろうと考えた。\n">
+<title>OpenMediaVaultとミニPCを利用したNAS</title>
 <link rel="icon" href="/img/favicon.png?v=2" type="image/png">
-<link rel='canonical' href='http://localhost:1313/projects/'>
+<link rel='canonical' href='http://localhost:1313/projects/nas_with_omv/'>
 
-<link rel="stylesheet" href="/scss/style.min.cab3b7401746e49085207ca301af33015fc29a1715d5825ca05d3e9f9e99a8cd.css"><meta property='og:title' content="Projects">
-<meta property='og:description' content="個人や学内で作成したプロジェクトの一覧">
-<meta property='og:url' content='http://localhost:1313/projects/'>
+<link rel="stylesheet" href="/scss/style.min.cab3b7401746e49085207ca301af33015fc29a1715d5825ca05d3e9f9e99a8cd.css"><meta property='og:title' content="OpenMediaVaultとミニPCを利用したNAS">
+<meta property='og:description' content="概要\rミニPCとOpen Media Vaultを利用したNASです。\n制作動機\r個人的にG●●gle Driveや●neDriveなどのサービスが使いづらいと思っている。わざわざWebページを開いてファイルをアップロードするのが面倒だ。更に、容量を増やすためには、サブスクリプション形式で課金する必要が有り、学生としては重い課金になる。\n話が変わるが、名古屋に旅行した際、とあるジャンク屋でBIOS起動可のジャンクミニPCが3000円で売られており、それを購入していた。だが、出番が無く置物になっていた。\nそして、丁度良いタイミングで自分のローカルネットワークにVPN網を敷いたので、それを生かせる物を作りたいと考えた。\nというわけで余っていたミニPCと、VPN網を活かすことが出来るNASを作ろうと考えた。\n">
+<meta property='og:url' content='http://localhost:1313/projects/nas_with_omv/'>
 <meta property='og:site_name' content=''>
-<meta property='og:type' content='article'><meta property='article:section' content='' />
+<meta property='og:type' content='article'><meta property='article:section' content='Projects' /><meta property='article:published_time' content='2025-08-22T16:53:09&#43;09:00'/><meta property='article:modified_time' content='2025-08-22T16:53:09&#43;09:00'/>
 <meta name="twitter:site" content="@@4KpB5_u_44dyr2b">
-    <meta name="twitter:creator" content="@@4KpB5_u_44dyr2b"><meta name="twitter:title" content="Projects">
-<meta name="twitter:description" content="個人や学内で作成したプロジェクトの一覧">
+    <meta name="twitter:creator" content="@@4KpB5_u_44dyr2b"><meta name="twitter:title" content="OpenMediaVaultとミニPCを利用したNAS">
+<meta name="twitter:description" content="概要\rミニPCとOpen Media Vaultを利用したNASです。\n制作動機\r個人的にG●●gle Driveや●neDriveなどのサービスが使いづらいと思っている。わざわざWebページを開いてファイルをアップロードするのが面倒だ。更に、容量を増やすためには、サブスクリプション形式で課金する必要が有り、学生としては重い課金になる。\n話が変わるが、名古屋に旅行した際、とあるジャンク屋でBIOS起動可のジャンクミニPCが3000円で売られており、それを購入していた。だが、出番が無く置物になっていた。\nそして、丁度良いタイミングで自分のローカルネットワークにVPN網を敷いたので、それを生かせる物を作りたいと考えた。\nというわけで余っていたミニPCと、VPN網を活かすことが出来るNASを作ろうと考えた。\n">
     </head>
     <body class="
     article-page
@@ -234,7 +234,7 @@
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/projects/' >
                 
                 
@@ -274,7 +274,47 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#概要">概要</a></li>
+    <li><a href="#制作動機">制作動機</a></li>
+    <li><a href="#構成">構成</a>
+      <ol>
+        <li><a href="#ミニpc">ミニPC</a></li>
+        <li><a href="#vpn">VPN</a></li>
+      </ol>
+    </li>
+    <li><a href="#使用方法">使用方法</a></li>
+    <li><a href="#結果">結果</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -285,13 +325,9 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/projects/">Projects</a>
+            <a href="/projects/nas_with_omv/">OpenMediaVaultとミニPCを利用したNAS</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            個人や学内で作成したプロジェクトの一覧
-        </h3>
         
     </div>
 
@@ -300,6 +336,19 @@
     
     
     <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 22, 2025</time>
+            </div>
         
 
         
@@ -313,7 +362,7 @@
 
 
                 <time class="article-time--reading">
-                    0 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -328,7 +377,38 @@
     <section class="article-content">
     
     
-    
+    <h2 id="概要">概要
+</h2><p>ミニPCとOpen Media Vaultを利用したNASです。</p>
+<h2 id="制作動機">制作動機
+</h2><p>個人的にG●●gle Driveや●neDriveなどのサービスが使いづらいと思っている。わざわざWebページを開いてファイルをアップロードするのが面倒だ。更に、容量を増やすためには、サブスクリプション形式で課金する必要が有り、学生としては重い課金になる。<br>
+話が変わるが、名古屋に旅行した際、とあるジャンク屋でBIOS起動可のジャンクミニPCが3000円で売られており、それを購入していた。だが、出番が無く置物になっていた。<br>
+そして、丁度良いタイミングで自分のローカルネットワークにVPN網を敷いたので、それを生かせる物を作りたいと考えた。<br>
+というわけで余っていたミニPCと、VPN網を活かすことが出来るNASを作ろうと考えた。</p>
+<h2 id="構成">構成
+</h2><h3 id="ミニpc">ミニPC
+</h3><ul>
+<li>CPU:Core i3-5010U</li>
+<li>RAM:8GB</li>
+<li>SSD(Main):512GB</li>
+<li>SSD(Nvme):512GB</li>
+<li>HDD(1):1TB</li>
+<li>HDD(2):1TB
+SSD(Nvme)をメインでデータを保存するディスクとして利用している。
+HDD(1),(2)はRaid1を組み、SSD(Nvme)のバックアップを行う。</li>
+</ul>
+<h3 id="vpn">VPN
+</h3><p>相変わらずZeroTierOneを利用する。</p>
+<h2 id="使用方法">使用方法
+</h2><ol>
+<li>私のローカルネットワーク若しくはVPN環境に接続する。</li>
+<li>固定されているIPアドレスをエクスプローラーの所に叩く(\xxx.xxx.xxx.xxx)</li>
+<li>決めておいたユーザでログインする。</li>
+<li>Enjoy!</li>
+</ol>
+<h2 id="結果">結果
+</h2><p>こちらもかなり便利な物になっている。Wifiが有る場所ならどこでもUSBメモリ要らずになるのは強いです。<br>
+但し、まだディスクが一枚も壊れていないので、そのうち壊れた時の対処法を学んでおかないといけないです。<br></p>
+
 </section>
 
 
@@ -354,143 +434,63 @@
 </article>
 
     
-        <div class="article-list--compact links">
-    
-        <article>
-            <a href="./Home_IoT/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">家庭用IoTセンター</h2>
-                    <footer class="article-time">
-                        
-                            Raspberry piとBlynkを利用したIoTサーバです。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="https://pi-tyaku-site.pages.dev/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">ポートフォリオ用Webサイト</h2>
-                    <footer class="article-time">
-                        
-                            HugoとstackテーマとClaudflare Pagesを利用した静的サイトです。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="./NAS_with_OMV/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">NAS</h2>
-                    <footer class="article-time">
-                        
-                            ミニPCを使用したNASです。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="project/CPU/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">32bit LegアーキテクチャCPU</h2>
-                    <footer class="article-time">
-                        
-                            Turing Completeという回路シミュレーションゲームで製作したCPUです。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="projects/VPN/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">VPN Network</h2>
-                    <footer class="article-time">
-                        
-                            ソフトウェアVPN網です。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="projects/Key/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">フットスイッチ付きテンキーボード</h2>
-                    <footer class="article-time">
-                        
-                            フットスイッチを導入している4x3のテンキーボードです。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="projects/Web/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">Webサーバ</h2>
-                    <footer class="article-time">
-                        
-                            授業内で制作したWebサーバです。HTMLページとWordPressのページが有りました。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="projects/Maze/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">騙し迷路</h2>
-                    <footer class="article-time">
-                        
-                            授業の課題でUnity6を用いて製作したゲームです。
-                        
-                    </footer>
-                </div>
-        
-                
-            </a>
-        </article>
-    
-</div>
-    
 
     
 
      
     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "pi-tyakusite" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
 
     
     <div class="share-buttons" style="margin: 2rem 0;">
-      <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2F&text=Projects" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
+      <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fnas_with_omv%2F&text=OpenMediaVault%E3%81%A8%E3%83%9F%E3%83%8BPC%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9FNAS" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2F" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fnas_with_omv%2F" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
 
-      <a href="https://social-plugins.line.me/lineit/share?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2F" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
+      <a href="https://social-plugins.line.me/lineit/share?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fnas_with_omv%2F" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
     </div>
     
 

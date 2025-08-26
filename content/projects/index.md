@@ -10,7 +10,7 @@ links:
     website: https://pi-tyaku-site.pages.dev/
   - title: NAS
     description: ミニPCを使用したNASです。
-    website: "./NAS/"
+    website: "./NAS_with_OMV/"
   - title: 32bit LegアーキテクチャCPU
     description: Turing Completeという回路シミュレーションゲームで製作したCPUです。
     website: "project/CPU/"

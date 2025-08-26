@@ -2,7 +2,7 @@
 date = '2025-08-22T16:53:09+09:00'
 draft = false
 title = 'OpenMediaVaultとミニPCを利用したNAS'
-slug = 'NAS'
+slug = 'NAS_with_OMV'
 tags = []
 categories = []
 comments = true
