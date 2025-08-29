@@ -109,9 +109,9 @@ division by zero
 
 ## スクリーンショット
 ### モバイル環境
-![Mobile version](Screenshot.webp)
+![Mobile version](./Mobile.webp)
 ### PC(Web)
-![Web Page version](image.webp)
+![Web Page version](./PC.webp)
 
 ## 制作して良かった点
 - QOLが向上した

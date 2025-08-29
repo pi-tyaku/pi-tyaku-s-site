@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="概要\r部屋内の家電(PC,エアコン,etc)の操作や、部屋の状態(湿度,気温,ECo2,VoC値等々)の監視が出来るIoTサーバです。\n製作理由\r自宅ネットワークにVPNを入れた際に、外部ネットワークからPCの電源が付けられるサーバが欲しいと感じた。\nまた、部屋にいる際、換気をするタイミングや部屋の温度が分からない事が多い。また、温度計などはPC等を見ているタイミングだと確認を怠ってしまう。そのためPC若しくはスマホなどのデバイスから見れる温度計が欲しくなった。\n更に、自分の部屋で開発することが多く、その際に熱中して周囲が見えなくなる事がある。その際に、換気をする事を忘れてしまう。そのため、「換気タイミングを通知するデバイスが有れば良いな」と考えた。\n更に、エアコンのリモコンが微妙に遠く、ベットに寝転んでいる時からエアコンを操作するには、ベットから出ないといけない。\nおまけに、部屋の向きが悪く、西日が強い、そのため部屋に帰るころには部屋がとても暑くなります。なので、「遠隔かつスマホでエアコンや赤外線リモコンを持つデバイスを操作出来ればQOLが上がるな。」と考えた。\nこれらの悩み事や願望を叶えるためにこのシステムは制作された。\n">
-<title>家庭用IoTサーバ</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="概要\r導入理由\rソフトウェアの選定理由\r結果\r">
+<title>ZeroTierOneを利用したVPN網</title>
 <link rel="icon" href="/img/favicon.png?v=2" type="image/png">
-<link rel='canonical' href='http://localhost:1313/projects/home_iot/'>
+<link rel='canonical' href='http://localhost:1313/projects/vpn-with-zerotierone/'>
 
-<link rel="stylesheet" href="/scss/style.min.cab3b7401746e49085207ca301af33015fc29a1715d5825ca05d3e9f9e99a8cd.css"><meta property='og:title' content="家庭用IoTサーバ">
-<meta property='og:description' content="概要\r部屋内の家電(PC,エアコン,etc)の操作や、部屋の状態(湿度,気温,ECo2,VoC値等々)の監視が出来るIoTサーバです。\n製作理由\r自宅ネットワークにVPNを入れた際に、外部ネットワークからPCの電源が付けられるサーバが欲しいと感じた。\nまた、部屋にいる際、換気をするタイミングや部屋の温度が分からない事が多い。また、温度計などはPC等を見ているタイミングだと確認を怠ってしまう。そのためPC若しくはスマホなどのデバイスから見れる温度計が欲しくなった。\n更に、自分の部屋で開発することが多く、その際に熱中して周囲が見えなくなる事がある。その際に、換気をする事を忘れてしまう。そのため、「換気タイミングを通知するデバイスが有れば良いな」と考えた。\n更に、エアコンのリモコンが微妙に遠く、ベットに寝転んでいる時からエアコンを操作するには、ベットから出ないといけない。\nおまけに、部屋の向きが悪く、西日が強い、そのため部屋に帰るころには部屋がとても暑くなります。なので、「遠隔かつスマホでエアコンや赤外線リモコンを持つデバイスを操作出来ればQOLが上がるな。」と考えた。\nこれらの悩み事や願望を叶えるためにこのシステムは制作された。\n">
-<meta property='og:url' content='http://localhost:1313/projects/home_iot/'>
+<link rel="stylesheet" href="/scss/style.min.cab3b7401746e49085207ca301af33015fc29a1715d5825ca05d3e9f9e99a8cd.css"><meta property='og:title' content="ZeroTierOneを利用したVPN網">
+<meta property='og:description' content="概要\r導入理由\rソフトウェアの選定理由\r結果\r">
+<meta property='og:url' content='http://localhost:1313/projects/vpn-with-zerotierone/'>
 <meta property='og:site_name' content=''>
-<meta property='og:type' content='article'><meta property='article:section' content='Projects' /><meta property='article:published_time' content='2025-08-22T16:52:51&#43;09:00'/><meta property='article:modified_time' content='2025-08-22T16:52:51&#43;09:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Projects' /><meta property='article:published_time' content='2025-08-26T19:51:59&#43;09:00'/><meta property='article:modified_time' content='2025-08-26T19:51:59&#43;09:00'/>
 <meta name="twitter:site" content="@@4KpB5_u_44dyr2b">
-    <meta name="twitter:creator" content="@@4KpB5_u_44dyr2b"><meta name="twitter:title" content="家庭用IoTサーバ">
-<meta name="twitter:description" content="概要\r部屋内の家電(PC,エアコン,etc)の操作や、部屋の状態(湿度,気温,ECo2,VoC値等々)の監視が出来るIoTサーバです。\n製作理由\r自宅ネットワークにVPNを入れた際に、外部ネットワークからPCの電源が付けられるサーバが欲しいと感じた。\nまた、部屋にいる際、換気をするタイミングや部屋の温度が分からない事が多い。また、温度計などはPC等を見ているタイミングだと確認を怠ってしまう。そのためPC若しくはスマホなどのデバイスから見れる温度計が欲しくなった。\n更に、自分の部屋で開発することが多く、その際に熱中して周囲が見えなくなる事がある。その際に、換気をする事を忘れてしまう。そのため、「換気タイミングを通知するデバイスが有れば良いな」と考えた。\n更に、エアコンのリモコンが微妙に遠く、ベットに寝転んでいる時からエアコンを操作するには、ベットから出ないといけない。\nおまけに、部屋の向きが悪く、西日が強い、そのため部屋に帰るころには部屋がとても暑くなります。なので、「遠隔かつスマホでエアコンや赤外線リモコンを持つデバイスを操作出来ればQOLが上がるな。」と考えた。\nこれらの悩み事や願望を叶えるためにこのシステムは制作された。\n">
+    <meta name="twitter:creator" content="@@4KpB5_u_44dyr2b"><meta name="twitter:title" content="ZeroTierOneを利用したVPN網">
+<meta name="twitter:description" content="概要\r導入理由\rソフトウェアの選定理由\r結果\r">
     </head>
     <body class="
     article-page
@@ -297,29 +297,9 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#概要">概要</a></li>
-    <li><a href="#製作理由">製作理由</a></li>
-    <li><a href="#制作時期と遍歴">制作時期と遍歴</a></li>
-    <li><a href="#機能解説">機能解説</a></li>
-    <li><a href="#discordに送られる計測値の解説">Discordに送られる計測値の解説</a></li>
-    <li><a href="#メッセージ例">メッセージ例</a>
-      <ol>
-        <li><a href="#サーバの状態">サーバの状態</a></li>
-        <li><a href="#温度と湿度">温度と湿度</a></li>
-        <li><a href="#eco2値など">Eco2値など</a></li>
-        <li><a href="#エラーメッセージと警告">エラーメッセージと警告</a></li>
-      </ol>
-    </li>
-    <li><a href="#使ったものハードウェア">使ったもの(ハードウェア)</a></li>
-    <li><a href="#使ったものソフトウェア">使ったもの(ソフトウェア)</a></li>
-    <li><a href="#スクリーンショット">スクリーンショット</a>
-      <ol>
-        <li><a href="#モバイル環境">モバイル環境</a></li>
-        <li><a href="#pcweb">PC(Web)</a></li>
-      </ol>
-    </li>
-    <li><a href="#制作して良かった点">制作して良かった点</a></li>
-    <li><a href="#苦労した点">苦労した点</a></li>
-    <li><a href="#今後の展望">今後の展望</a></li>
+    <li><a href="#導入理由">導入理由</a></li>
+    <li><a href="#ソフトウェアの選定理由">ソフトウェアの選定理由</a></li>
+    <li><a href="#結果">結果</a></li>
   </ol>
 </nav>
         </div>
@@ -339,7 +319,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/projects/home_iot/">家庭用IoTサーバ</a>
+            <a href="/projects/vpn-with-zerotierone/">ZeroTierOneを利用したVPN網</a>
         </h2>
     
         
@@ -361,7 +341,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 22, 2025</time>
+                <time class="article-time--published">Aug 26, 2025</time>
             </div>
         
 
@@ -376,7 +356,7 @@
 
 
                 <time class="article-time--reading">
-                    5 minute read
+                    1 minute read
                 </time>
             </div>
         
@@ -392,257 +372,10 @@
     
     
     <h2 id="概要">概要
-</h2><p>部屋内の<strong>家電</strong>(PC,エアコン,etc)の操作や、部屋の状態(湿度,気温,ECo2,VoC値等々)の監視が出来るIoTサーバです。</p>
-<h2 id="製作理由">製作理由
-</h2><p>自宅ネットワークにVPNを入れた際に、外部ネットワークからPCの電源が付けられるサーバが欲しいと感じた。<br>
-また、部屋にいる際、換気をするタイミングや部屋の温度が分からない事が多い。また、温度計などはPC等を見ているタイミングだと確認を怠ってしまう。そのためPC若しくはスマホなどのデバイスから見れる温度計が欲しくなった。<br>
-更に、自分の部屋で開発することが多く、その際に熱中して周囲が見えなくなる事がある。その際に、換気をする事を忘れてしまう。そのため、「換気タイミングを通知するデバイスが有れば良いな」と考えた。<br>
-更に、エアコンのリモコンが微妙に遠く、ベットに寝転んでいる時からエアコンを操作するには、ベットから出ないといけない。<br>
-おまけに、部屋の向きが悪く、西日が強い、そのため部屋に帰るころには部屋がとても暑くなります。なので、「遠隔かつスマホでエアコンや赤外線リモコンを持つデバイスを操作出来ればQOLが上がるな。」と考えた。<br>
-これらの悩み事や願望を叶えるためにこのシステムは制作された。</p>
-<h2 id="制作時期と遍歴">制作時期と遍歴
-</h2><ul>
-<li>2023/10:製作開始</li>
-<li>2023/12:大枠とPC起動機能、Discord通知機能の完成</li>
-<li>2024/3 :IR機器の操作機能と温度計機能の追加</li>
-<li>2025/4 :技育CAMPキャラバンに参加</li>
-<li>2025/5 :内部構造の最適化</li>
-<li>2025/5 :空気測定機能の追加</li>
-<li>2025/5 :技育博に参加</li>
-<li>2025/6 :Discord通知機能の故障により温度計及び空気測定機能の削除</li>
-<li>2025/6 :Discord通知機能の修理と温度計、空気測定機能の分離</li>
-</ul>
-<h2 id="機能解説">機能解説
-</h2><ul>
-<li>WakeOnLanを利用したPCの起動</li>
-<li>IR機器の操作
-<ul>
-<li>冷房3段階、暖房3段階でのエアコンの操作を実現</li>
-</ul>
-</li>
-<li>一時間ごとの空気の測定と通知
-<ul>
-<li>温度、湿度、不快指数の測定及び通知</li>
-<li>ECo2値、TVOC値、AQI値の測定及び通知</li>
-<li>不快指数及びECo2値等から換気タイミングの測定及び通知</li>
-</ul>
-</li>
-<li>Discord上に通知及びエラーメッセージ、サーバのステータス状態の送信</li>
-<li>Blynkを介した外部NWからの機能の実行</li>
-<li>VPNを介したSSHの実行
-<ul>
-<li>個人で導入しているVPN網に導入しているため、</li>
-</ul>
-</li>
-</ul>
-<h2 id="discordに送られる計測値の解説">Discordに送られる計測値の解説
-</h2><ul>
-<li>温度(℃)</li>
-<li>湿度(%)</li>
-<li>不快指数
-<ul>
-<li>夏の蒸し暑さを数量的に表した指数。温度湿度から計算可能。</li>
-</ul>
-</li>
-<li>ECo2濃度(ppm)
-<ul>
-<li>部屋の空気内の物質から推定されるCo2濃度のこと。大体の値が取れる。</li>
-</ul>
-</li>
-<li>TVoC値(μg/m³)
-<ul>
-<li>室内空気中に揮発している化学物質の総量を測定した値。</li>
-<li>シックハウス症候群の人が気にする。</li>
-</ul>
-</li>
-<li>AQI値
-<ul>
-<li>空気質指数のこと。空気のキレイさが分かる。</li>
-</ul>
-</li>
-</ul>
-<h2 id="メッセージ例">メッセージ例
-</h2><h3 id="サーバの状態">サーバの状態
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Server_booted
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Booting Desktop...
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="温度と湿度">温度と湿度
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">temperature:38.69
-</span></span><span class="line"><span class="cl">humidity:42.63
-</span></span><span class="line"><span class="cl">unconfort index:87.87
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="eco2値など">Eco2値など
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">eco2:502
-</span></span><span class="line"><span class="cl">aqi:2
-</span></span><span class="line"><span class="cl">tvoc:73
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="エラーメッセージと警告">エラーメッセージと警告
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Too Unconfortable!!! Open rooms door!!
-</span></span><span class="line"><span class="cl">Too Much Co2!! Open room window!!
-</span></span><span class="line"><span class="cl">division by zero
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="使ったものハードウェア">使ったもの(ハードウェア)
-</h2><ul>
-<li>Raspberry pi 3b
-<ul>
-<li>メインサーバとして採用。</li>
-<li>GPIOとLinuxが使える点が大きく、拡張性が高い。</li>
-</ul>
-</li>
-<li>DHT11
-<ul>
-<li>気温湿度センサとして採用した。</li>
-<li>とても一般的かつ安価な温度センサであり、。情報がかなり多く、使いやすい。</li>
-</ul>
-</li>
-<li>ADIR01P USB赤外線リモコンアドバンス
-<ul>
-<li>IR機器の制御用に採用した。</li>
-<li>Linux対応しているのと、USB接続が可能な赤外線通信用のハードウェア。windowsにも対応しており、幅が広い。</li>
-</ul>
-</li>
-<li>ENS160+AHT21
-<ul>
-<li>VoC及びECo2センサとして利用。</li>
-<li>安価にECo2を測定できるから採用した。</li>
-<li>このセンサはI2C通信で通信できるため、かなり使い勝手が良い。</li>
-<li></li>
-</ul>
-</li>
-</ul>
-<h2 id="使ったものソフトウェア">使ったもの(ソフトウェア)
-</h2><ul>
-<li>Blynk
-<ul>
-<li>中間的なサーバ及びフロントエンドの開発環境、実行環境として採用。</li>
-</ul>
-</li>
-<li>Python
-<ul>
-<li>メインの開発言語として利用。</li>
-</ul>
-</li>
-<li>RaspberrypiOS
-<ul>
-<li>Raspberry piのOSとして採用。Debian系のOS。</li>
-</ul>
-</li>
-<li>Discord
-<ul>
-<li>通知を受け取るメッセンジャーアプリとして採用。</li>
-</ul>
-</li>
-</ul>
-<h2 id="スクリーンショット">スクリーンショット
-</h2><h3 id="モバイル環境">モバイル環境
-</h3><p><img src="/Mobile.webp"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Mobile version"
-	
-	
-></p>
-<h3 id="pcweb">PC(Web)
-</h3><p><img src="/PC.webp"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Web Page version"
-	
-	
-></p>
-<h2 id="制作して良かった点">制作して良かった点
-</h2><ul>
-<li>QOLが向上した
-<ul>
-<li>換気若しくはエアコンをつけるタイミングを通知するのが大きい。</li>
-<li>更に、「帰る10分前にエアコン付けよ」とか「メインPC内のデータが必要だからメインPC起動してリモートデスクトップ繋ごう」や「実家帰ってもVPN介してPCVRやろう」が出来る。</li>
-<li>簡単に言うと超便利なリモコン(家の外でも利用可能)を手に入れたようなものである。</li>
-<li>事故でサーバが2週間程度止まった時は生活が大きく不便になった。</li>
-</ul>
-</li>
-<li>Linuxの知識を深められた
-<ul>
-<li>開発中は基本的にSSHを介してRaspberrypiを利用していたため、基本的なLinuxのファイル操作を覚えた。</li>
-<li>更に、Nanoなどコマンドラインエディタ、SSHにおけるユーザ、Systemdの操作を活用して動くものを作った。</li>
-</ul>
-</li>
-<li>日常の不満を解決する方法を考えられた
-<ul>
-<li>「遠隔でPCを起動する。」という一つの命題から様々な機能が出来た。</li>
-</ul>
-</li>
-<li>自分のサーバを立てたという経験を得た
-<ul>
-<li>個人でサーバを立てて、長期の運用をする経験をした。</li>
-</ul>
-</li>
-</ul>
-<h2 id="苦労した点">苦労した点
-</h2><ul>
-<li>PythonのBlynkライブラリの導入
-<ul>
-<li>Blynkライブラリの情報が無く、頼りにしていた情報源でも導入が出来なかった。しかしながら、ライブラリのコードを読んだりしたことによって、最終的には導入することができた。</li>
-</ul>
-</li>
-<li>Systemdの設定
-<ul>
-<li>開発を始めたころは、Linuxのユーザ周りやデーモン辺りの知識が無かった。そのため、自分が作ったコードを継続して動かしたり、起動時の実行を行うためにSystemdを勉強する必要があった。初めての範囲で四苦八苦したものの、基本的な使い方が分かった。</li>
-</ul>
-</li>
-<li>Co2センサの選定
-<ul>
-<li>Co2濃度を測定する際に、実際にCo2濃度を計るセンサを導入しようと考えた。がしかし、1週間のキャリブレーションが必要な物や一つ4000円を超える物しかなかった。そのため、最終的にはECo2という空気の奇麗さからCo2濃度を推定する値を計るセンサを導入した。</li>
-</ul>
-</li>
-</ul>
-<h2 id="今後の展望">今後の展望
-</h2><ul>
-<li>サーバの安定化</li>
-<li>赤外線機器の追加(シーリングライト及びサーキュレーター等)</li>
-<li>公開と導入の解説を追加</li>
-<li>部屋の照度を検知してライトが付いているかの検知</li>
-<li>Matter対応</li>
-</ul>
-
+</h2><h2 id="導入理由">導入理由
+</h2><h2 id="ソフトウェアの選定理由">ソフトウェアの選定理由
+</h2><h2 id="結果">結果
+</h2>
 </section>
 
 
@@ -720,11 +453,11 @@
 
     
     <div class="share-buttons" style="margin: 2rem 0;">
-      <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fhome_iot%2F&text=%E5%AE%B6%E5%BA%AD%E7%94%A8IoT%E3%82%B5%E3%83%BC%E3%83%90" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
+      <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fvpn-with-zerotierone%2F&text=ZeroTierOne%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9FVPN%E7%B6%B2" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fhome_iot%2F" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fvpn-with-zerotierone%2F" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
 
-      <a href="https://social-plugins.line.me/lineit/share?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fhome_iot%2F" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
+      <a href="https://social-plugins.line.me/lineit/share?url=http%3A%2F%2Flocalhost%3A1313%2Fprojects%2Fvpn-with-zerotierone%2F" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
     </div>
     
 
