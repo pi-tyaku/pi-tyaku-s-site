@@ -6,7 +6,7 @@ languageCode: ja
 theme: stack
 disqusShortname: "pi-tyakusite"
 pagination:
-    pagerSize: 3
+    pagerSize: 5
 
 permalinks:
     post: /p/:slug/
