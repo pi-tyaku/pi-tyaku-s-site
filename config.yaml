@@ -29,7 +29,7 @@ params:
 
     sidebar:
         emoji: 🤔
-        subtitle: This is the page that produce me.
+        subtitle: 適当な事を書いたり真面目に解説したりしてます。
         avatar:
             enabled: true
             local: true
