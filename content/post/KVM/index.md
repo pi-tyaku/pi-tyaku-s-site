@@ -28,34 +28,47 @@ KVMのHDMI端子とPCのHDMI端子を繋ぎ、KVMのUSB-HUD端子とPCのUSBポ�
 ## 接続編
 KVMを起動させるとIPアドレスがKVMのディスプレイに表示されます。若しくはルータの設定画面からKVMのIPアドレスを確認します。
 ブラウザのURL欄にKVMのIPアドレスを入力してKVMにアクセスします。
-パスワードとユーザ名を聞かれます。両方ともadminで通ります。
+パスワードとユーザ名を聞かれます。初めは。両方ともadminで通ります。
 そうするとKVMのメイン画面に入ります。ここからPCの操作を行います。
 次に、パスワードとユーザ名を変えます。
+コレで、ローカルネットワーク内でKVMに接続できるようになりました。
 
 ## VPN編
 KVMを外部からアクセスする際にVPNを利用することが多いと思います。デフォルトでTailScaleに対応しているので、TailScaleを利用している方はそのままログインしてください。
-しかし、今回はZerotierOneを利用します。メインで使っているので。
-KVMにSSHするかブラウザからKVMのシェルを起動します。
+しかし、今回はメインで使っているZerotierOneを利用します。
 [ココ](https://github.com/sipeed/NanoKVM/issues/79)と[ココ](https://github.com/Msprg/nanoKVM-ZeroTier-one)を参考にして導入します。
-初めにこのコマンドを実行します。
+KVMにSSHするかブラウザからKVMのシェルを起動します。
+
 ```shell
 # curl -LO https://github.com/Msprg/nanoKVM-ZeroTier-one/releases/download/latest/nanokvm-zerotier.tar
 # tar x -f nanokvm-zerotier.tar && cd nanokvm-zerotier
 # ./install.sh
 ```
+
 専用のインストールシェルをダウンロードして実行します。
 次に、導入出来ているか確認します。
+
 ```shell
 # zerotier-cli status
 ```
 これで
-```
+
+```shell
 200 info XXXXXXXXXX 1.8.1 ONLINE
 ```
+
 となれば導入が出来ています。
 さらに、このコマンドを実行することによって実行時に起動するようにできます。
 ```shell
 # mv /etc/init.d/zerotier-one /etc/init.d/S97zerotier-one
 ```
+
 init.d内の実行順序にzerotierをねじ込みます。
+```shell
+#  mv /etc/init.d/zerotier-one /etc/init.d/S97zerotier-one
+```
 後は、zerotierのLinuxガイドの通りにすることによって接続できます。
+
+## 感想
+今回はNanoKVM　PCIeの導入をしました。
+PCIeレーンから給電出来たりや
