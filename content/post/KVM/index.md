@@ -1,6 +1,6 @@
 +++
 date = '2025-09-05T15:41:37+09:00'
-draft = true
+draft = false
 title = 'PCにNanoKVMを導入した話'
 slug = 'Add_NanoKVM'
 tags = ["Tech"]
@@ -16,7 +16,7 @@ comments = true
 しかし、あるタイミングでIoTサーバが止まり、SSHも出来ない状態に陥ってしまいました。<br>
 今後の事を考えた際、PCの管理をIoTサーバだけに任せるよりも、KVMを導入してサーバの並列化を行った方が良いと考えたため導入に至りました。<br>
 ## 使用したKVM
-Aliexpressで購入したNano KVM PCie を利用しました。wifi無のモデルです。<br>
+Aliexpressで購入したNano KVM PCie を利用しました。wifi無しのモデルです。<br>
 ![KVM](https://ae-pic-a1.aliexpress-media.com/kf/S1c250f0b1d2c46669b3cdb4c6fb194a41.jpg_220x220q75.jpg_.avif)<br>
 [商品サイト](https://ja.aliexpress.com/item/1005008285472731.html?spm=a2g0o.order_list.order_list_main.5.6e20585aD51Czh&gatewayAdapt=glo2jpn)
 ## 導入編
