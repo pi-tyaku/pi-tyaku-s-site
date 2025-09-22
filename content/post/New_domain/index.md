@@ -1,6 +1,6 @@
 +++
 date = '2025-09-22T16:05:02+09:00'
-draft = true
+draft = false
 title = 'ドメイン変更のお知らせ'
 slug = 'New_domain'
 tags = ["Tech","雑記"]
