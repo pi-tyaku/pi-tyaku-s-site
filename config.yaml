@@ -29,7 +29,7 @@ params:
 
     sidebar:
         emoji: 🤔
-        subtitle: 適当な事を書いたり真面目に解説したりしてます。
+        subtitle: 適当な事を書いたり真面目に解説したりしてます。最近ドメインを購入しました。
         avatar:
             enabled: true
             local: true
@@ -203,6 +203,7 @@ menu:
           url: https://x.com/4KpB5_u_44dyr2b
           params:
               icon: brand-twitter
+        
         - identifier: instagram
           name: instagram
           url: https://www.instagram.com/pi_tyaku/
