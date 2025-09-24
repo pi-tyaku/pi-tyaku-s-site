@@ -112,8 +112,8 @@ https://booth.pm/ja/items/4864776
   - 簡単にできる or 専用服が出るならやるかも...
 - Q.首は取れないんですか?
   - A.取れません。
-  - 元ネタと被ります。
-  - <img src="./Under_chan.webp" width=500><br>[元ネタ](https://x.com/under_vrchat)<br>
+  - この子を元ネタにしてくれた人の改変と被ります。
+  - <img src="./Under_chan.webp" width=500><br>[Underさん](https://x.com/under_vrchat)<br>
 
 ## ギャラリー
 <img src="./VRChat_2025-01-25_18-07-37.138_2160x3840.webp" width=500>
