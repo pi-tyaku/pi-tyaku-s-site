@@ -24,7 +24,7 @@ CloudFlaereならレジストラを提供している側なので手数料が無
 ## CloudFlare Register
 初めに、CloudFlareにログインし、アカウントのダッシュボードに入ります。<br>
 そこで、左側のメニュー内の"ドメインの登録"内の"ドメインの登録"を選択します。<br>
-![imageS](./Domain_.webp)<br>
+![imageS](Domain_.webp)<br>
 そのページで取得したいドメイン名を入力します。トップレベルドメイン(.comとかのやつ)は入力してもしなくても問題ないです。<br>
 ドメインの被り等が無ければ、取得年数と取得者情報と支払い方法を記入する画面に進みます。<br>
 取得年数に関しては、取得年数を過ぎた場合でも自動で更新されるので、よっぽど円高の時以外は自由に選択して問題ありません。<br>
@@ -40,7 +40,7 @@ CloudFlaereならレジストラを提供している側なので手数料が無
 ## 独自ドメインとCloudFlare Pagesの紐づけ
 自分のCloudFlare Pagesの設定画面に入ります。<br>
 その中の"独自ドメイン"タブに入ります。<br>
-![alt text](./Pages.webp)<br>
+![alt text](Pages.webp)<br>
 そこで"独自ドメインの設定"を選択し、ドメインの入力画面に進みます。<br>
 ドメインを入力し、手続きを進めると自動でDNSの設定が完了します。
 
@@ -60,21 +60,21 @@ baseURL: "Your site domain"
 どうせなら元々のドメインにアクセスした時に自動で取得したドメインに飛ばしたいですよね。<br>
 というわけでCloudFlareの一括リダイレクト(Bulk Redirects)を利用します。<br>
 CloudFlareのダッシュボードにアクセスして一括リダイレクトを選択します。<br>
-![一括リダイレクト](./redirect_all.webp)<br>
+![一括リダイレクト](redirect_all.webp)<br>
 一括リダイレクトリストの作成と一括リダイレクトルールの2つがあるので、初めに一括リダイレクトリストを作成します。
 一括リダイレクトリストの作成をクリックします<br>
-![リダイレクトリスト](./redirect_list.webp)<br>
+![リダイレクトリスト](redirect_list.webp)<br>
 リストの名前を設定します。説明も適宜書いてください。<br>
-![リストの名前入力画面](./List_name.webp)<br>
+![リストの名前入力画面](List_name.webp)<br>
 リダイレクトするURLを追加します。CSVで記述済みの物をアップロードするか、手動で記入のどちらかが使えます。今回は手動で追加します。<br>
 ソースURL(移行元のURL)とターゲットURL(移行先のURL)を記入します。
 場合によってはHTTPステータスコードも変更してください。<br>
 今回はこの様になります。<br>
-![ルール](./Redirect_Mypage.webp)<br>
+![ルール](Redirect_Mypage.webp)<br>
 pi-tyaku.site.pages.devをpi-tyaku.comに変更するようにしました。ステータスコードは301(永久的な移行)を指定します。<br>
 保存とレビューが終わったらルールの適用をします。<br>
 一括リダイレクトルールの作成をクリックします。<br>
-![ルール](./redirect_rule.webp)
+![ルール](redirect_rule.webp)
 ルール名とリダイレクトリストを選択して保存します。<br>
-![alt text](./Redirect_Rule_setting.webp)<br>
+![alt text](Redirect_Rule_setting.webp)<br>
 コレで元のドメインにアクセスした際に、HTTPステータスコードの301番を返しながら今のドメインに移動するようになります。<br>
