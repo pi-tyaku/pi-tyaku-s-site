@@ -49,6 +49,6 @@ CloudFlaereならレジストラを提供している側なので手数料が無
 ページ内のConfig.yamlかhugo.toml等の設定ファイルを開きます。
 ```config.yaml
 baseURL: "Your site domain"
-```
+```     
 ## CloudFlare Pagesの元ドメインを独自ドメインに転送する
 コレで
