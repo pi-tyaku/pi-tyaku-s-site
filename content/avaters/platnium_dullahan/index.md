@@ -1,6 +1,6 @@
 +++
 date = '2025-09-24T16:32:10+09:00'
-draft = true
+draft = false
 title = 'デュラハンのプラチナちゃんの資料'
 slug = 'Platnium_dullahan'
 tags = []
@@ -8,7 +8,7 @@ categories = []
 comments = false
 +++
 ## トップビジュアル
-
+!["地味に足が有るんですよ。"](VRChat_2025-10-04_23-24-15.180_3840x2160.webp)
 ## 基本情報
 - アバター名
 Platnium_Dulahan
@@ -25,13 +25,18 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 心より感謝いたします。
 ## 全身・回り込み資料
 ### 全身資料
+![全身資料です。](FullPose.webp)
 
 ### 3面図
+![3面図です。](3WayPose.webp)
 
 ### 表情集
 #### 右手
 
+![デフォルト表情です。](MainHand.webp)
+
 #### 左手
+![サブ表情です。](SubHand.webp)
 
 ## ツール
 - 帽子ギミック
@@ -45,20 +50,30 @@ https://franada.booth.pm/items/3290806
 
 ## 改変・独自要素
 - 頭が取れます。
-  - こんな感じに
+  - こんな感じに<br>
+<img src="./platnium_head_detachable_demo.gif" alt="首を取るgifです。地味に画質が悪いのは内緒" width=400><br>
   - 頭を右手で取り、ワールド固定が出来ます。
   - 更に、ワールド固定した頭は他人が持つことも出来ます。
 
 - 頭を取った際に頭から声が出ます。
   - 「体が目の前に居るのに声が頭から聞こえる」状況が出来ます。
+
 - 一部衣装ではゾンビorキョンシーみたいになります。
   - 基本的には機能は変わりません。見栄えが変わります。
 ## 衣装
 "*"が付いている服は特殊機能付きです。
 1. デフォルト
+<img src="./Default.webp" alt="aaaa" widhth=300>
+
 2. Lustorus
+<img src="./Lustorus.webp" widhth=300>
+
 3. ESCAPE PLAN *
+<img src="./Escape_plan.webp" widhth=300>   
+  
 4. Jito Kyon   *
+<img src="./jito_kyon.webp" widhth=300>
+
 ## 小ネタ
 - 本気で頭を持って何処かに行かれると面倒です。
   - 自分は声を出しているのに相手には聞こえないという割と絶望的な状況になります。
@@ -73,6 +88,7 @@ https://franada.booth.pm/items/3290806
 - [どこぞのデュラハンアバター](https://avatar.booth.pm/items/6156185)と同様のギミックを搭載しています。
   - 何故かそのアバターの作者及びプロデューサーに知られています。何故?
   - その子も可愛いので是非!
+  - 実は持っているのでそのうち記事を公開する予定です。
 ## Q&A
 - Q.アバターギミックは誰が作ったんですか?
   - A.導入部分とオブジェクトはあんだVRCさんが作り、リファクタリング及び声を出す部分は私が作りました。
@@ -96,7 +112,14 @@ https://franada.booth.pm/items/3290806
   - A.頭が取れる子が好きだからです。
   - 大体のことはこの[ラジオ](https://note.com/yuteru_write_sth/n/n36adc9b4cd4d)で話しています。
 
-## ギャラリー（ワールド写真・映えショット）
+## ギャラリー
+<div align="center">
+  <img src="./VRChat_2025-01-17_21-30-02.307_3840x2160.webp" ><br>
+  <img src="./VRChat_2025-01-19_22-19-08.706_3840x2160.webp" ><br>
+  <img src="./VRChat_2025-02-23_22-56-18.205_3840x2160.webp" ><br>
+  <img src="./VRChat_2025-06-05_22-53-42.624_1440x2560.webp" ><br>
+  <img src="./VRChat_2025-09-14_23-03-07.927_2560x1440.webp" ><br>
+</div>
 
 ## 更新日
 2025/10/03  アウトライン製作
