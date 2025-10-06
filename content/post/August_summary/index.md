@@ -1,5 +1,5 @@
 +++
-date = '2025-09-16T14:43:04+09:00'
+date = '2025-10-05T14:43:04+09:00'
 draft = false
 title = '8,9月のまとめ'
 slug = 'August_summary'
