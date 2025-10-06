@@ -8,7 +8,7 @@ categories = ["Avaters"]
 comments = false
 +++
 ## トップビジュアル
-<img src="./Front.webp" width=600>
+!["何処から来たのかは覚えてないんですよね。"](VRChat_2025-09-09_20-59-23.557_2560x1440.webp)
 
 ## 基本情報
 - アバター名
@@ -26,7 +26,9 @@ Quest(一部アバターのみ):VeryPoor
 本ページに掲載しているスクリーンショット・画像の無断転載はご遠慮ください。  
 Skebなど依頼時の資料としての閲覧・参照は問題ありません。
 
-## 全身資料
+## 全身資料・3面図
+### 全身資料
+<img src="./Front.webp" width=600>
 ### 3面図
 <img src="./3way.webp" width=600>
 
@@ -39,6 +41,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 
 ## 衣装
 - Default
+<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300>
 - [浴衣](https://8-dori.booth.pm/items/4872298)<br>
 <img src="VRChat_2025-05-30_00-30-42.898_1440x2560.webp" width=300>
 
@@ -56,6 +59,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 
 - 透過ver<br>
 <img src='./transp.webp' width=300>
+
 ## アクセサリー
 - 鬼火<br>
 https://amakusa-shop.booth.pm/items/5010477
@@ -114,14 +118,19 @@ https://booth.pm/ja/items/4864776
   - A.取れません。
   - この子を元ネタにしてくれた人の改変と被ります。
   - <img src="./Under_chan.webp" width=500><br>[Underさん](https://x.com/under_vrchat)<br>
+- Q.3次創作していい?
+  - A.ご自由にどうぞ!歓迎しています!
+  - このページを参考にしても構いません。
 
 ## ギャラリー
 <img src="./VRChat_2025-01-25_18-07-37.138_2160x3840.webp" width=500>
 <img src="./VRChat_2025-02-24_14-23-15.740_2160x3840.webp" width=500><br>
 <img src="./VRChat_2025-05-21_01-22-45.244_2560x1440.webp" width=500>
 <img src="./VRChat_2025-06-14_00-02-58.252_1440x2560.webp" width=500><br>
+<img src="./VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=500><br>
 
 ## 更新日
 2025/09/12   アウトライン製作<br>
 2025/09/13   写真追加<br>
 2025/09/23   Q&A追加<br>
+2025/10/06   写真追加及びトップ画像変更<br>
