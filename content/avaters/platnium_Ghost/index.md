@@ -8,7 +8,7 @@ categories = ["Avaters"]
 comments = false
 +++
 ## トップビジュアル
-<img src="">
+![幽霊のプラチナちゃんです。](VRChat_2025-09-09_20-59-23.557_2560x1440.webp)
 
 ## 基本情報
 - アバター名
@@ -41,6 +41,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 
 ## 衣装
 - Default
+<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300>
 - [浴衣](https://8-dori.booth.pm/items/4872298)<br>
 <img src="VRChat_2025-05-30_00-30-42.898_1440x2560.webp" width=300>
 
@@ -126,8 +127,10 @@ https://booth.pm/ja/items/4864776
 <img src="./VRChat_2025-02-24_14-23-15.740_2160x3840.webp" width=500><br>
 <img src="./VRChat_2025-05-21_01-22-45.244_2560x1440.webp" width=500>
 <img src="./VRChat_2025-06-14_00-02-58.252_1440x2560.webp" width=500><br>
+<img src="./VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=500><br>
 
 ## 更新日
 2025/09/12   アウトライン製作<br>
 2025/09/13   写真追加<br>
 2025/09/23   Q&A追加<br>
+2025/10/06   写真追加及びトップ画像変更<br>

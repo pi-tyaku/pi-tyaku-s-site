@@ -51,7 +51,7 @@ https://franada.booth.pm/items/3290806
 ## 改変・独自要素
 - 頭が取れます。
   - こんな感じに<br>
-<img src="./platnium_head_detachable_demo.gif" alt="首を取るgifです。地味に画質が悪いのは内緒" width=400><br>
+<img src="./platnium_head_detachable_demo.gif" alt="首を取るgifです" width=400><br>
   - 頭を右手で取り、ワールド固定が出来ます。
   - 更に、ワールド固定した頭は他人が持つことも出来ます。
 
@@ -63,16 +63,16 @@ https://franada.booth.pm/items/3290806
 ## 衣装
 "*"が付いている服は特殊機能付きです。
 1. デフォルト
-<img src="./Default.webp" alt="aaaa" widhth=300>
+![デフォルトの服です。一番軽くて扱いやすい。スカートの判定以外は。](Default.webp)
 
 2. Lustorus
-<img src="./Lustorus.webp" widhth=300>
+![フォーマルでショタっぽい服です。男の娘?それとも?](Lustorus.webp)
 
 3. ESCAPE PLAN *
-<img src="./Escape_plan.webp" widhth=300>   
+![病院服です。実際に入院中に逃げ出すと滅茶苦茶面倒なことになるらしい。](Escape_plan.webp)   
   
-4. Jito Kyon   *
-<img src="./jito_kyon.webp" widhth=300>
+1. Jito Kyon   *
+![キョンシーの服です。地味にゾンビテクスチャしかない服です。](jito_kyon.webp)
 
 ## 小ネタ
 - 本気で頭を持って何処かに行かれると面倒です。
@@ -123,3 +123,4 @@ https://franada.booth.pm/items/3290806
 
 ## 更新日
 2025/10/03  アウトライン製作
+2025/10/06  写真追加及び公開
