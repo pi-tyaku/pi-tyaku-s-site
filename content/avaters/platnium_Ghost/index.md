@@ -29,6 +29,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 ## 全身資料・3面図
 ### 全身資料
 <img src="./Front.webp" width=600>
+
 ### 3面図
 <img src="./3way.webp" width=600>
 
@@ -41,7 +42,8 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 
 ## 衣装
 - Default
-<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300>
+<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300><br>
+
 - [浴衣](https://8-dori.booth.pm/items/4872298)<br>
 <img src="VRChat_2025-05-30_00-30-42.898_1440x2560.webp" width=300>
 
@@ -118,6 +120,7 @@ https://booth.pm/ja/items/4864776
   - A.取れません。
   - この子を元ネタにしてくれた人の改変と被ります。
   - <img src="./Under_chan.webp" width=500><br>[Underさん](https://x.com/under_vrchat)<br>
+
 - Q.3次創作していい?
   - A.ご自由にどうぞ!歓迎しています!
   - このページを参考にしても構いません。
