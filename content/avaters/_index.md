@@ -1,4 +1,6 @@
 ---
+title: Avaters
+description: "VRChatで使用しているアバターの一覧"  
 menu:
     main:
         name: Home

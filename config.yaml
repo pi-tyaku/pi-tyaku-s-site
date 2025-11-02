@@ -180,6 +180,12 @@ menu:
       weight: 8
       params:
         icon: "circle-user-regular-full"
+    - name: "Fanart & Commission"
+      pageRef: "/page/commission_FA"
+      weight: 9
+      params:
+        icon: "user-tie-solid-full"
+      
     - name: "Projects"
       pageRef: "/projects"
       weight: 11
@@ -189,7 +195,7 @@ menu:
       pageRef: "/avaters"
       weight: 12
       params:
-        icon:  "user"
+        icon: "user"
 
     social:
         - identifier: github
