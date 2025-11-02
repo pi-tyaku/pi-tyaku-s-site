@@ -29,7 +29,7 @@ params:
 
     sidebar:
         emoji: 🤔
-        subtitle: 適当な事を書いたり真面目に解説したりしてます。最近ドメインを購入しました。
+        subtitle: 技術的なことや、そうでもないことを気楽に書いています。
         avatar:
             enabled: true
             local: true

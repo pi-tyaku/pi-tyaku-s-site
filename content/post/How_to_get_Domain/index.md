@@ -76,3 +76,7 @@ pi-tyaku.site.pages.devをpi-tyaku.comに変更するようにしました。ス
 ルール名とリダイレクトリストを選択して保存します。<br>
 ![alt text](Redirect_Rule_setting.webp)<br>
 コレで元のドメインにアクセスした際に、HTTPステータスコードの301番を返しながら今のドメインに移動するようになります。<br>
+
+## まとめ
+今回はCloudFlare Rehgisterを利用したドメイン名の取得方法とCloudFlare Pagesなどに適用する方法をまとめました。
+この記事を通じてドメイン取得の手助けにして欲しいです。
