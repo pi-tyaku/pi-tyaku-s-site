@@ -1,6 +1,6 @@
 +++
 date = '2025-10-09T21:44:13+09:00'
-draft = true
+draft = false
 title = 'Fanart & Commission'
 description = "これまでにいただいたファンアートや、依頼して制作していただいたコミッション作品をまとめたページです。"
 slug = 'Fanart_and_Commission'
@@ -12,7 +12,7 @@ comments = true
 本ページでは、頂いたFanArtやskeb,Pixivリクエスト等のコミッション、私自身が参加した作品を纏めたページです。
 前半にFanArt、後半にコミッションを纏めます。
 
-## 📜 クレジット / Credit & 注意事項
+## クレジット / Credit & 注意事項
 
 - 掲載しているすべての作品の著作権は、各作者に帰属します。  
 - 無断転載・二次利用はご遠慮ください。  
@@ -59,11 +59,6 @@ DMに直接投稿されたため、省略
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">skeb納品いたしました～！ご依頼いただきありがとうございました！ <a href="https://t.co/nQe0scApeS">pic.twitter.com/nQe0scApeS</a></p>&mdash; 熱い抱擁 棍棒痕 パム (@TKGTABEYO_) <a href="https://twitter.com/TKGTABEYO_/status/1872615504411807897?ref_src=twsrc%5Etfw">December 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-
-
-    
-## collaborative work
 
 ## ✉️ Special Thanks
 
