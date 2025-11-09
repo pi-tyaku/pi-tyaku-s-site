@@ -41,7 +41,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 <img src="./Emotion_Lhand.webp" width=800>
 
 ## 衣装
-- Default
+- Default  
 <img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300><br>
 
 - [浴衣](https://8-dori.booth.pm/items/4872298)<br>
