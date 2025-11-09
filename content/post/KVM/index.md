@@ -10,7 +10,7 @@ comments = true
 ## 初めに
 どうも、pi-tyakuです。久しぶりにPCを開けてNanoKVMをPC内に導入し、NanoKVMにZerotier Oneをインストールしました。<br>
 導入に結構時間がかかり、KVM内のOSの仕様の癖も強く、かなり苦労しました。<br>
-なので、次の使用者の為に、これらのやり方を残しておこうと思います。
+なので、次の使用者の為に、これらのやり方を残します。
 ## 導入理由
 元々[この動画](https://www.youtube.com/watch?v=5p9bfWYjdgE&t=298s&pp=ygUDS1ZN0gcJCbIJAYcqIYzv)を見て興味を持って購入していました。しかし、PCの管理には、Raspberry piを用いたIoTサーバを利用しているため導入する決断を果たせませんでした。<br>
 しかし、あるタイミングでIoTサーバが止まり、SSHも出来ない状態に陥ってしまいました。<br>
@@ -23,18 +23,19 @@ Aliexpressで購入したNano KVM PCie を利用しました。wifi無しのモ�
 初めに、KVMのピンと、PCケースの電源ボタンなどを管理するピン、マザーボードの電源などのピンを繋ぎます。<br>
 次に、KVMをPCieに刺します。<br>
 KVMのHDMI端子とPCのHDMI端子を繋ぎ、KVMのUSB-HUD端子とPCのUSBポートを繋ぎます。また、LANケーブルをKVMのLAN端子に繋ぎます。<br>
-ここまでで問題がなければ、PCの元電源をONにするとKVMが起動します。また、PCの電源ボタンを押すとPCが起動します。<br>
+ここまでで問題がなければ、PCの元電源をONにするとKVMが起動します。そして、PCの電源ボタンを押すとPCが起動します。<br>
+ここで起動しなければ、何かしらの配線ミスが有ります。  
 詳しい説明は公式ページの[クイックガイド](https://wiki.sipeed.com/hardware/en/kvm/NanoKVM_PCIe/quick_start.html)を参考にしてください。
 ## 接続編
 KVMを起動させるとIPアドレスがKVMのディスプレイに表示されます。若しくはルータの設定画面からKVMのIPアドレスを確認します。
 ブラウザのURL欄にKVMのIPアドレスを入力してKVMにアクセスします。
 パスワードとユーザ名を聞かれます。初めは。両方ともadminで通ります。
-そうするとKVMのメイン画面に入ります。ここからPCの操作を行います。
+そうするとKVMのメイン画面に入ります。ここからPCの操作をします。
 次に、パスワードとユーザ名を変えます。
-コレで、ローカルネットワーク内でKVMに接続できるようになりました。
+コレで、ローカルネットワーク内でKVMに接続できました。
 
 ## VPN編
-KVMを外部からアクセスする際にVPNを利用することが多いと思います。デフォルトでTailScaleに対応しているので、TailScaleを利用している方はそのままログインしてください。
+KVMを外部からアクセスする際にVPNを利用することが多いです。NanoKVMは、デフォルトでTailScaleに対応しているので、TailScaleを利用している方はそのままログインしてください。
 しかし、今回はメインで使っているZerotierOneを利用します。
 [ココ](https://github.com/sipeed/NanoKVM/issues/79)と[ココ](https://github.com/Msprg/nanoKVM-ZeroTier-one)を参考にして導入します。
 KVMにSSHするかブラウザからKVMのシェルを起動します。

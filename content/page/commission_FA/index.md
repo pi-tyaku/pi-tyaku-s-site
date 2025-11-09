@@ -34,7 +34,7 @@ comments = true
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">FA <a href="https://t.co/XQfgaFt6Up">https://t.co/XQfgaFt6Up</a> <a href="https://t.co/vmKJQ8Nxen">pic.twitter.com/vmKJQ8Nxen</a></p>&mdash; Shaa (@VRC_Shaa) <a href="https://twitter.com/VRC_Shaa/status/1964648002922201567?ref_src=twsrc%5Etfw">September 7, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 - [さばてんさん](https://x.com/sabazeon)
-DMに直接投稿されたため、省略
+DMに直接投稿されたため、省略。
 
 
 ### Others
