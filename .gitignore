@@ -1,5 +1,6 @@
 # Generated files by hugo
 /public/
 /node_modules/
+/.cache/
 *.json
 *.py
