@@ -92,6 +92,6 @@ textlintを導入した環境で文章を書くと、コーディングをして
 ぜひプログラミングをした事がない人も、した事がある人もtextlintを導入して文字を書きましょう。
 pi-tyakuでした。
 ## 参考サイト
-[文章校正を行うためのtextlint入門](https://ics.media/entry/220404/)
-[textlint と VS Code で始める文章校正](https://qiita.com/takasp/items/22f7f72b691fda30aea2)
-[textlint official logo](https://github.com/textlint/media)
+[文章校正を行うためのtextlint入門](https://ics.media/entry/220404/)  
+[textlint と VS Code で始める文章校正](https://qiita.com/takasp/items/22f7f72b691fda30aea2)  
+[textlint official logo](https://github.com/textlint/media)  
