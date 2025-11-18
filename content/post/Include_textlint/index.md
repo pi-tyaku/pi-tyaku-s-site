@@ -1,3 +1,4 @@
+<!-- textlint-disable prh -->
 +++
 date = '2025-11-09T17:53:43+09:00'
 draft = false
@@ -7,6 +8,7 @@ tags = ["Tech"]
 categories = ["Tech"]
 comments = true
 +++
+<!-- textlint-disable prh -->
 ## はじめに
 こんにちは、pi-tyakuです。遂に、このWebページの開発環境にtextlintを導入しました。  
 なので導入方法と環境構築の方法を纏めていきます。
@@ -41,7 +43,7 @@ $ npm install --save-dev textlint-rule-preset-ja-technical-writing
 ```
 $ npm install --save-dev textlint-rule-preset-jtf-style
 ```
-さて、先ほど実行したコマンドによって`.textlintsrc.json`が作成されました。このファイルはtextlintの設定を書き込むためのファイルです。このファイルに使いたい校正ルールを書き込んでいきます。(無しでもできなくはないですが、textlintが使いづらくなります。)  
+さて、先ほど実行したコマンドによって`.textlintsrc.json`が作成されました。このファイルはtextlintの設定を書き込むためのファイルです。このファイルに使いたい校正ルールを書き込んでいきます。(無しでもできなくはないですが、textlintが使いづらくなります)  
 というわけで`.textlintsrc.json`を書き換えていきます。
 ```.textlintsrc.json
 {
@@ -81,11 +83,74 @@ VSCodeの拡張機能欄に"textlint"と入力して出てきた、textlint拡�
 プロジェクト内の適当なmarkdownファイルでもtxtファイルでも開いて見てください。
 ![真っ赤っか](image-2.webp)  
 文章ファイルがプログラミング中、あんまり見たくない画面になっていれば成功です。
-なってなかったら適当に変な文章(例:同じ助詞を何度も使った文、"だ、である調"と"ですます調"が混ざった文など。)を入力して、保存してみてください。赤い波線が付きます。
+なってなかったら適当に変な文章(例:同じ助詞を何度も使った文、"だ、である調"と"ですます調"が混ざった文など)を入力して、保存してみてください。赤い波線が付きます。
 この部分がtextlintで挙げられているエラーメッセージです。他のプログラミング言語のようにエラーの部分がハイライトされます。  
 あくまでも、textlintで挙げられているエラーは、致命的な文法ミスから文章表現の1つまでも内包している事を忘れてはいけません。  
-文章制作はコーディングとは違うので、これらのエラーメッセージを無視可能です。
+文章制作はコーディングとは違うので、これらのエラーメッセージを無視可能です。 
 まぁ殆どの場合は、無視しないで推敲した方が良い文章になりますが。
+## Hugoでの使い方
+今までの内容でVScode上で**通常のmarkdown,txtファイル**の構文チェックが出来るようになりました。  
+しかしながら、hugoのmarkdownにはヘッダーがあります。
+```header.md
++++
+date = '{{ .Date }}'
+draft = true
+title = ''
+slug = '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags = \[]
+categories = \[]
+comments = true
++++
+```
+このヘッダーがtextlintでエラーを吐かせる原因になっています。構文エラーではないですし。  
+このエラーを無視するのも1つの手ですが、どうせならtextlinkの機能を利用し、エラーメッセージを無視しましょう。
+初めに、textlintにコメントアウトを実装するパッケージをインストールします。
+```
+$ npm install textlint-filter-rule-comments 
+```  
+パッケージをインストールした後、`textlintsrc`に「パッケージを有効化する」記述をします。
+注意点として、このパッケージは、filterなので`textlintsrc`のfilter内に記述する必要があります。
+```textlintsrc.json
+{
+  "plugins": {},
+  "filters": {
+    "textlint-filter-rule-comments ": true
+  },
+   "rules": {
+        "preset-ja-technical-writing": true,
+        "preset-jtf-style": true
+    }
+}
+```
+とりあえずコレでフィルターパッケージを導入、有効化が出来ました。  
+エラーを無視するためには、こんな文章を本文内に追加すれば良くなります。
+```
+<!-- textlint-disable prh -->
+<!-- textlint-disable prh -->
+```
+この文章に囲まれた部分がエラーを無視する範囲になります。さながらC言語の/**/みたいな感じです。
+先ほどのヘッダーをこいつで囲えば、ヘッダー部分でエラーが出なくなります。
+ついでに、Hugoで新しいページを作った際に、ヘッダーがコメントアウトされているようにプリセットを変えてしまいましょう。
+何事も手を動かす回数は減らしたいものなので。  
+Hugoプロジェクト内のarchetypes内のdefault.mdを書き換えます。
+```default.md
+<!-- textlint-disable prh -->
+
++++
+date = '{{ .Date }}'
+draft = true
+title = ''
+slug = '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags = \[]
+categories = \[]
+comments = true
++++
+
+<!-- textlint-disable prh -->
+
+```
+こうすればHugoのページ追加をした際に、コメントアウトが自動で挿入されるようになります。
+
 ## まとめ
 今回は自然言語校正ツールのtextlintの導入方法をまとめました。  
 textlintを導入した環境で文章を書くと、コーディングをしていないのにエラー取りを行っている気分になるのでお勧めです。  
