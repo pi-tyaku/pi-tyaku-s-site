@@ -1,5 +1,3 @@
-<!-- textlint-disable prh -->
-
 +++
 date = '{{ .Date }}'
 draft = true
@@ -9,6 +7,3 @@ tags = \[]
 categories = \[]
 comments = true
 +++
-
-<!-- textlint-disable prh -->
-
