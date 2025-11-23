@@ -191,9 +191,14 @@ menu:
       weight: 11
       params:
         icon: "prompt"
+    - name: "Photo"
+      pageRef: "/photo"
+      weight: 12
+      params:
+        icon: "camera"    
     - name: "Avaters"
       pageRef: "/avaters"
-      weight: 12
+      weight: 13
       params:
         icon: "user"
 
