@@ -1,6 +1,6 @@
 +++
 date = '2025-11-26T20:23:17+09:00'
-draft = true
+draft = false
 title = 'Instax mini liplayを買った話'
 slug = 'Buy_instax_liplay'
 tags = ["photo","雑記"]
