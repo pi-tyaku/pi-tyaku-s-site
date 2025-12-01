@@ -1,18 +1,23 @@
 ---
 title: Links
 links:
-  - title: GitHub
-    description: プログラム管理用に使いたい気がする。
-    website: https://github.com/pi-tyaku
-    image: ./github-brands-solid-full.svg
   - title: Twitter(現X)
     description: 現状は写真投稿用に使っている。
     website: https://x.com/4KpB5_u_44dyr2b
     image: ./twitter-brands-solid-full.svg
+  - title: GitHub
+    description: プログラム管理用に使いたい気がする。
+    website: https://github.com/pi-tyaku
+    image: ./github-brands-solid-full.svg
   - title: Instagram
     description: ほぼ動いてない。
     website: https://www.instagram.com/pi_tyaku/
     image: ./instagram-brands.svg
+  - title: BlueSky
+    description: ほぼ監視用?
+    website: https://bsky.app/profile/pi-tyaku.bsky.social
+    image: ./Bluesky_Logo.svg
+
   - title: Note
     description: このサイトが完成したらあんまり動かないかも。
     website: https://note.com/pi_tyaku8788
