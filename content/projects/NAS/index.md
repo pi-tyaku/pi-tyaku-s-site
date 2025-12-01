@@ -28,7 +28,7 @@ HDD(1),(2)はRaid1を組み、SSD(Nvme)のバックアップを行う。
 相変わらずZeroTierOneを利用する。
 ## 使用方法
 1. ローカルネットワーク若しくはVPN環境に接続する。
-2. 固定されている IPアドレス or ドメイン名をエクスプローラーの所に叩く(\\xxx.xxx.xxx.xxx) (\\Example.com)
+2. 固定されているIPアドレス or ドメイン名をエクスプローラーの所に叩く(\\xxx.xxx.xxx.xxx) (\\Example.com)
 3. 決めておいたユーザでログインする。
 4. Enjoy!
 
