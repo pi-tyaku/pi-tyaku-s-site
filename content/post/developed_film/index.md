@@ -1,6 +1,6 @@
 +++
 date = '2025-12-29T18:28:55+09:00'
-draft = true
+draft = false
 title = 'フィルムの現像体験をした話'
 slug = 'Developed_film'
 tags = ["雑記","photo"]
