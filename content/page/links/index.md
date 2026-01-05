@@ -9,6 +9,10 @@ links:
     description: プログラム管理用に使いたい気がする。
     website: https://github.com/pi-tyaku
     image: ./github-brands-solid-full.svg
+  - title: Misskey.nili.ra
+    description: ioより動いているかも...?
+    website: https://misskey.niri.la/@pi_tyaku
+    image: https://assets.misskey-hub.net/public/icon.png
   - title: Instagram
     description: ほぼ動いてない。
     website: https://www.instagram.com/pi_tyaku/
