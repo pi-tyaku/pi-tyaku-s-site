@@ -1,7 +1,7 @@
 +++
 date = '2026-01-17T14:02:59+09:00'
 draft = false
-title = 'ろくろ首のプラチナちゃん'
+title = 'ろくろ首のプラチナちゃんの資料'
 slug = 'Platnium_Rokuro Kubi'
 tags = ["Avaters"]
 categories = ["Avaters"]
