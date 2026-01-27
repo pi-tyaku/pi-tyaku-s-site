@@ -6,6 +6,7 @@ slug = 'About_of_Platnium_Ghost'
 tags = ["Avaters"]
 categories = ["Avaters"]
 comments = false
+image = "VRChat_2025-05-21_01-22-45.244_2560x1440.webp"
 +++
 ## トップビジュアル
 !["何処から来たのかは覚えてないんですよね。"](VRChat_2025-09-09_20-59-23.557_2560x1440.webp)

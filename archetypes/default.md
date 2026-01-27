@@ -5,5 +5,6 @@ title = ''
 slug = '{{ replace .File.ContentBaseName "-" " " | title }}'
 tags = []
 categories = []
+image = ''
 comments = true
 +++

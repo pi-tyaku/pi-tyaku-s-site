@@ -6,6 +6,7 @@ slug = 'FilmCam'
 tags = ["Photo"]
 categories = ["Photo"]
 comments = true
+image = "kesiki_hachi.webp"
 +++
 ## はじめに
 本ページは、私自身がフィルムカメラを用いて撮影した写真をまとめるページです。  

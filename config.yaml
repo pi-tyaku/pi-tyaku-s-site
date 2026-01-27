@@ -1,5 +1,6 @@
 baseURL: https://pi-tyaku.com
 
+
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 languageCode: ja
@@ -15,6 +16,8 @@ permalinks:
 params:
     mainSections:
         - post
+    author:
+        name: tyaku
     featuredImageField: image
     rssFullContent: true
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)

@@ -6,6 +6,7 @@ slug = 'Platnium_dullahan'
 tags = []
 categories = []
 comments = false
+image = "Default.webp"
 +++
 ## トップビジュアル
 !["地味に足が有るんですよ。"](VRChat_2025-10-04_23-24-15.180_3840x2160.webp)
