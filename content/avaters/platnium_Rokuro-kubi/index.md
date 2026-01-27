@@ -1,6 +1,6 @@
 +++
 date = '2026-01-17T14:02:59+09:00'
-draft = true
+draft = false
 title = 'ろくろ首のプラチナちゃん'
 slug = 'Platnium_Rokuro Kubi'
 tags = ["Avaters"]
@@ -47,13 +47,19 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
   - 2度ある事は3度あるので。
   - 今更人間形態で遊んでも競合が多いのでね。
 - Q.何故ろくろ首をチョイスしたのか?
-  - A.先駆者が居たのと、妖怪をモチーフにするのが面白そうだったから
+  - A.先駆者が居たのと、妖怪をモチーフにするのが面白そうだったから。
   - [幽霊](/page/content/avaters/platnium_Ghost/index.md)(汎用的な人外)->[デュラハン](/page/content/avaters/platnium_dullahan/index.md)(海外の妖精)という風になっています。
   - インパクトが有って、かつ立ち位置が被りづらいろくろ首をチョイスしたって訳です。
   - 幽霊->抜け首≒デュラハン->ろくろ首なので見ようによっては妖怪ばっかりになっています。
 - Q.参考にした改変は?
-  - A.[itomaki](https://x.com/whitephileo)さんのろくろ首改変です。
-  - ![参考写真]()
+  - A.[itomaki](https://x.com/whitephileo)さんのろくろ首改変です。  
+{{< ref
+  src="https://eypwelquzxnbmxkqrehf.supabase.co/storage/v1/object/public/images/optimized/kaihen-jp/2e4798e566e0aa5605d4433053eff043.webp"
+  alt="Itomakiさんの改変"
+  width="50%"
+  align="center"
+  caption="https://www.kaihen.jp/posts/1764489434303.8x9891965886"
+>}}
   - この改変が非常に良くて良くて...というわけで作ってみたという所存です。
 - Q.ギミックとかを教えて!
   - A.明確に使用したギミック等はありません。
@@ -62,5 +68,8 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
   - 有ればどんなに良かったことか...
 
 ## ギャラリー
-
+![](G-7azSXXwAALHzD.webp)
+![](G-jmOcKbUAEa_2l.webp)
+![](G-o3cjMbQAIhPAz.webp)
 ## 更新日
+2026/01/27:初版作成

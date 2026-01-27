@@ -17,3 +17,34 @@
 .btn-twitter { background-color: #1DA1F2; }
 .btn-facebook { background-color: #1877F2; }
 .btn-line { background-color: #00C300; }
+.refimg {
+  margin: 1.5rem auto;
+}
+
+.refimg img {
+  display: block;
+}
+
+/* 位置指定 */
+.refimg-left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.refimg-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.refimg-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* キャプション */
+.refimg figcaption {
+  font-size: 0.85em;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}

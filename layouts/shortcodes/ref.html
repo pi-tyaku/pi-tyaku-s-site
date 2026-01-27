@@ -1,0 +1,15 @@
+<figure class="refimg refimg-{{ .Get "align" | default "center" }}"
+        style="
+          {{ with .Get "width" }}max-width: {{ . }};{{ end }}
+          {{ with .Get "height" }}height: {{ . }};{{ end }}
+        ">
+  <img
+    src="{{ .Get "src" }}"
+    alt="{{ .Get "alt" }}"
+    style="width: 100%; height: auto;"
+    loading="lazy"
+  >
+  {{ with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
