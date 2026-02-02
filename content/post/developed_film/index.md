@@ -6,6 +6,7 @@ slug = 'Developed_film'
 tags = ["雑記","photo"]
 categories = ["雑記","photo"]
 comments = true
+image = "film.webp"
 +++
 ## はじめに
 こんにちは、pi-tyakuです。寒さが厳しく、真冬の足音がどんどん近づいているのを感じる季節になってきました。  

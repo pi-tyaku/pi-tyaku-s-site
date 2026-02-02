@@ -120,7 +120,10 @@ https://booth.pm/ja/items/4864776
 - Q.首は取れないんですか?
   - A.取れません。
   - この子を元ネタにしてくれた人の改変と被ります。
-  - <img src="./Under_chan.webp" width=500><br>[Underさん](https://x.com/under_vrchat)<br>
+  - <img src="./Under_chan.webp" width=500><br>[Underさん](https://x.com/under_vrchat)  
+- Q.首は伸びないんですか?
+  - A.伸びません。
+  - [ろくろ首](/content/avaters/platnium_Rokuro-kubi/index.md)じゃあるまいし。
 
 - Q.3次創作していい?
   - A.ご自由にどうぞ!歓迎しています!

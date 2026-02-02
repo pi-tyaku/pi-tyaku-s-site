@@ -6,6 +6,7 @@ slug = 'Made_new_namecard'
 tags = ["雑記","Tech"]
 categories = ["雑記","Tech"]
 comments = true
+image = "meisi.webp"
 +++
 ## 初めに
 こんにちは、pi-tyakuです。<br>

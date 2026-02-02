@@ -6,6 +6,7 @@ slug = 'How_to_get_Domain'
 tags = ["Tech"]
 categories = ["Tech"]
 comments = true
+image = "CF_logo_stacked_blktype.webp"
 +++
 ## 初めに
 今回はCloudFlare Registerを利用して独自ドメインを取得し、CloudFlare Pagesを独自ドメイン対応にする方法をまとめます。

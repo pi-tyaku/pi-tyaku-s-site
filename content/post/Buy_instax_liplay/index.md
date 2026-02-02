@@ -5,6 +5,7 @@ title = 'Instax mini liplayを買った話'
 slug = 'Buy_instax_liplay'
 tags = ["photo","雑記"]
 categories = ["photo","雑記"]
+image = "1764134051245.webp"
 comments = true
 +++
 ## はじめに

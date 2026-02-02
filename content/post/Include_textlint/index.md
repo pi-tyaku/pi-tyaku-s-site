@@ -6,6 +6,7 @@ slug = 'Include_textlint'
 tags = ["Tech"]
 categories = ["Tech"]
 comments = true
+image = "image-3.webp"
 +++
 
 ## はじめに
