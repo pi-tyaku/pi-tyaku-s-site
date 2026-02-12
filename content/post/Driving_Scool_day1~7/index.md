@@ -1,12 +1,12 @@
 +++
 date = '2026-02-04T22:03:53+09:00'
-draft = true
+draft = false
 title = '教習所に行った話 day1~7'
 slug = 'Driving_Scool_day1~7'
 tags = ["雑記"]
 categories = ["雑記"]
 image = ''
-comments = true
+comments = false
 +++
 ## はじめに
 どうも、pi-tyakuです。[前回](/content/post/Driving_Scool_day0/index.md)から引き続き、自動車学校に行くことになりました。取り敢えず1~7日目の感想ややったことを纏められる状況になったので、纏めていこうと思います。
