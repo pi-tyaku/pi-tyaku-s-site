@@ -1,12 +1,12 @@
 +++
 date = '2026-02-04T22:04:00+09:00'
-draft = true
+draft = false
 title = '教習所に行った話 day7~day14'
 slug = 'Driving_Scool_day7~14'
 tags = ["雑記"]
 categories = ["雑記"]
 image = ''
-comments = true
+comments = false
 +++
 ## はじめに
 [前回](/content/post/Driving_Scool_day1~7/index.md)に引き続き、免許を取っています。修了検定までも厳しかったが、これ以上の辛さと面白さを含む後半編となります。
