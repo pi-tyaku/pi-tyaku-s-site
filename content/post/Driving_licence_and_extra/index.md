@@ -1,6 +1,6 @@
 +++
 date = '2026-03-01T19:41:46+09:00'
-draft = true
+draft = false
 title = '教習所に行った話 免許取得編'
 slug = 'Driving_licence_and_extra'
 tags = ["雑記"]
