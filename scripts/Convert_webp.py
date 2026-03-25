@@ -19,11 +19,11 @@ def convert_images_to_webp(target_dir, quality=80, remove_original=False):
                 continue
 
             cmd = [
-                "cwebp",
-                "-q", str(quality),
-                input_path,
-                "-o", output_path
-            ]
+                    r"C:\Program Files\WebP\bin\cwebp.exe",
+                    "-q", str(quality),
+                    input_path,
+                    "-o", output_path
+                ]
 
             print(f"Converting: {input_path} -> {output_path}")
             subprocess.run(cmd, check=True)
