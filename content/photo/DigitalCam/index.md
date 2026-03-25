@@ -23,9 +23,11 @@ comments = true
 レンズ交換不可。
 ## 使用レンズ
 ### OLYMPUS M.ZUIKO DIGITAL 14-25mm 1:3.5-5.6
+![Pen E-PL2に付けた状態](IMG_20260307_160539549.webp)  
 カメラについていたレンズです。ぶっ壊れて焦点距離が35mm以上に出来なくなりました。  
 AF可。
 ### NIKKOR-S Auto 1:1.2 f=55mm
+![Pen E-PL2に付けた状態](IMG_20260318_105901169.webp)  
 [フィルムカメラ](https://pi-tyaku.com/photo/filmcam/)のNikomat FT-nについていたレンズです。  
 Nikon　Fマウントからマイクロフォーサーズマウントに変換して使っています。なので実質的な焦点距離は110mmです。ちなみにf値は1.2~16まで使えます。  
 MFのみ。
