@@ -2,6 +2,7 @@ import re
 from pathlib import Path
 from sys import argv
 from os import path
+import Convert_webp
 # 対象拡張子
 EXTENSIONS = (".jpg", ".jpeg", ".png", ".JPG")
 
@@ -46,6 +47,7 @@ def main():
     if not path.isdir(TARGET_DIR):
         print(f"ERROR {TARGET_DIR} can not found!")
     else:
+        Convert_webp.convert_images_to_webp(TARGET_DIR,80,True)
         TARGET_DIR=Path(TARGET_DIR)
         for md_file in TARGET_DIR.rglob("*.md"):
             process_file(md_file)
