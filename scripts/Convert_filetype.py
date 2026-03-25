@@ -51,11 +51,9 @@ def main():
         print(f"ERROR {TARGET_DIR} can not found!")
     else:
         print("Starting Convert webp...")
-        sleep(1)
         Convert_webp.convert_images_to_webp(TARGET_DIR,80,True)
         print("done!")
         print("Starting markdowns filename...")
-        sleep(1)
         TARGET_DIR=Path(TARGET_DIR)
         for md_file in TARGET_DIR.rglob("*.md"):
             process_file(md_file)
