@@ -2,6 +2,7 @@ import re
 from pathlib import Path
 from sys import argv
 from os import path
+from time import sleep
 import Convert_webp
 # 対象拡張子
 EXTENSIONS = (".jpg", ".jpeg", ".png", ".JPG")
@@ -41,16 +42,24 @@ def process_file(file_path: Path):
 
 
 def main():
+    print("Processing...")
+    sleep(1)
     args=argv
     TARGET_DIR=args[1]
     print(TARGET_DIR)
     if not path.isdir(TARGET_DIR):
         print(f"ERROR {TARGET_DIR} can not found!")
     else:
+        print("Starting Convert webp...")
+        sleep(1)
         Convert_webp.convert_images_to_webp(TARGET_DIR,80,True)
+        print("done!")
+        print("Starting markdowns filename...")
+        sleep(1)
         TARGET_DIR=Path(TARGET_DIR)
         for md_file in TARGET_DIR.rglob("*.md"):
             process_file(md_file)
+        print("done!")
 
 
 if __name__ == "__main__":
