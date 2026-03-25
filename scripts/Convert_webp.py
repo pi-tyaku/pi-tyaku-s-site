@@ -3,6 +3,7 @@ import sys
 import subprocess
 import glob
 import argparse
+import shutil
 
 def convert_images_to_webp(target_dir, quality=80, remove_original=False):
     # 対象の拡張子
@@ -18,12 +19,17 @@ def convert_images_to_webp(target_dir, quality=80, remove_original=False):
                 print(f" {output_path} は既に存在します。スキップします。")
                 continue
 
+            cwebp_path = shutil.which("cwebp")
+
+            if not cwebp_path:
+                raise RuntimeError("cwebp not found")
+
             cmd = [
-                    r"C:\Program Files\WebP\bin\cwebp.exe",
-                    "-q", str(quality),
-                    input_path,
-                    "-o", output_path
-                ]
+                cwebp_path,
+                "-q", str(quality),
+                input_path,
+                "-o", output_path
+            ]
 
             print(f"Converting: {input_path} -> {output_path}")
             subprocess.run(cmd, check=True)
