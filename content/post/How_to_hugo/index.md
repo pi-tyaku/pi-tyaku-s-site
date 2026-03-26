@@ -1,5 +1,5 @@
 +++
-date = "2025-08-12T12:30:48+09:00"
+date = "2026-03-26T12:30:48+09:00"
 draft = false
 title = "Hugoの使い方"
 slug = 'How_To_Use_Hugo'
@@ -10,7 +10,7 @@ comments = true
 
 ## 初めに
 とりあえずHugoのコマンドを良く忘れるので、練習がてら使い方を記述してみる。
-## このページの記述方法
+### このページの記述方法
 基本的にこのページでは、windowsを利用して開発しているユーザを対象とする。
 ```shell
 $ "Command name" 
@@ -39,26 +39,31 @@ Folder/
 ## Webページの作り方
 このコマンドで作れる。
 ```shell
- hugo new page "Pagename"
+ hugo new site "Pagename"
 ```
+コレで何もないページが作成される。
+
 
 ## gitの導入
 テーマの追加や、アップロード時に**git**を使う事が多いので簡単な導入方法を記す。<br>
-gitは各自exeファイルをダウンロードして実行するか、次のwingetコマンドを利用してインストールするかどちらかを実行する。
+gitはexeファイルをダウンロードして実行、またはwingetコマンドを扱ってインストールの2種類の方法が有る。  
+本記事ではwingetコマンドを利用してインストールする。
+次にインストールコマンドを記す。  
 ```shell
 $ winget install Git.git
 ```
-git導入が完了したら、Hugoのサイトのルートディレクトリでこのコマンドを実行してgitを導入する。
+git導入が完了したら、先ほどコマンドを実行したディレクトリでgitを導入する。
 ```shell
 $ git init
 ```
+コレでgitを導入することが出来た。
 ## テーマの導入方法
-テーマの導入には、gitのsubmoduleツールを利用する。<br>
-gitのsubmoduleは、感覚的には、他言語のimport文が近い。
+テーマの導入には、gitのsubmoduleツールを利用する。  
+gitのsubmoduleは、感覚的には、他言語のimport文が近い。  
 ```shell
 $ git submodule add "theme URL" themes/"Theme Name"
 ```
-こうすることによって./themes内にテーマが追加される。
+こうすることによって`./themes`内にテーマが追加される。
 このままだと、テーマを追加しただけになるので、設定ファイルを書き換える。<br>
 ページのルートにある**Hugo.toml**が設定ファイルなので、コレに以下を追加する。
 ```toml
@@ -66,53 +71,44 @@ theme = "Your Theme name"
 ```
 こうするとテーマが変更される。
 
-## テーマの注意点
-git submoduleで追加されたファイルは、GitHubにアップロードされた際、元のリポジトリのファイルに書き換えられる。<br>
-そのため基本的に./themes以下のディレクトリにファイルを追加したり、設定ファイルを書き換えるようなことをしてはいけない。<br>
-どうしても設定の書き換えやファイルの追加をする場合は、ルート内のテーマ内のディレクトリ名と同じディレクトリにファイルを追加する。
-簡単に言うと、
-```shell
-./themes/"your theme"/assets/img
-```
-にファイルを追加する場合は、
-```shell
-./assets/img
-```
-にファイルを追加する。
+### テーマの注意点
+git submoduleで追加されたファイルは、GitHubにアップロードされた際、元のリポジトリのファイルに書き換えられる。  
+そのため、基本的に`./themes`以下のディレクトリにファイルを追加したり、設定ファイルを書き換えるようなことをしてはいけない。  
+どうしても設定の書き換えやファイルの追加をする場合は、ルート内のテーマ内のディレクトリ名と同じディレクトリにファイルを追加する。  
+例として、`./themes/"your theme"/assets/img`にファイルを追加する場合は、`./assets/img`にファイルを追加する。
 
 ## テンプレートを用いたコンテンツの追加
 
 ページは/hugo/contents/postsに保存するものとする。
+また、コマンドはプロジェクトのルートディレクトリで実行しているものとする。
 ```shell
-`$ hugo new /hugo/contents/posts/"your contents name"/index.md`
+$ hugo new ./contents/posts/"your contents name"/index.md
 ```
-でOK
-こうする理由としては、Hugoには**Page Bangle**という物が存在するため、それに合わせたファイル構造をした方が都合がよいからである。
+このコマンドを実行すると、`/contents/posts/`以下に`"your contents name"/index.md`というディレクトリとmarkdownファイルが作成される。  
+記事を書く際はこのディレクトリ内のindex.mdに本文を書き、ディレクトリ内に画像ファイル等を設置する。  
+こうする理由としては、Hugoの**Page Bangle**という物の形にするためだ。
 
-## Page Bandleとは？
+### Page Bandleとは
 
 >Page Bandleは、コンテンツと関連リソースの両方をカプセル化するディレクトリです。
 > Hugoの公式リファレンスより
 
-Page Bandleはコンテンツを保存するディレクトリ配下以下に
-```shell
-./"Contents name"/index.md
-```
-のように保存されているページのこと。
+Page Bandleはコンテンツを保存するディレクトリ配下以下に`./"Contents name"/index.md`のように保存されているページのこと。
 
 ```shell
 post/
 ├── Hoge
 │   ├── index.md
-│   └── welcome.jpg
+│   └── hogehoge.jpg
 ├── fuga
 │   └── index.md
-└── piyo.md
+├── piyo.md
+└── fugafuga.jpg
 ```
-このファイル構造になっている場合、HogeディレクトリとfugaディレクトリがPage Bandleとして扱われる。piyo.mdはPage Bandleとして見なされない。<br>
+このファイル構造になっている場合、HogeディレクトリとfugaディレクトリがPage Bandleとして扱われる。piyo.mdはPage Bandleとして見なされない。  
 また、Page Bandle内に画像ファイル等を保存しても問題無いが、Page Bandle内のディレクトリに保存しないと、Page Bandleとして見なされない。
-
-## Page Bandleにするメリット
+この場合だと、Hogeディレクトリ内の`HogeHoge.jpg`はHogeのページバンドルとして扱われる。また、どのディレクトリにも属していない`FugaFuga.jpg`はページバンドルとして扱われない。
+### Page Bandleにするメリット
 色々なページをPage Bandleの形式で保存すると次のようなメリットが有る。
 
 - ファイルの整理になる。
@@ -124,13 +120,52 @@ post/
 
 のようにかなり大きなメリットがあるため、ページは基本的にPage Bandle形式で保存すると後々が楽になる。
 
+## Markdownファイル内の設定
+```shell
+$ hugo new ./contents/posts/"your contents name"/index.md
+```  
+このコマンドを用いて制作したmarkdownファイルの先頭にこういった設定部分が記述されている。
+```markdown
++++
+date = "2025-08-12T12:30:48+09:00"
+draft = false
+title = ""
+slug = ''
+tags = ["Tech"]
+categories = ["Tech"]
+comments = true
+image = ""
++++
+```
+コレを解説していく。
+これら1つ1つの意味は次の通り。
+- date        :記事の制作した日を表す。コマンド実行時に記入される
+- draft       :下書きファイルかどうかを表す。trueなら下書き、falseなら公開のようになる。デフォルトではtrue
+- title       :記事のタイトルを表す
+- slug        :記事のURLを表す。デフォルトではファイル名
+- tags        :記事のタグ付けを表す
+- categories  :記事のカテゴリー付けを表す
+- comments    :コメントの可否を表す。デフォルトではfalse。また、設定ファイルでコメント機能をONにしないと使用不可
+- image       :記事のトップに表示する画像を指定する
+
+記事を公開する際は`draft`をfalse、`title`を記入しておこう。
+
+## デフォルトMarkdownファイルの書き換え
+先ほど、このコマンドを用いてmarkdownファイルを作成した。  
+```shell
+$ hugo new ./contents/posts/"your contents name"/index.md
+```
+このコマンドは`/archetypes/default.md`を参考にしてファイルを作成する。  
+そのため、「一部の設定をコマンド実行時に設定したい」または「記事を書く際の大枠を設定したい」場合はこのmarkdownファイルを書き換える。  
+筆者は、このファイルに`image`と`comments`の設定を追加している。
 
 ## ローカルサーバでのデバッグ
 サイトを追加し、デバッグを行う際は、次のコマンドを実行する。
 ```shell
 $ hugo server -D
 ```
-"http://localhost:1313"にサーバが立つ。
+`http://localhost:1313`にサーバが立つ。
+この場合、markdown内の`draft`値がfalseの場合でもローカルサーバでは表示される。
 
 ## GitHubへのアップロード(Push)
 CloudflarePagesやGitHubPagesにアップロードする際には必ずGitHubのリポジトリにプッシュする必要がある。<br>
@@ -149,5 +184,9 @@ git commit -m "Messeage"
 ```shell
 git push origin main
 ```
-今のコマンドは、ローカルのmainブランチのコミットをリモートのmainブランチに適用するコマンドである。<br>
+今のコマンドは、ローカルのmainブランチのコミットをリモートのmainブランチに適用するコマンドだ。  
 これで問題が無ければ、ページが追加される。
+
+## 編集履歴
+2025/08/12 初版作成  
+2026/03/25 一部コマンドの修正及び機能の解説の追加
