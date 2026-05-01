@@ -47,33 +47,44 @@ image = "kesiki_hachi.webp"
 ![どこかの池です。](ike.webp)
 ![風鈴です。](fuurin.webp)  
 #### 5th Roll Kodak Color Plus ISO200
-![どぶ板通りです。](dobuita.jpg)
-![どぶ板通りの店です。](dobuita_shop.jpg)  
-![どぶ板通りの店です。](dobuita_shop2.jpg)
-![戦艦三坂です。](mikasa_deck.jpg)  
-![机です。](desk.jpg)
-![戦艦の舵です。](handle.jpg)  
-![誰かの銅像です。](mikasa_1.jpg)
-![誰かの銅像です。](mikasa_2.jpg)  
-![Vket?](UDX.jpg)
-![Dr Pepper](jihanki_yori.jpg)  
-![コメダ珈琲だ!](komeda.jpg)  
+![どぶ板通りです。](dobuita.webp)
+![どぶ板通りの店です。](dobuita_shop.webp)  
+![どぶ板通りの店です。](dobuita_shop2.webp)
+![戦艦三坂です。](mikasa_deck.webp)  
+![机です。](desk.webp)
+![戦艦の舵です。](handle.webp)  
+![誰かの銅像です。](mikasa_1.webp)
+![誰かの銅像です。](mikasa_2.webp)  
+![Vket?](UDX.webp)
+![Dr Pepper](jihanki_yori.webp)  
+![コメダ珈琲だ!](komeda.webp)  
 #### 6th Roll Kodak Color Plus ISO200
-![バスタ新宿です。](shinjuku.jpg)
-![新潟の景色です。](nigata.jpg)  
-![標識です。](warn_fumikiri.jpg)
-![AEONです。](AEON.jpg)  
-![新潟の景色です。](nigata_2.jpg)
-![自販機です。](jihanki.jpg)  
-![Hard OffとBook Offだ!](HardOff.jpg)
-![酷い道です。](Path.jpg)  
-![電柱です。](dentyu.jpg)  
+![バスタ新宿です。](shinjuku.webp)
+![新潟の景色です。](nigata.webp)  
+![標識です。](warn_fumikiri.webp)
+![AEONです。](AEON.webp)  
+![新潟の景色です。](nigata_2.webp)
+![自販機です。](jihanki.webp)  
+![Hard OffとBook Offだ!](HardOff.webp)
+![酷い道です。](Path.webp)  
+![電柱です。](dentyu.webp)  
+
+#### 7th Roll Fujifilm ISO 400
 
 ### Nikomat FTn
 #### 1st Roll Fujifilm ISO 400
 ![遊具です。](Object_M.webp)
 ![切り株です。](Ueki_M.webp)
-
+#### 2nd Roll LomoChrome Metropolis 35mm ISO 100–400
+![どこかで起こっている仕事](23580008.webp)
+![ただの風景とも言える](23580009.webp)  
+![ヤマダ電機か...](23580011.webp)
+![洗濯物だってエモくなる](23580012.webp)  
+![命が芽吹く](23580013.webp)
+![カランって知ってる?](23580014.webp)  
+![桜より早いよね](23580017.webp)
+![と思ったら桜だ](23580022.webp)  
+![昼間なのに...](23580032.webp)
 ## 終わりに
 **フィルムカメラって難しい!**  
 **でも面白い!**
