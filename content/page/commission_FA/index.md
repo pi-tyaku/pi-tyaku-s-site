@@ -42,6 +42,7 @@ DMに直接投稿されたため、省略。
 - 作者不明
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ある人からFAを貰ったので <a href="https://t.co/TboQWna4rm">pic.twitter.com/TboQWna4rm</a></p>&mdash; tyakuma (@4KpB5_u_44dyr2b) <a href="https://twitter.com/4KpB5_u_44dyr2b/status/2027598104602808413?ref_src=twsrc%5Etfw">February 28, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
 ### Others
 - [ヤンキモさん](https://x.com/yankeemotor)
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これは曲の間の休憩中まさに聖人の面持ちでようじょに食べられてたyurumeさん<br>1食で2500kcalあるらしい…<br>せっかく運動したのにﾔﾊﾞｲｯ!!<a href="https://twitter.com/hashtag/%E3%82%88%E3%81%86%E3%81%98%E3%82%87%E3%81%9F%E3%81%84%E3%81%9D%E3%81%86%E3%81%8F%E3%82%89%E3%81%B6?src=hash&amp;ref_src=twsrc%5Etfw">#ようじょたいそうくらぶ</a> <a href="https://t.co/uXPU0yVIWH">pic.twitter.com/uXPU0yVIWH</a></p>&mdash; ヤンキモ (@yankeemotor) <a href="https://twitter.com/yankeemotor/status/1666808329967112192?ref_src=twsrc%5Etfw">June 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
