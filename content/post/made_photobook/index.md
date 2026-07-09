@@ -3,8 +3,8 @@ date = '2025-12-22T15:22:26+09:00'
 draft = false
 title = '2025年後期のフォトブックを作った話'
 slug = 'Made_photobook'
-tags = ["Photo"]
-categories = ["Photo"]
+tags = ["Photo","photobook"]
+categories = ["Photo","photobook"]
 comments = true
 +++
 
