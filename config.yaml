@@ -183,7 +183,7 @@ menu:
       weight: 8
       params:
         icon: "circle-user-regular-full"
-    - name: "Fanart & Commission"
+    - name: "FA & comm"
       pageRef: "/page/commission_FA"
       weight: 9
       params:

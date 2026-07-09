@@ -4,7 +4,7 @@ import subprocess
 import glob
 import argparse
 
-def convert_images_to_webp(target_dir, quality=80, remove_original=False):
+def convert_images_to_webp(target_dir, quality=70, remove_original=False):
     # 対象の拡張子
     extensions = (".png", ".jpg", ".jpeg")
 
@@ -20,7 +20,11 @@ def convert_images_to_webp(target_dir, quality=80, remove_original=False):
 
             cmd = [
                 "cwebp",
+                "-resize", "2000", "0",
                 "-q", str(quality),
+                "-m", "6",
+                "-af",
+                "-metadata", "none",
                 input_path,
                 "-o", output_path
             ]
@@ -41,7 +45,7 @@ if __name__ == "__main__":
         description="指定フォルダ内の画像を WebP に変換するスクリプト"
     )
     parser.add_argument("path", help="対象フォルダ")
-    parser.add_argument("-q", "--quality", type=int, default=80, help="画質 (0-100, デフォルト: 80)")
+    parser.add_argument("-q", "--quality", type=int, default=70, help="画質 (0-100, デフォルト: 70)")
     parser.add_argument("-r", "--remove", action="store_true", help="変換後に元ファイルを削除する")
 
     args = parser.parse_args()
