@@ -67,6 +67,8 @@ DMに直接投稿されたため、省略。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">skeb納品いたしました～！ご依頼いただきありがとうございました！ <a href="https://t.co/nQe0scApeS">pic.twitter.com/nQe0scApeS</a></p>&mdash; 熱い抱擁 棍棒痕 パム (@TKGTABEYO_) <a href="https://twitter.com/TKGTABEYO_/status/1872615504411807897?ref_src=twsrc%5Etfw">December 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">tyakumaさん<a href="https://x.com/4KpB5_u_44dyr2b?ref_src=twsrc%5Etfw">@4KpB5_u_44dyr2b</a><br>からPixivリクエスト頂きました！<br>大変に感謝です😭<br>拙者もプラチナちゃんの首が欲しいでござる <a href="https://t.co/M7J0pGpGgS">pic.twitter.com/M7J0pGpGgS</a></p>&mdash; ヤンキモ (@yankeemotor) <a href="https://x.com/yankeemotor/status/1901949011961196737?ref_src=twsrc%5Etfw">March 18, 2025</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Skebのご依頼ありがとうございました！ <a href="https://t.co/uUVtuyZGJR">pic.twitter.com/uUVtuyZGJR</a></p>&mdash; 小菜加すいた@作業中 (@Suita_Onaka_929) <a href="https://x.com/Suita_Onaka_929/status/2076093946116399394?ref_src=twsrc%5Etfw">July 11, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">友人に書いてもらいました!<br>とても活発な感じがイイ!<br>本当にありがとうございました! <a href="https://t.co/p3Anre4ICO">pic.twitter.com/p3Anre4ICO</a></p>&mdash; tyakuma (@4KpB5_u_44dyr2b) <a href="https://twitter.com/4KpB5_u_44dyr2b/status/2051924316158378282?ref_src=twsrc%5Etfw">May 6, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

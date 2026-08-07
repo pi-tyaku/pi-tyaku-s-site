@@ -9,7 +9,7 @@ comments = false
 image = "VRChat_2025-05-21_01-22-45.244_2560x1440.webp"
 +++
 ## トップビジュアル
-!["何処から来たのかは覚えてないんですよね。"](VRChat_2025-09-09_20-59-23.557_2560x1440.webp)
+!["何処から来たのかは覚えてないんですよね。"](VRChat_2025-09-09_20-59-23.557_2560x1440.webp)  
 
 ## 基本情報
 - アバター名
@@ -43,44 +43,47 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 
 ## 衣装
 - Default  
-<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300><br>
+<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300>  
 
-- [浴衣](https://8-dori.booth.pm/items/4872298)<br>
+- [浴衣(Monotone)](https://8-dori.booth.pm/items/4872298)  
 <img src="VRChat_2025-05-30_00-30-42.898_1440x2560.webp" width=300>
 
-- [スーツ](https://rihyaco.booth.pm/items/5018741)<br>
+- [スーツ](https://rihyaco.booth.pm/items/5018741)  
 <img src="Suits1.webp" width=500>
 
-- [Hail_Cloth](https://poy.booth.pm/items/5207755)<br>
+- [Hail_Cloth](https://poy.booth.pm/items/5207755)  
 <img src="Hail_cloth.webp" width=300>
 
-- [大学生コーデ](https://asarichan.booth.pm/items/4133041)<br>
+- [大学生コーデ](https://asarichan.booth.pm/items/4133041)  
 <img src="Univ_style.webp" width=300>
 
-- [ワンピース](https://booth.pm/ja/items/4060991)<br>
+- [ワンピース](https://booth.pm/ja/items/4060991)  
 <img src="./Onepiece.webp" width=300>
 
-- 透過ver<br>
+- [ワンピース](https://poppo-shop.booth.pm/items/8689336)  
+<img src="./P-store.png" width=300>
+
+- 透過ver  
 <img src='./transp.webp' width=300>
 
 ## アクセサリー
-- 鬼火<br>
+- 鬼火  
 https://amakusa-shop.booth.pm/items/5010477
-- 天冠(頭の三角巾みたいなやつ)<br>
+- 天冠(頭の三角巾みたいなやつ)  
 https://shagunacazanera.booth.pm/items/4979968
-- 目隠し<br>
+- 目隠し  
 https://booth.pm/ja/items/5997446
-- ポラロイドカメラ<br>
+- ポラロイドカメラ  
 https://photoboio.gumroad.com/l/rgiyyl?layout=profile&recommended_by=library
 
 ## ツール・シェーダー
-- ポーズ固定<br>
+- ポーズ固定  
 https://zerofactory.booth.pm/items/5989814
-- 影<br>
+- 影  
 https://booth.pm/ja/items/5135844
-- 透過表現用シェーダ<br>
+- 透過表現用シェーダ  
 https://github.com/whiteflare/Unlit_WF_ShaderSuite
-- アバターの明るさ調整<br>
+- アバターの明るさ調整  
 https://booth.pm/ja/items/4864776
 ## 改変・独自要素
 - 下半身を消して幽霊の足を着けています。
@@ -92,19 +95,19 @@ https://booth.pm/ja/items/4864776
   
 
 ## 小ネタ
-- 3点専用アバターです。フルトラ適正は全く無いです。<br>
-3点でプレイしている際に足が邪魔なのでちょうど良い足?を実装しました。<br>
-- ラジオで紹介されたことが有ります<br>
-[ココ](https://note.com/yuteru_write_sth/n/n36adc9b4cd4d)に話した事が乗ってます。<br>
-- カメラギミックで視界ジャック出来ます。<br>
-仕様です。意図的ではないです。たまに初心者案内に付いていくと視界ジャックの例として使わされるパターンが有ります。<br>
-初心者を案内する人曰く「比較的安全な視界ジャックだから」と。<br>
+- 3点専用アバターです。フルトラ適正は全く無いです。  
+3点でプレイしている際に足が邪魔なのでちょうど良い足?を実装しました。  
+- ラジオで紹介されたことが有ります  
+[ココ](https://note.com/yuteru_write_sth/n/n36adc9b4cd4d)に話した事が乗ってます。  
+- カメラギミックで視界ジャック出来ます。  
+仕様です。意図的ではないです。たまに初心者案内に付いていくと視界ジャックの例として使わされるパターンが有ります。  
+初心者を案内する人曰く「比較的安全な視界ジャックだから」と。  
 
 
 ## Q&A
 - Q.何で揺れ物が掴めないんですか?
   - A.幽霊なので揺れ物系は掴めないようになっています。
-  - 掴めるとこうなります。<br>
+  - 掴めるとこうなります。  
 <img src="VRChat_2023-11-09_23-19-41.037_2560x1440.webp" width=300>
 
 - Q.水着とかの際どい改変は無いんですか?
@@ -120,7 +123,7 @@ https://booth.pm/ja/items/4864776
 - Q.首は取れないんですか?
   - A.取れません。
   - この子を元ネタにしてくれた人の改変と被ります。
-  - <img src="./Under_chan.webp" width=500><br>[Underさん](https://x.com/under_vrchat)  
+  - <img src="./Under_chan.webp" width=500>  [Underさん](https://x.com/under_vrchat)  
 - Q.首は伸びないんですか?
   - A.伸びません。
   - [ろくろ首](/content/avaters/platnium_Rokuro-kubi/index.md)じゃあるまいし。
@@ -131,13 +134,13 @@ https://booth.pm/ja/items/4864776
 
 ## ギャラリー
 <img src="./VRChat_2025-01-25_18-07-37.138_2160x3840.webp" width=500>
-<img src="./VRChat_2025-02-24_14-23-15.740_2160x3840.webp" width=500><br>
+<img src="./VRChat_2025-02-24_14-23-15.740_2160x3840.webp" width=500>  
 <img src="./VRChat_2025-05-21_01-22-45.244_2560x1440.webp" width=500>
-<img src="./VRChat_2025-06-14_00-02-58.252_1440x2560.webp" width=500><br>
-<img src="./VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=500><br>
+<img src="./VRChat_2025-06-14_00-02-58.252_1440x2560.webp" width=500>  
+<img src="./VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=500>  
 
 ## 更新日
-2025/09/12   アウトライン製作<br>
-2025/09/13   写真追加<br>
-2025/09/23   Q&A追加<br>
-2025/10/06   写真追加及びトップ画像変更<br>
+2025/09/12   アウトライン製作  
+2025/09/13   写真追加  
+2025/09/23   Q&A追加  
+2025/10/06   写真追加及びトップ画像変更  
