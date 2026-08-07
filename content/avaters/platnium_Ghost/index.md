@@ -61,7 +61,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 <img src="./Onepiece.webp" width=300>
 
 - [ワンピース](https://poppo-shop.booth.pm/items/8689336)  
-<img src="./P-store.png" width=300>
+<img src="./P-store.webp" width=300>
 
 - 透過ver  
 <img src='./transp.webp' width=300>
