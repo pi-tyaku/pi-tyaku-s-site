@@ -42,28 +42,28 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 <img src="./Emotion_Lhand.webp" width=800>
 
 ## 衣装
-- Default  
-<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=300>  
+### Default  
+<img src="VRChat_2025-10-05_01-39-42.836_3840x2160.webp" alt="いつもの姿。<br> a" width=300>  
 
-- [浴衣(Monotone)](https://8-dori.booth.pm/items/4872298)  
+## [浴衣(Monotone)](https://8-dori.booth.pm/items/4872298)  
 <img src="VRChat_2025-05-30_00-30-42.898_1440x2560.webp" width=300>
 
-- [スーツ](https://rihyaco.booth.pm/items/5018741)  
+## [スーツ](https://rihyaco.booth.pm/items/5018741)  
 <img src="Suits1.webp" width=500>
 
-- [Hail_Cloth](https://poy.booth.pm/items/5207755)  
+## [Hail_Cloth](https://poy.booth.pm/items/5207755)  
 <img src="Hail_cloth.webp" width=300>
 
-- [大学生コーデ](https://asarichan.booth.pm/items/4133041)  
+## [大学生コーデ](https://asarichan.booth.pm/items/4133041)  
 <img src="Univ_style.webp" width=300>
 
-- [ワンピース](https://booth.pm/ja/items/4060991)  
+## [ワンピース](https://booth.pm/ja/items/4060991)  
 <img src="./Onepiece.webp" width=300>
 
-- [ワンピース](https://poppo-shop.booth.pm/items/8689336)  
+## [浴衣(P-store)](https://poppo-shop.booth.pm/items/8689336)  
 <img src="./P-store.webp" width=300>
 
-- 透過ver  
+## 透過ver  
 <img src='./transp.webp' width=300>
 
 ## アクセサリー

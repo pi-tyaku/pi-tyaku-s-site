@@ -66,23 +66,23 @@ https://zerofactory.booth.pm/items/5989814
   - [幽霊](/content/avaters/platnium_Ghost/index.md)や[ろくろ首](/content/avaters/platnium_Rokuro-kubi/index.md)のような感じで撮影出来ます。
 ## 衣装
 "*"が付いている服は特殊機能付きです。
-1. デフォルト  
-![デフォルトの服です。一番軽くて扱いやすい。スカートの判定以外は。](Default.webp)    
+### デフォルト  
+![デフォルトの服です。一番軽くて扱いやすい。スカートの判定以外は。&#10;"..."](Default.webp)    
 
 
-2. Lustorus  
-![フォーマルでショタっぽい服です。男の娘?それとも?](Lustorus.webp)   
+### Lustorus  
+![フォーマルでショタっぽい服です。男の娘?それとも?&#10;"どっちでもいいでしょ..."](Lustorus.webp)   
 
 
-3. ESCAPE PLAN *  
-![病院服です。入院中に逃げ出すと滅茶苦茶面倒なことになるらしい。](Escape_plan.webp)  
+### ESCAPE PLAN *  
+![病院服です。入院中に逃げ出すと滅茶苦茶面倒なことになるらしい。&#10;"ココから逃げないと..."](Escape_plan.webp)  
 
 
-4. Jito Kyon   *  
-![キョンシーの服です。地味にゾンビテクスチャしかない服です。](jito_kyon.webp)  
+### Jito Kyon   *  
+![キョンシーの服です。地味にゾンビテクスチャしかない服です。&#10;"ワタシ、ワルイキョンシーじゃないヨ!"](jito_kyon.webp)  
 
-5. 浴衣(P-Store)
-![遂に夏の装いが登場。"抜け首じゃないですよ。"](yukata.webp)
+### 浴衣(P-Store)
+![遂に夏の装いが登場。幽霊たちの専売特許じゃなくなりました。&#10;"夏だ!やったー！"](yukata.webp)
 
 
 ## 小ネタ
