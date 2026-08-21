@@ -77,6 +77,9 @@ DMに直接投稿されたため、省略。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今回もtyakumaさん<a href="https://twitter.com/4KpB5_u_44dyr2b?ref_src=twsrc%5Etfw">@4KpB5_u_44dyr2b</a> からご依頼を頂きましたありがとうございます🙏<br>ちゃくさんの新作プラチナちゃんはろくろ首<br>怒らせたら間合いの外からかわいい顔の激重ヘッドバットが飛んでくるんだろうか…<a href="https://twitter.com/hashtag/VRC%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88?src=hash&amp;ref_src=twsrc%5Etfw">#VRCイラスト</a><a href="https://twitter.com/hashtag/%E3%83%97%E3%83%A9%E3%83%81%E3%83%8A?src=hash&amp;ref_src=twsrc%5Etfw">#プラチナ</a> <a href="https://t.co/e8TWwJLJOm">pic.twitter.com/e8TWwJLJOm</a></p>&mdash; ヤンキモ (@yankeemotor) <a href="https://twitter.com/yankeemotor/status/2031332338555334966?ref_src=twsrc%5Etfw">March 10, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">つなぐにてご依頼いただきました。ありがとうございました！ <a href="https://t.co/hjbUW4N9z1">pic.twitter.com/hjbUW4N9z1</a></p>&mdash; 小菜加すいた@作業中 (@Suita_Onaka_929) <a href="https://x.com/Suita_Onaka_929/status/2071593716717179187?ref_src=twsrc%5Etfw">June 29, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あんだVRCさんにろくろ首のプラチナちゃんを書いてもらいました！<br>やはりあんださんの絵は良い...非常に可愛くて素晴らしいです！<br>本当にありがとうございます！ <a href="https://t.co/spyFcUbXrA">pic.twitter.com/spyFcUbXrA</a></p>&mdash; tyakuma (@4KpB5_u_44dyr2b) <a href="https://x.com/4KpB5_u_44dyr2b/status/2089189997614420436?ref_src=twsrc%5Etfw">August 17, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+
 ##  Special Thanks
 これまでに関わってくださったすべてのクリエイター・ファンの皆さまへ。  
 あなたたちのおかげで、このページが存在します。  
