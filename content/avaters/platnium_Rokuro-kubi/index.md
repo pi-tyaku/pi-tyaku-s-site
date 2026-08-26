@@ -32,7 +32,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 ![首パターン2の3面図](3way_2nd.webp)
 ## 表情集
 ![右手及び通常の表情です](Right_hand.webp)  
-![左手の表情です](Left_hand.webp)
+![左手の表情です](Left_hand.webp)  
 ![特殊表情です。](ExEmotion.webp)
 
 ## 服装

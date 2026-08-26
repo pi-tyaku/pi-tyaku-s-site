@@ -30,7 +30,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 ![やっぱりのっぺらぼうだった...](3way_without_headgurard.webp)
 ## 表情集
 ![表情...?](Emotions.webp)  
-![コレ表情扱いで良いのかしら...?](Extra_Emotions.webp)
+![コレ表情扱いで良いのかしら...?](Extra_Emotions.webp)  
 ![コレは表情...?](ExEmotion.webp)  
 
 ## ツール
