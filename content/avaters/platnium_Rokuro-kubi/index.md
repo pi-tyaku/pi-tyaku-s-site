@@ -33,7 +33,7 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 ## 表情集
 ![右手及び通常の表情です](Right_hand.webp)  
 ![左手の表情です](Left_hand.webp)
-![特殊表情です。](ExEmotion.png)
+![特殊表情です。](ExEmotion.webp)
 
 ## 服装
 ### 浴衣(MonoTone)
