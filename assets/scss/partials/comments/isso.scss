@@ -208,3 +208,48 @@
     color: var(--body-text-color);
 }
 
+/* ========================================
+ * Isso form inputs
+ * ======================================== */
+
+.isso #isso-postbox-author,
+.isso #isso-postbox-website,
+.isso #isso-postbox-email {
+    color: var(--body-text-color) !important;
+    background-color: var(--body-background) !important;
+    border-color: var(--accent-color-darker) !important;
+}
+
+.isso #isso-postbox-author::placeholder,
+.isso #isso-postbox-website::placeholder,
+.isso #isso-postbox-email::placeholder {
+    color: var(--body-text-color) !important;
+    opacity: 0.6;
+}
+
+.isso #isso-postbox-author:focus,
+.isso #isso-postbox-website:focus,
+.isso #isso-postbox-email:focus {
+    color: var(--body-text-color) !important;
+    background-color: var(--body-background) !important;
+    border-color: var(--accent-color) !important;
+}
+
+
+/* ========================================
+ * Isso buttons
+ * ======================================== */
+
+.isso input[type="submit"],
+.isso input[type="button"] {
+    color: var(--accent-color-text) !important;
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+.isso input[type="submit"]:hover,
+.isso input[type="button"]:hover {
+    color: var(--accent-color-text) !important;
+    background-color: var(--accent-color-darker) !important;
+    border-color: var(--accent-color-darker) !important;
+}
