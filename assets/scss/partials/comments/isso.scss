@@ -1,0 +1,210 @@
+/*
+ * Isso comments
+ * Stack theme integration
+ *
+ * Colors follow Stack's CSS variables,
+ * so Isso automatically follows light/dark mode.
+ */
+
+
+/* ========================================
+ * Base
+ * ======================================== */
+
+.isso {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Links
+ * ======================================== */
+
+.isso a {
+    color: var(--accent-color);
+}
+
+.isso a:hover {
+    color: var(--accent-color-darker);
+}
+
+
+/* ========================================
+ * Thread heading
+ * ======================================== */
+
+.isso-thread-heading {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Comment
+ * ======================================== */
+
+.isso-comment {
+    color: var(--body-text-color);
+}
+
+.isso-comment-header {
+    color: var(--body-text-color);
+}
+
+.isso-comment-footer {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Author
+ * ======================================== */
+
+.isso-author {
+    color: var(--accent-color);
+}
+
+
+/* ========================================
+ * Comment text
+ * ======================================== */
+
+.isso-text {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Reply / Follow-up
+ * ======================================== */
+
+.isso-reply,
+.isso-follow-up {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Post box
+ * ======================================== */
+
+.isso-postbox,
+.isso-form-wrapper {
+    color: var(--body-text-color);
+}
+
+.isso-input-wrapper {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Textarea
+ * ======================================== */
+
+.isso-textarea {
+    color: var(--body-text-color);
+    background-color: var(--body-background);
+    border-color: var(--accent-color-darker);
+}
+
+.isso-textarea::placeholder {
+    color: var(--body-text-color);
+    opacity: 0.6;
+}
+
+.isso-textarea:focus {
+    border-color: var(--accent-color);
+    outline-color: var(--accent-color);
+}
+
+
+/* ========================================
+ * Preview
+ * ======================================== */
+
+.isso-preview {
+    color: var(--body-text-color);
+    background-color: var(--body-background);
+}
+
+
+/* ========================================
+ * Authentication section
+ * ======================================== */
+
+.isso-auth-section {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Notifications / notes
+ * ======================================== */
+
+.isso-notification-section,
+.isso-note {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Actions / voting
+ * ======================================== */
+
+.isso-post-action {
+    color: var(--body-text-color);
+}
+
+.isso-upvote,
+.isso-downvote,
+.isso-edit,
+.isso-delete,
+.isso-permalink {
+    color: var(--accent-color);
+}
+
+.isso-upvote:hover,
+.isso-downvote:hover,
+.isso-edit:hover,
+.isso-delete:hover,
+.isso-permalink:hover {
+    color: var(--accent-color-darker);
+}
+
+
+/* ========================================
+ * Votes
+ * ======================================== */
+
+.isso-votes {
+    color: var(--body-text-color);
+}
+
+
+/* ========================================
+ * Feed
+ * ======================================== */
+
+.isso-feedlink {
+    color: var(--accent-color);
+}
+
+
+/* ========================================
+ * Avatar
+ * ======================================== */
+
+.isso-avatar {
+    background-color: var(--body-background);
+}
+
+
+/* ========================================
+ * Loader / spacer
+ * ======================================== */
+
+.isso-comment-loader,
+.isso-spacer {
+    color: var(--body-text-color);
+}
+

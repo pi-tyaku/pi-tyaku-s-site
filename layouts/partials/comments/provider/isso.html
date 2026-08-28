@@ -5,3 +5,5 @@
 </script>
 
 <section id="isso-thread"></section>
+{{- $style := resources.Get "scss/partials/comments/isso.scss" | toCSS | minify -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
