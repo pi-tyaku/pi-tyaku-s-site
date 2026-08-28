@@ -22,6 +22,7 @@ comments = true
 ### オールメンバー
 - [🎋さん](https://x.com/sa___lasala/with_replies)
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">わかる～ <a href="https://t.co/XktG7oGW4y">pic.twitter.com/XktG7oGW4y</a></p>&mdash; 🎋 (@sa___lasala) <a href="https://x.com/sa___lasala/status/2093006119384055823?ref_src=twsrc%5Etfw">August 27, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
 ### 幽霊のプラチナちゃん
 - [HRNAさん](https://x.com/yura19350121)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cuddly Curse! <a href="https://t.co/tcr1amE5G3">pic.twitter.com/tcr1amE5G3</a></p>&mdash; HRNa (@yura19350121) <a href="https://twitter.com/yura19350121/status/1897405010146943160?ref_src=twsrc%5Etfw">March 5, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
