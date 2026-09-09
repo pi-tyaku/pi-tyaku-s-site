@@ -51,14 +51,14 @@ https://zerofactory.booth.pm/items/5989814
 顔が無いだけじゃ面白くないので、「[どっかのアバター](https://onlyone00001.booth.pm/items/8638536)みたく顔のパーツを取る」ではなく、ベール?に表情を出してます。  
 
 
-![こんな感じ](Facial.gif)  
+![こんな感じ](/avaters/platnium_noperabou/Facial.gif)  
 
 
 ベール?にはハンドサインによる表情と、a,i,u,e,oに対応した簡易的なLipsynkが付いてます。  
 ~~どっかのアバターとは違うのだよ!~~
 
 
-![喋るとこんな感じ](Lipsynk.gif)  
+![喋るとこんな感じ](/avaters/platnium_noperabou/Lipsynk.gif)  
 
 
 ベール?は取れます。だいたいデュラハンの頭と同じように扱えます。  
@@ -68,7 +68,8 @@ https://zerofactory.booth.pm/items/5989814
 「コレって表情?」って思いますが、一応青ざめとか頬染めが有るので表情です。
 
 
-![手に持ったり表情？を変えたり](OnHandAndFacial.gif)
+![手に持ったり表情？を変えたり](/avaters/platnium_noperabou/OnHandAndFacial.gif)  
+
 
 
 ベールをめくれるようにしました。コレで誰でものっぺらぼうとわかりますね。
@@ -78,7 +79,7 @@ https://zerofactory.booth.pm/items/5989814
 
 
 
-![こんな風に。](Mekuri.gif)
+![こんな風に。](/avaters/platnium_noperabou/Mekuri.gif)
 
 
 ## 衣装
