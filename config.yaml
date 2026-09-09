@@ -13,6 +13,14 @@ permalinks:
     post: /p/:slug/
     page: /:slug/
 
+markup:
+  goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+
 params:
     mainSections:
         - post
