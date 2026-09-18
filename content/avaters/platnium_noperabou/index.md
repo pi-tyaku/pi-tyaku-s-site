@@ -50,36 +50,40 @@ https://zerofactory.booth.pm/items/5989814
 
 顔が無いだけじゃ面白くないので、「[どっかのアバター](https://onlyone00001.booth.pm/items/8638536)みたく顔のパーツを取る」ではなく、ベール?に表情を出してます。  
 
+  
+
 
 ![こんな感じ](/avaters/platnium_noperabou/Facial.gif)  
 
 
-ベール?にはハンドサインによる表情と、a,i,u,e,oに対応した簡易的なLipsynkが付いてます。  
+ベール?にはハンドサインによる表情と、a,i,u,e,oに対応した簡易的なLipsynkが付いてます。
 ~~どっかのアバターとは違うのだよ!~~
 
 
-![喋るとこんな感じ](/avaters/platnium_noperabou/Lipsynk.gif)  
+![喋るとこんな感じ](/avaters/platnium_noperabou/Lipsynk.gif)
 
 
 ベール?は取れます。だいたいデュラハンの頭と同じように扱えます。  
 ```帽子ギミックなのに使ってるのが帽子以外なのは内緒で...```  
 声はベール?側ではなく、体側から出ます。ベール?側から出してほしい人がいればそうするかも?  
 のっぺらぼうで顔が無いですが、簡単な表情を付けました。(表情集内の3枚目写真より)  
-「コレって表情?」って思いますが、一応青ざめとか頬染めが有るので表情です。
+「コレって表情?」って思いますが、一応青ざめとか頬染めが有るので表情です。  
 
 
 ![手に持ったり表情？を変えたり](/avaters/platnium_noperabou/OnHandAndFacial.gif)  
 
 
 
-ベールをめくれるようにしました。コレで誰でものっぺらぼうとわかりますね。
+
+ベールをめくれるようにしました。コレで誰でものっぺらぼうとわかりますね。  
 
 
 ![自分でもめくれるのだ。](ForMekuri.webp)  
 
 
 
-![こんな風に。](/avaters/platnium_noperabou/Mekuri.gif)
+![こんな風に。](/avaters/platnium_noperabou/Mekuri.gif)  
+
 
 
 ## 衣装
