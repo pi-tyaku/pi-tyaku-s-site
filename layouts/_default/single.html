@@ -37,73 +37,173 @@
     {{ end }}
 
 
-<link rel="stylesheet" href="https://comments.pi-tyaku.com/css/isso.css">
-<div class="like-section" style="margin: 2rem 0; text-align: center;">
-  <button id="like-btn" onclick="sendLike()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
-    ❤️ いいね <span id="like-count">0</span>
-  </button>
-</div>
+<!-- いいねボタンとシェアボタンをまとめる親コンテナ -->
+    <div class="actions-container" style="
+      margin: 2rem 0; 
+      display: flex; 
+      gap: 0.5rem; 
+      justify-content: center; 
+      align-items: center;
+      flex-wrap: nowrap; 
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+    ">
+      <!-- いいねボタン -->
+      <button id="like-btn" onclick="sendLike()" style="
+        background-color: #ffffff;
+        border: 1px solid #e2e8f0;
+        color: #4a5568;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 9999px;
+        cursor: pointer;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        white-space: nowrap;
+        flex-shrink: 0;
+      " onmouseover="this.style.backgroundColor='#f7fafc'; this.style.borderColor='#cbd5e0';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.borderColor='#e2e8f0';">
+        <span style="color: #e53e3e; font-size: 1.1rem;">❤️</span>
+        <span>いいね</span>
+        <span id="like-count" style="background: #edf2f7; padding: 0.1rem 0.4rem; border-radius: 9999px; font-size: 0.8rem;">0</span>
+      </button>
 
-<script>
-  const issoHost = 'https://comments.pi-tyaku.com';
-  const issoUri = window.location.pathname + '#like';
+      <!-- シェアボタンたち（いいねボタンと完全同デザインに統一） -->
+      <a href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" style="
+        background-color: #3bc1ff;
+        border: 1px solid #83aff2;
+        color: #e1e1e1;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 9999px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+        flex: 1;
+        min-width: 0;
+        white-space: nowrap;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        " onmouseover="this.style.backgroundColor='#86d9ff';
+                    this.style.borderColor='#86d9ff';
+        " onmouseout="this.style.backgroundColor='#3bc1ff';
+                     this.style.borderColor='#83aff2';"
+        > 
+        <span>Twitter</span>
+      </a>
 
-  async function fetchLikes() {
-    try {
-      // count取得用API
-      const res = await fetch(`${issoHost}/count`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify([issoUri])
-      });
-      const data = await res.json();
-      const count = Array.isArray(data) ? data[0] : (data[0] || 0);
-      document.getElementById('like-count').textContent = count;
-    } catch (e) {
-      console.error('Failed to fetch likes', e);
-    }
-  }
+      <a href="https://misskey-hub.net/share/?text={{ .Title | urlquery }}%20{{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" style="
+        background-color: #8ABE09;
+        border: 1px solid #e2e8f0;
+        color: #fafafa;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 9999px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+        flex: 1;
+        min-width: 0;
+        white-space: nowrap;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        " onmouseover="this.style.backgroundColor='#A5D68D';
+                    this.style.borderColor='#e2e8f0';
+                    this.style.color='#fafafa';
+        " onmouseout="this.style.backgroundColor='#8ABE09';
+                     this.style.borderColor='#e2e8f0';
+                     this.style.color='#fafafa'"
+        >
+        <span>Misskey</span>
+      </a>
 
-  async function sendLike() {
-    const btn = document.getElementById('like-btn');
-    btn.disabled = true;
-
-    try {
-      // 正しい新規投稿エンドポイント: /new?uri=...
-      const res = await fetch(`${issoHost}/new?uri=${encodeURIComponent(issoUri)}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          text: '❤️ Like!',
-          author: 'Anonymous'
-        })
-      });
-
-      if (res.ok) {
-        fetchLikes();
-      } else {
-        alert('すでにいいね済みか、エラーが発生しました。');
-        btn.disabled = false;
-      }
-    } catch (e) {
-      console.error('Error sending like', e);
-      btn.disabled = false;
-    }
-  }
-
-  // ページ読み込み時に実行
-  fetchLikes();
-</script>
-    
-    <!-- ここからシェアボタン追加 -->
-    <div class="share-buttons" style="margin: 2rem 0;">
-      <a href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
-
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">Facebookでシェア</a>
-
-      <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-line">LINEでシェア</a>
+      <a href="https://bsky.app/intent/compose?text={{ .Title | urlquery }}%20{{ .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" style="
+        background-color: 	#1185FE;
+        border: 1px solid #83aff2;
+        color: #fafafa;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 9999px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+        flex: 1;
+        min-width: 0;
+        white-space: nowrap;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        " onmouseover="this.style.backgroundColor='#67adf9';
+                    this.style.borderColor='#83c2f2';
+        " onmouseout="this.style.backgroundColor='#1185FE';
+                     this.style.borderColor='#83aff2';"
+        >
+        <span>Bluesky</span>
+      </a>
     </div>
-    <!-- ここまで -->
+
+    <!-- いいね機能のスクリプト -->
+    <script>
+      const issoHost = 'https://comments.pi-tyaku.com';
+      const issoUri = window.location.pathname + '#like';
+
+      async function fetchLikes() {
+        try {
+          const res = await fetch(`${issoHost}/count`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify([issoUri])
+          });
+          const data = await res.json();
+          const count = Array.isArray(data) ? data[0] : (data[0] || 0);
+          document.getElementById('like-count').textContent = count;
+        } catch (e) {
+          console.error('Failed to fetch likes', e);
+        }
+      }
+
+      async function sendLike() {
+        const btn = document.getElementById('like-btn');
+        btn.disabled = true;
+
+        try {
+          const res = await fetch(`${issoHost}/new?uri=${encodeURIComponent(issoUri)}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              text: '❤️ Like!',
+              author: 'Anonymous'
+            })
+          });
+
+          if (res.ok) {
+            fetchLikes();
+            btn.style.borderColor = '#fc8181';
+          } else {
+            alert('すでにいいね済みか、エラーが発生しました。');
+            btn.disabled = false;
+          }
+        } catch (e) {
+          console.error('Error sending like', e);
+          btn.disabled = false;
+        }
+      }
+
+      fetchLikes();
+    </script>
 
     {{ partialCached "footer/footer" . }}
 
