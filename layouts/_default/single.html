@@ -36,6 +36,62 @@
         {{ partial "comments/include" . }}
     {{ end }}
 
+
+    <!-- いいねボタンのHTML -->
+<button id="like-btn" onclick="sendLike()">
+  ❤️ いいね <span id="like-count">0</span>
+</button>
+
+<script>
+  // 記事固有の識別子（Isso用）
+  const issoUri = window.location.pathname + '#like';
+  const issoHost = 'https://comments.pi-tyaku.com/';
+
+  // 1. 読み込み時に現在の「いいね数」を取得する
+  async function fetchLikes() {
+    try {
+      const res = awaitfetch(`${issoHost}/api/count?uri=${encodeURIComponent(issoUri)}`);
+      const data = await res.json();
+      // dataは配列や数値で返るため、カウント数を取得して表示
+      const count = Array.isArray(data) ? data[0] : (data[issoUri] || 0);
+      document.getElementById('like-count').textContent = count;
+    } catch (e) {
+      console.error('Failed to fetch likes', e);
+    }
+  }
+
+  // 2. ボタンを押したときにIssoへ「いいね」を送信する
+  async function sendLike() {
+    const btn = document.getElementById('like-btn');
+    btn.disabled = true;
+
+    try {
+      const res = await fetch(`${issoHost}/api/new?uri=${encodeURIComponent(issoUri)}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          text: '❤️ Like!', // Issoはテキストが必須のため固定文字を送る
+          author: 'Anonymous'
+        })
+      });
+
+      if (res.ok) {
+        // 送信成功したらカウントを再取得して更新
+        fetchLikes();
+      } else {
+        alert('すでにいいね済みか、エラーが発生しました。');
+        btn.disabled = false;
+      }
+    } catch (e) {
+      console.error('Error sending like', e);
+      btn.disabled = false;
+    }
+  }
+
+  // ページ読み込み時に実行
+  fetchLikes();
+</script>
+    
     <!-- ここからシェアボタン追加 -->
     <div class="share-buttons" style="margin: 2rem 0;">
       <a href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">Twitterでシェア</a>
