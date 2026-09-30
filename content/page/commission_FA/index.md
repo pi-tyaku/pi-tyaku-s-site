@@ -86,6 +86,8 @@ DMに直接投稿されたため、省略。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あんだVRCさんにろくろ首のプラチナちゃんを書いてもらいました！<br>やはりあんださんの絵は良い...非常に可愛くて素晴らしいです！<br>本当にありがとうございます！ <a href="https://t.co/spyFcUbXrA">pic.twitter.com/spyFcUbXrA</a></p>&mdash; tyakuma (@4KpB5_u_44dyr2b) <a href="https://x.com/4KpB5_u_44dyr2b/status/2089189997614420436?ref_src=twsrc%5Etfw">August 17, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
+### のっぺらぼうのプラチナちゃん
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">つなぐにてご依頼いただきました。ありがとうございました！<a href="https://x.com/hashtag/%E3%81%A4%E3%81%AA%E3%81%90?src=hash&amp;ref_src=twsrc%5Etfw">#つなぐ</a> <a href="https://t.co/SQd5mxkA5U">pic.twitter.com/SQd5mxkA5U</a></p>&mdash; 小菜加すいた@依頼募集中 (@Suita_Onaka_929) <a href="https://x.com/Suita_Onaka_929/status/2105278833025060926?ref_src=twsrc%5Etfw">September 30, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 ##  Special Thanks
 これまでに関わってくださったすべてのクリエイター・ファンの皆さまへ。  
