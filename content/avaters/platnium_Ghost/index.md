@@ -15,8 +15,8 @@ image = "VRChat_2025-05-21_01-22-45.244_2560x1440.webp"
 - アバター名
 Platnium Ghost
 - モデル出典／作者リンク
-  - 素体:https://mk22.booth.pm/items/3950859
-  - 足(?):https://shagunacazanera.booth.pm/items/4979968
+  - 素体:   https://mk22.booth.pm/items/3950859
+  - 足(?):  https://shagunacazanera.booth.pm/items/4979968
 - 対応（PC／Quest・パフォーマンスランク）
 PC:Poor~VeryPoor
 Quest(一部アバターのみ):VeryPoor
@@ -65,12 +65,15 @@ Skebなど依頼時の資料としての閲覧・参照は問題ありません�
 ### [浴衣(P-store)](https://poppo-shop.booth.pm/items/8689336)  
 <img src="./P-store.webp" width=300>
 
+### [スク水](https://booth.pm/ja/items/8516259)
+<img src="./VRChat_2026-09-27_23-36-29.481_3840x2160.webp" width=500>  
+
 ### 透過ver  
 <img src='./transp.webp' width=300>
 
 ## アクセサリー
 - 鬼火  
-https://amakusa-shop.booth.pm/items/5010477
+https://ohanayotugu.booth.pm/items/8322865
 - 天冠(頭の三角巾みたいなやつ)  
 https://shagunacazanera.booth.pm/items/4979968
 - 目隠し  
@@ -95,7 +98,7 @@ https://booth.pm/ja/items/4864776
 - 撮影用のツールを導入しています。
 - 透過の強さを5%,25%,50%,75%で選択できます。(透明版のみ)
 - 純正Platniumちゃんには存在しない、青ざめ表情を追加しました。
-  
+- 鬼火を追加しました。幽霊は青です。
 
 ## 小ネタ
 - 3点専用アバターです。フルトラ適正は全く無いです。  
@@ -114,10 +117,9 @@ https://booth.pm/ja/items/4864776
 <img src="VRChat_2023-11-09_23-19-41.037_2560x1440.webp" width=300>
 
 - Q.水着とかの際どい改変は無いんですか?
-  - A.ありません。
-  - アバターをぶった切っている都合上、服を着ないと繋ぎ目の処理が面倒だからです。
-  - Blenderを使えば良いのですが、工数に対するメリットが少ないです。
-  - 今後も、実装する気はありません。
+  - A.~~~ありません。~~~出来ました。
+  - スク水だけですが出来ました。
+  - もちふぃったーってすごい。
 - Q.和服を死装束のように着ないのですか?
   - A.着られません。
   - 販売されている和服で死装束になっていたら問題じゃないですか。
@@ -141,6 +143,7 @@ https://booth.pm/ja/items/4864776
 <img src="./VRChat_2025-05-21_01-22-45.244_2560x1440.webp" width=500>
 <img src="./VRChat_2025-06-14_00-02-58.252_1440x2560.webp" width=500>  
 <img src="./VRChat_2025-10-05_01-39-42.836_3840x2160.webp" width=500>  
+<img src="./VRChat_2026-10-08_01-04-58.908_3840x2160.webp" width=500>  
 
 ## 更新日
 2025/09/12   アウトライン製作  
@@ -148,3 +151,4 @@ https://booth.pm/ja/items/4864776
 2025/09/23   Q&A追加  
 2025/10/06   写真追加及びトップ画像変更  
 2026/08/26   特殊表情の追加
+2026/10/08   鬼火と衣装について追加
