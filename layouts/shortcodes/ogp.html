@@ -1,0 +1,108 @@
+<style>
+  .skeb-x-card {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    background: #ffffff;
+    border: 1px solid #cfd9de;
+    border-radius: 16px;
+    padding: 12px 16px 16px 16px;
+    max-width: 550px;
+    margin: 1.5rem 0;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    color: #0f1419;
+  }
+  
+  .skeb-x-card * {
+    font-family: inherit;
+  }
+
+  .skeb-x-card:hover {
+    background-color: #f7f9f9;
+  }
+
+  .skeb-x-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .skeb-x-badge {
+    background-color: #1d9bf0;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+
+  .skeb-x-creator {
+    font-weight: 700;
+    font-size: 14px;
+    color: #0f1419;
+  }
+
+  .skeb-x-title {
+    font-size: 14px;
+    color: #0f1419;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .skeb-x-image-container {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #cfd9de;
+    background: #f1f5f9;
+    max-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skeb-x-image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .skeb-x-footer {
+    font-size: 13px;
+    color: #536471;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
+
+{{ $url := .Get "url" }}
+{{ $image := .Get "image" }}
+{{ $title := .Get "title" }}
+{{ $creator := .Get "creator" }}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="skeb-x-card">
+  <div class="skeb-x-header">
+    <span class="skeb-x-badge">Skeb</span>
+    {{ if $creator }}<span class="skeb-x-creator">{{ $creator }} 先生より</span>{{ end }}
+  </div>
+  
+  {{ if $title }}
+  <div class="skeb-x-title">{{ $title }}</div>
+  {{ end }}
+
+  {{ if $image }}
+  <div class="skeb-x-image-container">
+    <img src="{{ $image }}" alt="{{ $title }}" loading="lazy" />
+  </div>
+  {{ end }}
+
+  <div class="skeb-x-footer">
+    <span>skeb.jp</span>
+  </div>
+</a>

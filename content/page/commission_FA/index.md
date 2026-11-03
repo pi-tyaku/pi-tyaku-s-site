@@ -50,6 +50,9 @@ DMに直接投稿されたため、省略。
 [小菜加すいた](https://x.com/Suita_Onaka_929/media)様より。
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">先日のつなぐでのご依頼の際、ラフで選ばれなかったひとつをアニメーションで動かしたいと思いついてしまった落書きです。アニメーション機能の一部の勉強ができました。影がなかったり柄が違ったりしますが許してください。ラフの使用はご依頼者様承諾済です。 <a href="https://t.co/pu1Z56fToJ">pic.twitter.com/pu1Z56fToJ</a></p>&mdash; 小菜加すいた@作業中 (@Suita_Onaka_929) <a href="https://x.com/Suita_Onaka_929/status/2073409826366042584?ref_src=twsrc%5Etfw">July 4, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">同じデータをiPhoneでフォルダから画像保存して投稿した自分が思ってる色はこっち。だから液タブの色設定は関係なさそう。 https://t.co/9RhldIZ8ZS</p>&mdash; 小菜加すいた@依頼募集中 (@Suita_Onaka_929) <a href="https://x.com/Suita_Onaka_929/status/2113071575775990185?ref_src=twsrc%5Etfw">October 22, 2026</a></blockquote>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
 ### Others
 - [ヤンキモさん](https://x.com/yankeemotor)
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これは曲の間の休憩中まさに聖人の面持ちでようじょに食べられてたyurumeさん<br>1食で2500kcalあるらしい…<br>せっかく運動したのにﾔﾊﾞｲｯ!!<a href="https://twitter.com/hashtag/%E3%82%88%E3%81%86%E3%81%98%E3%82%87%E3%81%9F%E3%81%84%E3%81%9D%E3%81%86%E3%81%8F%E3%82%89%E3%81%B6?src=hash&amp;ref_src=twsrc%5Etfw">#ようじょたいそうくらぶ</a> <a href="https://t.co/uXPU0yVIWH">pic.twitter.com/uXPU0yVIWH</a></p>&mdash; ヤンキモ (@yankeemotor) <a href="https://twitter.com/yankeemotor/status/1666808329967112192?ref_src=twsrc%5Etfw">June 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -60,7 +63,12 @@ DMに直接投稿されたため、省略。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://t.co/WrdHjMMUJc">https://t.co/WrdHjMMUJc</a> <a href="https://twitter.com/hashtag/Skeb?src=hash&amp;ref_src=twsrc%5Etfw">#Skeb</a> <a href="https://twitter.com/hashtag/Commission?src=hash&amp;ref_src=twsrc%5Etfw">#Commission</a> <a href="https://twitter.com/skeb_jp?ref_src=twsrc%5Etfw">@skeb_jp</a><br>リクエストありがとうございました！👻 <a href="https://t.co/pwbf8CnmiH">pic.twitter.com/pwbf8CnmiH</a></p>&mdash; たろいもおむすび (@TRIM5654) <a href="https://twitter.com/TRIM5654/status/1855774360755380504?ref_src=twsrc%5Etfw">November 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">tyakumaさん（<a href="https://twitter.com/4KpB5_u_44dyr2b?ref_src=twsrc%5Etfw">@4KpB5_u_44dyr2b</a>）のアバターのプラチナちゃんのイラストを描かせていただきました！<br>リクエストありがとうございましたー！ <a href="https://t.co/cjJvHNos5a">https://t.co/cjJvHNos5a</a> <a href="https://twitter.com/hashtag/Skeb?src=hash&amp;ref_src=twsrc%5Etfw">#Skeb</a> <a href="https://twitter.com/hashtag/Commission?src=hash&amp;ref_src=twsrc%5Etfw">#Commission</a> <a href="https://twitter.com/skeb_jp?ref_src=twsrc%5Etfw">@skeb_jp</a>より</p>&mdash; お紙@【紅楼夢6DﾎｰﾙL-10ab】【秋例え65ab】 (@okamibukuro) <a href="https://twitter.com/okamibukuro/status/1916848573398098409?ref_src=twsrc%5Etfw">April 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< ogp 
+  url="https://skeb.jp/@okamibukuro/works/29" 
+  image="https://si.imgix.net/537dcf7e/uploads/origins/a0fdf68b-2145-4537-8f65-5171322999f2?bg=%23fff&auto=format&fm=webp&w=800&s=0cca3fdf0f3a241189a52fb109c23ae1" 
+  title="" 
+  creator="お紙" 
+>}}
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">てっみえさんからのコミッションが帰ってきました〜 幽霊の質感が良いのとほっぺたがもちもちしてそうで素晴らしいです！ 本当にありがとうございました！ <a href="https://t.co/tvRprWsSST">pic.twitter.com/tvRprWsSST</a></p>&mdash; tyakuma (@4KpB5_u_44dyr2b) <a href="https://twitter.com/4KpB5_u_44dyr2b/status/2030270111094132742?ref_src=twsrc%5Etfw">March 7, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -77,7 +85,8 @@ DMに直接投稿されたため、省略。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">友人に書いてもらいました!<br>とても活発な感じがイイ!<br>本当にありがとうございました! <a href="https://t.co/p3Anre4ICO">pic.twitter.com/p3Anre4ICO</a></p>&mdash; tyakuma (@4KpB5_u_44dyr2b) <a href="https://twitter.com/4KpB5_u_44dyr2b/status/2051924316158378282?ref_src=twsrc%5Etfw">May 6, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">リクエストありがとうございました👻 #Skeb https://t.co/xFS54M1WQt</p>&mdash; あまひこ (@hiko_amama) <a href="https://x.com/hiko_amama/status/2097882765295300992?ref_src=twsrc%5Etfw">September 10, 2026</a></blockquote>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 
 ### ろくろ首のプラチナちゃん
@@ -88,6 +97,13 @@ DMに直接投稿されたため、省略。
 
 ### のっぺらぼうのプラチナちゃん
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">つなぐにてご依頼いただきました。ありがとうございました！<a href="https://x.com/hashtag/%E3%81%A4%E3%81%AA%E3%81%90?src=hash&amp;ref_src=twsrc%5Etfw">#つなぐ</a> <a href="https://t.co/SQd5mxkA5U">pic.twitter.com/SQd5mxkA5U</a></p>&mdash; 小菜加すいた@依頼募集中 (@Suita_Onaka_929) <a href="https://x.com/Suita_Onaka_929/status/2105278833025060926?ref_src=twsrc%5Etfw">September 30, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+{{< ogp 
+  url="https://skeb.jp/@okamibukuro/works/32" 
+  image="https://si.imgix.net/eeb038b0/uploads/origins/da03e566-c510-4e9f-81c8-b9c670887bb8?bg=%23fff&auto=format&fm=webp&w=800&s=7ebc1b9a29a3cd1ebf72b18ae0394d22" 
+  title="" 
+  creator="お紙" 
+>}}
 
 ##  Special Thanks
 これまでに関わってくださったすべてのクリエイター・ファンの皆さまへ。  
